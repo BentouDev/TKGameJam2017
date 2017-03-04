@@ -11,6 +11,7 @@ public class GamePlay : GameState
     public override void OnStart()
     {
         StartCoroutine(Counter());
+        MainGame.Instance.GUI.Fade.UnfadePlayer.Play();
     }
 
     public override void OnUpdate()

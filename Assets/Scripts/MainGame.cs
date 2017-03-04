@@ -9,6 +9,7 @@ public class MainGame : MonoBehaviour
 
     public PlayerController Player;
     public AIController Enemy;
+    public GUIController GUI;
 
     public List<GameState> States { get; private set; }
 
@@ -24,8 +25,6 @@ public class MainGame : MonoBehaviour
         {
             state.Init(this);
         }
-
-        StartGame();
     }
 
     public void EndGame()

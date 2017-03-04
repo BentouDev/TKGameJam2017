@@ -17,7 +17,15 @@ public class HurtVolume : MonoBehaviour
 
     private float LastHurt;
 
+    public Transform OwnerTransform;
+
     public IDamageable Owner;
+
+    private void Start()
+    {
+        Owner = (IDamageable) GetComponentInParent(typeof(IDamageable)) 
+             ?? (IDamageable) GetComponentInChildren(typeof(IDamageable));
+    }
 
     private void OnTriggerStay(Collider other)
     {

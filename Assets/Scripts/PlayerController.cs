@@ -59,6 +59,12 @@ public class PlayerController : IController
         if (CurrentActionObject && Input.GetButton("Activate"))
             CurrentActionObject.OnActivate(this, this.Pawn);
 
+        if(Input.GetButtonDown("NextRune"))
+            Pawn.NextRune();
+
+        if(Input.GetButtonDown("PreviousRune"))
+            Pawn.PreviousRune();
+
         Pawn.MovementDirection(x, y);
         Pawn.OnUpdate();
 

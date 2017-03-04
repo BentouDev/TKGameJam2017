@@ -55,6 +55,26 @@ public class PlayerCamera : MonoBehaviour
             transform.rotation.eulerAngles.y,
             transform.rotation.eulerAngles.z
         );
+
+        if (Target)
+        {
+            Angle.x  = LookX * Speed.x;
+            Angle.y -= LookY * Speed.y;
+
+            Angle.y = Mathf.Clamp(Angle.y, MinAngleY, MaxAngleY);
+        }
+
+        var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
+        var gravityRot = Quaternion.LookRotation(forward, Gravity.GravityDirection); //Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
+
+        var rot = gravityRot * Quaternion.Euler(Angle.y, Angle.x, 0);
+
+        var pos = (rot * Offset) + (
+            Target == null ? Vector3.zero : Target.position
+        ) + gravityRot * new Vector3(0, Height, 0);
+
+        transform.position = pos;
+        transform.rotation = rot;
     }
 
     public void SetTarget(Transform target)
@@ -86,14 +106,14 @@ public class PlayerCamera : MonoBehaviour
 
     void LateUpdate()
     {
-        var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
-        var gravityRot = Quaternion.LookRotation(forward, Gravity.GravityDirection); //Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
+        var forward = Gravity ? Vector3.Cross(transform.right, Gravity.GravityDirection) : Vector3.forward;
+        var gravityRot = Gravity ? Quaternion.LookRotation(forward, Gravity.GravityDirection) : Quaternion.identity; //Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
         
         var rot = gravityRot * Quaternion.Euler(Angle.y, Angle.x, 0);
         
         var pos = (rot * Offset) + (
-                Target == null ? Vector3.zero : Target.position
-            ) + gravityRot * new Vector3(0, Height, 0);
+            Target == null ? Vector3.zero : Target.position
+        ) + gravityRot * new Vector3(0, Height, 0);
         
         transform.position = pos;
         transform.rotation = rot;

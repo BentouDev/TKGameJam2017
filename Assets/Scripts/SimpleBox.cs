@@ -13,6 +13,8 @@ public class SimpleBox : ActionObject
 
     private float gravAcc;
     private bool grounded;
+
+    public float MaxVelocity = 60;
     
     void Start()
     {
@@ -28,14 +30,14 @@ public class SimpleBox : ActionObject
         if (!grounded)
         {
             gravAcc += Gravity.GravityStrength;
-            gravAcc = Mathf.Min(Mathf.Max(90, gravAcc), -90);
+            gravAcc = Mathf.Min(Mathf.Max(MaxVelocity, gravAcc), -MaxVelocity);
         }
         else
         {
             gravAcc = 0;
             Hurt.Owner = null;
         }
-        
+
         Hurt.Enabled = !grounded;
 
         body.velocity = Gravity.GravityDirection * gravAcc;

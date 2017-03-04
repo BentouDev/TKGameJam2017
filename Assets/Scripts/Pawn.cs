@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Director;
@@ -16,6 +17,7 @@ public class Pawn : MonoBehaviour, IDamageable
 
     [Header("Movement")]
     public float Speed;
+    public float JumpPower;
 
     public Vector3 Velocity { get; private set; }
     
@@ -39,13 +41,62 @@ public class Pawn : MonoBehaviour, IDamageable
     private IController Owner;
 
     [Header("Health")]
+    public bool AnimateIntensity;
+    private float StartingIntensity;
     public int MaxHealthPoints = 3;
     private int CurrentHealthPoints;
     public Gradient HealthColor;
     public Material HealthMaterial;
     public string HealthMaterialColorName = "_mainColor";
     public Light HealthLight;
+
+    [Header("Runes")]
+    public int MaxRuneCount = 3;
+    private List<Rune> Runes = new List<Rune>();
+    public Vector3 RuneOffset;
+
+    private bool Jumped;
     
+    private int CurrentRune;
+    private float CurrentRuneRotation;
+    
+    public void NextRune()
+    {
+        CurrentRune++;
+        if (CurrentRune == MaxRuneCount)
+            CurrentRune = 0;
+    }
+
+    public void PreviousRune()
+    {
+        CurrentRune--;
+        if (CurrentRune < 0)
+            CurrentRune = MaxRuneCount - 1;
+    }
+
+    private float angleQuater;
+    private Quaternion currentRot;
+    
+    public void RotateRune()
+    {
+        if (Runes.Count == 0)
+            return;
+
+        angleQuater = 360.0f / (float) Runes.Count;
+        currentRot  = Quaternion.Euler(0, angleQuater * CurrentRune, 0);
+
+        for (int i = 0; i < Runes.Count; i++)
+        {
+            float currentAngle = angleQuater * i;
+            var localRot = Quaternion.Euler(0, currentAngle, 0);
+
+            var finalSmoothRot = Quaternion.RotateTowards(Runes[i].transform.localRotation, currentRot * localRot, Time.deltaTime * angleQuater * 2);
+
+            Runes[i].transform.localRotation = finalSmoothRot;
+            Runes[i].transform.localPosition = finalSmoothRot * RuneOffset;
+        }
+    }
+
     public void OnStart(IController owner)
     {
         Owner = owner;
@@ -60,10 +111,14 @@ public class Pawn : MonoBehaviour, IDamageable
         transform.up = Gravity.DefaultGravityDir;
 
         CurrentHealthPoints = MaxHealthPoints;
+
+        if(HealthLight)
+            StartingIntensity = HealthLight.intensity;
     }
 
     public void OnUpdate()
     {
+        RotateRune();
         CheckGrounded();
         HandleMovement();
         UpdateColor();
@@ -76,13 +131,19 @@ public class Pawn : MonoBehaviour, IDamageable
 
     public void UpdateColor()
     {
-        var hpColor = HealthColor.Evaluate(CurrentHealthPoints/(float) (MaxHealthPoints));
+        var coef = CurrentHealthPoints / (float) (MaxHealthPoints);
+        var hpColor = HealthColor.Evaluate(coef);
 
         if (HealthMaterial)
             HealthMaterial.SetColor(HealthMaterialColorName, hpColor);
 
         if (HealthLight)
+        {
+            if(AnimateIntensity)
+                HealthLight.intensity = Mathf.Lerp(0, StartingIntensity, coef);
+
             HealthLight.color = hpColor;
+        }
     }
     
     public void MovementDirection(float moveX, float moveY)
@@ -96,7 +157,15 @@ public class Pawn : MonoBehaviour, IDamageable
     
     public void CheckGrounded()
     {
-        IsGrounded = Gravity.CheckGravity(GroundRaycastStart.position, -transform.up, GroundRaycastLength);
+        if (Jumped)
+        {
+            Jumped = false;
+            IsGrounded = false;
+        }
+        else
+        {
+            IsGrounded = Gravity.CheckGravity(GroundRaycastStart.position, -transform.up, GroundRaycastLength);
+        }
 
         var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
         var target = Quaternion.LookRotation(forward, Gravity.GravityDirection);
@@ -117,10 +186,20 @@ public class Pawn : MonoBehaviour, IDamageable
         if (IsGrounded)
         {
             GravityAccumulator = 0;
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                Jumped = true;
+            }
         }
         else
         {
             GravityAccumulator += Gravity.GravityStrength;
+        }
+
+        if (Jumped)
+        {
+            GravityAccumulator = JumpPower;
         }
 
         Velocity += GravityAccumulator * Gravity.GravityDirection;
@@ -152,6 +231,9 @@ public class Pawn : MonoBehaviour, IDamageable
         GUI.Label(new Rect(100,140,200,30), "Acc : " + GravityAccumulator);
         GUI.Label(new Rect(100,160,200,30), "FlatDir : " + FlatDir);
         GUI.Label(new Rect(100,180,200,30), "Grounded : " + IsGrounded);
+        GUI.Label(new Rect(100,200,200,30), "Jumped : " + Jumped);
+        GUI.Label(new Rect(100,220,200,30), "QuatRot : " + currentRot);
+        GUI.Label(new Rect(100,240,200,30), "AngleQuat : " + angleQuater);
     }
 
     public void StartPromptUsage(ActionObject actionObject)
@@ -167,5 +249,17 @@ public class Pawn : MonoBehaviour, IDamageable
     public void DealDamage(int damage)
     {
         CurrentHealthPoints -= damage;
+    }
+
+    public bool AddRune(Rune rune)
+    {
+        if (Runes.Count < MaxRuneCount)
+        {
+            rune.transform.SetParent(Mesh);
+            Runes.Add(rune);
+            return true;
+        }
+
+        return false;
     }
 }
