@@ -8,11 +8,20 @@ public abstract class ActionObject : MonoBehaviour
     private bool ShowGUI;
     public string GUIText;
 
+    protected virtual void TriggerEnter(Collider collider, Pawn pawn)
+    {
+        
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         var pawn = other.GetComponentInParent<Pawn>();
         if (pawn)
+        {
             pawn.StartPromptUsage(this);
+        }
+
+        TriggerEnter(other, pawn);
     }
 
     private void OnTriggerExit(Collider other)

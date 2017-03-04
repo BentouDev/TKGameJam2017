@@ -5,6 +5,8 @@ using UnityEngine;
 public class SimpleFollower : AIBehaviour
 {
     private Vector3 DesiredMovement;
+
+    public float MinDistance = 0.5f;
     
     public override Vector3 GetDesiredMovement()
     {
@@ -13,11 +15,15 @@ public class SimpleFollower : AIBehaviour
 
     public override void OnBehave()
     {
-        var dot  = Vector3.Dot(Myself.transform.up, Player.transform.up);
         var move = Player.transform.position - Myself.transform.position;
 
-        var project = Vector3.ProjectOnPlane(move, Myself.Gravity.GravityDirection);
+        if (Mathf.Abs(move.magnitude) < MinDistance)
+        {
+            DesiredMovement = Vector3.zero;
+            return;
+        }
 
+        var project = Vector3.ProjectOnPlane(move, Myself.Gravity.GravityDirection);
         var rotated = Quaternion.FromToRotation(Myself.Gravity.GravityDirection, Myself.transform.up) * project;
 
         DesiredMovement = rotated;

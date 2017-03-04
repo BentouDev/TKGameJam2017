@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GravityController : MonoBehaviour
 {
-    public Vector3 GravityDirection { get; private set; }
+    public Vector3 GravityDirection { get; set; }
     public Vector3 DefaultGravityDir;
     public float GravityStrength = -9.81f;
     public float SnapThreshold = 0.0001f;

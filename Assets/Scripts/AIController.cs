@@ -44,4 +44,11 @@ public class AIController : IController
         Pawn.MovementDirection(Behaviour.GetDesiredMovement());
         Pawn.OnUpdate();
     }
+
+    public bool IsAlive()
+    {
+        if (Pawn)
+            return Pawn.IsAlive;
+        return true;
+    }
 }

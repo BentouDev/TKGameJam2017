@@ -20,7 +20,7 @@ public class GamePlay : GameState
         if(Started)
             Game.Enemy.OnUpdate();
 
-        if(!Game.Player.Pawn.IsAlive)
+        if(!Game.Player.Pawn.IsAlive || !Game.Enemy.IsAlive())
             Game.EndGame();
     }
 

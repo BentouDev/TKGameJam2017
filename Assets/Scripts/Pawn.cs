@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Experimental.Director;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Pawn : MonoBehaviour
+public class Pawn : MonoBehaviour, IDamageable
 {
     [Header("Debug")]
     public bool DrawDebug;
@@ -32,14 +32,19 @@ public class Pawn : MonoBehaviour
     private Vector3 FlatDir;
 
     public bool IsGrounded { get; private set; }
-    public bool IsAlive { get { return HealthPoints > 0; } }
+    public bool IsAlive { get { return CurrentHealthPoints > 0; } }
 
     private RaycastHit LastGroundHit;
 
     private IController Owner;
 
     [Header("Health")]
-    public int HealthPoints = 3;
+    public int MaxHealthPoints = 3;
+    private int CurrentHealthPoints;
+    public Gradient HealthColor;
+    public Material HealthMaterial;
+    public string HealthMaterialColorName = "_mainColor";
+    public Light HealthLight;
     
     public void OnStart(IController owner)
     {
@@ -53,17 +58,31 @@ public class Pawn : MonoBehaviour
 
         Gravity.OnStart();
         transform.up = Gravity.DefaultGravityDir;
+
+        CurrentHealthPoints = MaxHealthPoints;
     }
 
     public void OnUpdate()
     {
         CheckGrounded();
         HandleMovement();
+        UpdateColor();
     }
 
     public void MovementDirection(Vector3 move)
     {
         DesiredDirection = move;
+    }
+
+    public void UpdateColor()
+    {
+        var hpColor = HealthColor.Evaluate(CurrentHealthPoints/(float) (MaxHealthPoints));
+
+        if (HealthMaterial)
+            HealthMaterial.SetColor(HealthMaterialColorName, hpColor);
+
+        if (HealthLight)
+            HealthLight.color = hpColor;
     }
     
     public void MovementDirection(float moveX, float moveY)
@@ -92,7 +111,8 @@ public class Pawn : MonoBehaviour
     
     void HandleMovement()
     {
-        Velocity = DesiredDirection * Speed;
+        var project = Vector3.ProjectOnPlane(DesiredDirection, Gravity.GravityDirection);
+        Velocity = project * Speed;
         
         if (IsGrounded)
         {
@@ -119,6 +139,7 @@ public class Pawn : MonoBehaviour
     private void FixedUpdate()
     {
         Body.velocity = Velocity;
+        Velocity = Vector3.zero;
     }
     
     void OnGUI()
@@ -141,5 +162,10 @@ public class Pawn : MonoBehaviour
     public void StopPromptUsage(ActionObject actionObject)
     {
         Owner.StopPromptUsage(actionObject);
+    }
+
+    public void DealDamage(int damage)
+    {
+        CurrentHealthPoints -= damage;
     }
 }

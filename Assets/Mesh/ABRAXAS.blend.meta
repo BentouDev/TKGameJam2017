@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 7c467f3921351ff468bd342e1c8feeb0
+timeCreated: 1488628220
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Bone_002
+    100006: Bone_003
+    100008: Bone_004
+    100010: Bone_005
+    100012: Bone_006
+    100014: Bone_008
+    100016: Bone_009
+    100018: Bone_010
+    100020: Bone_011
+    100022: Bone_012
+    100024: Bone_014
+    100026: Bone_015
+    100028: Bone_016
+    100030: Bone_017
+    100032: Bone_018
+    100034: Bone_020
+    100036: Bone_021
+    100038: Bone_022
+    100040: Empty
+    100042: Empty_001
+    100044: Empty_002
+    100046: Empty_003
+    100048: Empty_004
+    100050: Empty_005
+    100052: FRON3
+    100054: FRON3_001
+    100056: FRON3_002
+    100058: FRONT4
+    100060: Group36262
+    100062: Group36262_MeshPart0
+    100064: Group36262_MeshPart1
+    100066: Group36262_MeshPart2
+    100068: Group36262_MeshPart3
+    100070: Group36262_MeshPart4
+    100072: Group36262_MeshPart5
+    100074: Group36262_MeshPart6
+    100076: Group36262_MeshPart7
+    100078: Group36262_MeshPart8
+    100080: MAIN
+    100082: ZBrush_defualt_group_001
+    400000: //RootNode
+    400002: Armature
+    400004: Bone_002
+    400006: Bone_003
+    400008: Bone_004
+    400010: Bone_005
+    400012: Bone_006
+    400014: Bone_008
+    400016: Bone_009
+    400018: Bone_010
+    400020: Bone_011
+    400022: Bone_012
+    400024: Bone_014
+    400026: Bone_015
+    400028: Bone_016
+    400030: Bone_017
+    400032: Bone_018
+    400034: Bone_020
+    400036: Bone_021
+    400038: Bone_022
+    400040: Empty
+    400042: Empty_001
+    400044: Empty_002
+    400046: Empty_003
+    400048: Empty_004
+    400050: Empty_005
+    400052: FRON3
+    400054: FRON3_001
+    400056: FRON3_002
+    400058: FRONT4
+    400060: Group36262
+    400062: Group36262_MeshPart0
+    400064: Group36262_MeshPart1
+    400066: Group36262_MeshPart2
+    400068: Group36262_MeshPart3
+    400070: Group36262_MeshPart4
+    400072: Group36262_MeshPart5
+    400074: Group36262_MeshPart6
+    400076: Group36262_MeshPart7
+    400078: Group36262_MeshPart8
+    400080: MAIN
+    400082: ZBrush_defualt_group_001
+    2300000: Group36262_MeshPart0
+    2300002: Group36262_MeshPart1
+    2300004: Group36262_MeshPart2
+    2300006: Group36262_MeshPart3
+    2300008: Group36262_MeshPart4
+    2300010: Group36262_MeshPart5
+    2300012: Group36262_MeshPart6
+    2300014: Group36262_MeshPart7
+    2300016: Group36262_MeshPart8
+    3300000: Group36262_MeshPart0
+    3300002: Group36262_MeshPart1
+    3300004: Group36262_MeshPart2
+    3300006: Group36262_MeshPart3
+    3300008: Group36262_MeshPart4
+    3300010: Group36262_MeshPart5
+    3300012: Group36262_MeshPart6
+    3300014: Group36262_MeshPart7
+    3300016: Group36262_MeshPart8
+    4300000: ZBrush_defualt_group_001
+    4300002: Group36262_MeshPart0
+    4300004: Group36262_MeshPart1
+    4300006: Group36262_MeshPart2
+    4300008: Group36262_MeshPart3
+    4300010: Group36262_MeshPart4
+    4300012: Group36262_MeshPart5
+    4300014: Group36262_MeshPart6
+    4300016: Group36262_MeshPart7
+    4300018: Group36262_MeshPart8
+    7400000: AbraxasIdle
+    9500000: //RootNode
+    13700000: ZBrush_defualt_group_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AbraxasIdle
+      takeName: Default Take
+      firstFrame: 20
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_002
+        weight: 1
+      - path: Armature/Bone_006/Bone_002/Bone_005
+        weight: 1
+      - path: Armature/Bone_006/Bone_002/Bone_005/Bone_003
+        weight: 1
+      - path: Armature/Bone_006/Bone_002/Bone_005/Bone_003/Bone_004
+        weight: 1
+      - path: Armature/Bone_008
+        weight: 1
+      - path: Armature/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_008/Bone_009/Bone_010
+        weight: 1
+      - path: Armature/Bone_008/Bone_009/Bone_010/Bone_011
+        weight: 1
+      - path: Armature/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: Armature/Bone_014
+        weight: 1
+      - path: Armature/Bone_014/Bone_015
+        weight: 1
+      - path: Armature/Bone_014/Bone_015/Bone_016
+        weight: 1
+      - path: Armature/Bone_014/Bone_015/Bone_016/Bone_017
+        weight: 1
+      - path: Armature/Bone_014/Bone_015/Bone_016/Bone_017/Bone_018
+        weight: 1
+      - path: Armature/Bone_020
+        weight: 1
+      - path: Armature/Bone_020/Bone_021
+        weight: 1
+      - path: Armature/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: Armature/FRONT4
+        weight: 1
+      - path: Armature/FRONT4/FRON3
+        weight: 1
+      - path: Armature/FRONT4/FRON3/FRON3_001
+        weight: 1
+      - path: Armature/FRONT4/FRON3/FRON3_001/FRON3_002
+        weight: 1
+      - path: Armature/MAIN
+        weight: 1
+      - path: Empty
+        weight: 1
+      - path: Empty_001
+        weight: 1
+      - path: Empty_002
+        weight: 1
+      - path: Empty_003
+        weight: 1
+      - path: Empty_004
+        weight: 1
+      - path: Empty_005
+        weight: 1
+      - path: ZBrush_defualt_group_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
