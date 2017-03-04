@@ -9,7 +9,11 @@ public class GameStart : GameState
         if (!Game.Player)
             Game.Player = FindObjectOfType<PlayerController>();
 
+        if (!Game.Enemy)
+            Game.Enemy = FindObjectOfType<AIController>();
+
         Game.Player.OnStart();
+        Game.Enemy.OnStart();
 
         Game.ChangeState<GamePlay>();
     }

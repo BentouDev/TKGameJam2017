@@ -77,7 +77,7 @@ public class PlayerCamera : MonoBehaviour
     {
         if (Target)
         {
-            Angle.x += LookX * Speed.x;
+            Angle.x = LookX * Speed.x;
             Angle.y -= LookY * Speed.y;
             
             Angle.y = Mathf.Clamp(Angle.y, MinAngleY, MaxAngleY);
@@ -86,7 +86,8 @@ public class PlayerCamera : MonoBehaviour
 
     void LateUpdate()
     {
-        var gravityRot = Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
+        var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
+        var gravityRot = Quaternion.LookRotation(forward, Gravity.GravityDirection); //Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
         
         var rot = gravityRot * Quaternion.Euler(Angle.y, Angle.x, 0);
         

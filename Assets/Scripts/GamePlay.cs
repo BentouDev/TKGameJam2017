@@ -7,6 +7,7 @@ public class GamePlay : GameState
     public override void OnUpdate()
     {
         Game.Player.OnUpdate();
+        Game.Enemy.OnUpdate();
 
         if(Game.Player.Pawn.IsAlive)
             Game.EndGame();

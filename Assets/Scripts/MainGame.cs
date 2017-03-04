@@ -6,6 +6,7 @@ using UnityEngine;
 public class MainGame : MonoBehaviour
 {
     public PlayerController Player;
+    public AIController Enemy;
 
     public List<GameState> States { get; private set; }
 

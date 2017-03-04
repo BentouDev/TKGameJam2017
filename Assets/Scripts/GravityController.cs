@@ -26,7 +26,7 @@ public class GravityController : MonoBehaviour
 
         if (grounded)
         {
-            GravityDirection = Vector3.Lerp(GravityDirection, LastGroundHit.normal, 0.5f);
+            GravityDirection = Vector3.RotateTowards(GravityDirection, LastGroundHit.normal, 1, 1);//Vector3.Lerp(GravityDirection, LastGroundHit.normal, 0.5f);
             //if (Mathf.Abs((GravityDirection - LastGroundHit.normal).magnitude) < SnapThreshold)
             //    GravityDirection = LastGroundHit.normal;
 

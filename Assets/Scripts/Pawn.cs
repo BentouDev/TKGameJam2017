@@ -19,7 +19,7 @@ public class Pawn : MonoBehaviour
     
     private float GravityAccumulator;
 
-    private Quaternion DesiredDirection { get; set; }
+    private Vector3 DesiredDirection { get; set; }
 
     [Header("Ground Raycast")]
     public Transform GroundRaycastStart;
@@ -27,7 +27,6 @@ public class Pawn : MonoBehaviour
 
     [Header("Gravity")]
     public Transform WorldOrigin;
-    private Quaternion FlatRot;
     private Vector3 FlatDir;
 
     public bool IsGrounded { get; private set; }
@@ -55,24 +54,23 @@ public class Pawn : MonoBehaviour
     public void MovementDirection(float moveX, float moveY)
     {
         FlatDir = new Vector3(moveX, 0, moveY);
-        FlatRot = Quaternion.LookRotation(FlatDir);
         
-        DesiredDirection = Quaternion.LookRotation(transform.forward, transform.up) * FlatRot;
+        DesiredDirection = Quaternion.LookRotation(transform.forward, transform.up) * FlatDir;
     }
     
     public void CheckGrounded()
     {
         IsGrounded = Gravity.CheckGravity(GroundRaycastStart.position, -transform.up, GroundRaycastLength);
 
-        var target = Quaternion.LookRotation(transform.forward, Gravity.GravityDirection);
-        var final  = Quaternion.RotateTowards(transform.rotation, target, float.PositiveInfinity);
+        var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
+        var target = Quaternion.LookRotation(forward, Gravity.GravityDirection);
 
-        transform.rotation = final;
+        transform.rotation = target;
     }
     
     void HandleMovement()
     {
-        Velocity = DesiredDirection * Vector3.forward * Speed * FlatDir.magnitude;
+        Velocity = DesiredDirection * Speed;
         
         if (IsGrounded)
         {
@@ -88,7 +86,7 @@ public class Pawn : MonoBehaviour
         //Velocity = Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection) * Velocity;
 
         Debug.DrawRay(transform.position, Velocity, Color.red, 5.0f);
-        Debug.DrawRay(transform.position, DesiredDirection * Vector3.forward, Color.yellow, 5.0f);
+        Debug.DrawRay(transform.position, DesiredDirection, Color.yellow, 5.0f);
         Debug.DrawRay(transform.position, transform.up, Color.green, 5.0f);
         Debug.DrawRay(transform.position, Gravity.GravityDirection, Color.magenta, 5.0f);
     }
@@ -106,7 +104,7 @@ public class Pawn : MonoBehaviour
         GUI.Label(new Rect(100,100,200,30), "Vel : " + Velocity);
         GUI.Label(new Rect(100,120,200,30), "Grav : " + GravityAccumulator);
         GUI.Label(new Rect(100,140,200,30), "Acc : " + GravityAccumulator);
-        GUI.Label(new Rect(100,160,200,30), "FlatDir : " + FlatRot);
+        GUI.Label(new Rect(100,160,200,30), "FlatDir : " + FlatDir);
         GUI.Label(new Rect(100,180,200,30), "Grounded : " + IsGrounded);
     }
 }
