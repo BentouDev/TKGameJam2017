@@ -9,6 +9,7 @@ public class Pawn : MonoBehaviour
     public bool DrawDebug;
 
     [Header("References")]
+    public Transform Mesh;
     public Rigidbody Body;
     public GravityController Gravity;
 
@@ -54,8 +55,10 @@ public class Pawn : MonoBehaviour
     public void MovementDirection(float moveX, float moveY)
     {
         FlatDir = new Vector3(moveX, 0, moveY);
+
+        var forward = Camera.main.transform.forward;
         
-        DesiredDirection = Quaternion.LookRotation(transform.forward, transform.up) * FlatDir;
+        DesiredDirection = Quaternion.LookRotation(forward, transform.up) * FlatDir;
     }
     
     public void CheckGrounded()
@@ -65,7 +68,12 @@ public class Pawn : MonoBehaviour
         var forward = Vector3.Cross(transform.right, Gravity.GravityDirection);
         var target = Quaternion.LookRotation(forward, Gravity.GravityDirection);
 
-        transform.rotation = target;
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, target, float.PositiveInfinity);
+
+        if (DesiredDirection.magnitude > Mathf.Epsilon)
+        {
+            Mesh.rotation = Quaternion.RotateTowards(Mesh.rotation, Quaternion.LookRotation(DesiredDirection, Gravity.GravityDirection), float.PositiveInfinity);
+        }
     }
     
     void HandleMovement()
