@@ -277,4 +277,25 @@ public class Pawn : MonoBehaviour, IDamageable
 
         return false;
     }
+
+    public void PlaceRune()
+    {
+        if (Runes.Count > 0)
+        {
+            var placedRune = Runes[CurrentRune];
+
+            Runes.RemoveAt(CurrentRune);
+
+            if (CurrentRune >= Runes.Count)
+                CurrentRune = Runes.Count - 1;
+
+            placedRune.transform.SetParent(null);
+
+            RaycastHit hit;
+            Physics.Raycast(transform.position, -Gravity.GravityDirection, out hit);
+
+            placedRune.transform.position = hit.point;
+            placedRune.transform.rotation = Quaternion.LookRotation(transform.forward, hit.normal);
+        }
+    }
 }

@@ -65,6 +65,9 @@ public class PlayerController : IController
         if(Input.GetButton("PreviousRune"))
             Pawn.PreviousRune();
 
+        if (Input.GetButtonDown("PlaceRune"))
+            Pawn.PlaceRune();
+
         Pawn.MovementDirection(x, y);
         Pawn.OnUpdate();
 
