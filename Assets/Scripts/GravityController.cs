@@ -7,6 +7,7 @@ public class GravityController : MonoBehaviour
     public Vector3 GravityDirection { get; private set; }
     public Vector3 DefaultGravityDir;
     public float GravityStrength = -9.81f;
+    public float SnapThreshold = 0.0001f;
 
     public LayerMask GroundRaycastMask;
 
@@ -21,11 +22,14 @@ public class GravityController : MonoBehaviour
     {
         bool grounded = Physics.Raycast(rayStart, rayDir, out LastGroundHit, rayLenght, GroundRaycastMask);
 
-        Debug.DrawRay(rayStart, rayDir, Color.green);
+        Debug.DrawRay(rayStart, rayDir, Color.green, 5.0f);
 
         if (grounded)
         {
-            GravityDirection = LastGroundHit.normal;
+            GravityDirection = Vector3.Lerp(GravityDirection, LastGroundHit.normal, 0.5f);
+            //if (Mathf.Abs((GravityDirection - LastGroundHit.normal).magnitude) < SnapThreshold)
+            //    GravityDirection = LastGroundHit.normal;
+
             Debug.DrawRay(LastGroundHit.point, LastGroundHit.normal, Color.cyan);
         }
 

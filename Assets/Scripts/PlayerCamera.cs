@@ -75,16 +75,11 @@ public class PlayerCamera : MonoBehaviour
 
     public void OnUpdate()
     {
-        //	Jeżeli posiadamy jakiś "cel"...
         if (Target)
         {
-            //	Wyliczamy kąt, o jaki mamy obrócić kamerę
             Angle.x += LookX * Speed.x;
-            //	W przypadku obrotu w pionie odejmujemy. W przeciwnym razie mielibyśmy odwrócony ruch
-            //	możecie sobie przestawić lub kontrolować nowym polem w tej klasie, kwestia gustu
             Angle.y -= LookY * Speed.y;
-
-            //	Przycinamy kąt w pionie do pożądanych wartości.
+            
             Angle.y = Mathf.Clamp(Angle.y, MinAngleY, MaxAngleY);
         }
     }
@@ -92,17 +87,13 @@ public class PlayerCamera : MonoBehaviour
     void LateUpdate()
     {
         var gravityRot = Quaternion.FromToRotation(Vector3.up, Gravity.GravityDirection);
-
-        //	Wyliczamy z kątów kwaternion obrotu. Nic ciekawego.
+        
         var rot = gravityRot * Quaternion.Euler(Angle.y, Angle.x, 0);
-
-        //	Na bazie kwaterniona obrotu, offsetu i pozycji celu wyliczamy pozycję kamery.
+        
         var pos = (rot * Offset) + (
-                //	Jeżeli nie posiadamy celu, podajemy wektor (0,0,0)
                 Target == null ? Vector3.zero : Target.position
             ) + gravityRot * new Vector3(0, Height, 0);
-
-        //	Przesuwamy i obracamy naszą kamerę.
+        
         transform.position = pos;
         transform.rotation = rot;
     }
