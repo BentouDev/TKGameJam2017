@@ -14,6 +14,7 @@ public class Pawn : MonoBehaviour, IDamageable
     public Transform Mesh;
     public Rigidbody Body;
     public GravityController Gravity;
+    public Animator Anim;
 
     [Header("Movement")]
     public float Speed;
@@ -121,6 +122,9 @@ public class Pawn : MonoBehaviour, IDamageable
         if (!Gravity)
             Gravity = GetComponent<GravityController>();
 
+        if (!Anim)
+            Anim = GetComponentInChildren<Animator>();
+
         Gravity.OnStart();
         transform.up = Gravity.DefaultGravityDir;
 
@@ -136,6 +140,15 @@ public class Pawn : MonoBehaviour, IDamageable
         CheckGrounded();
         HandleMovement();
         UpdateColor();
+        HandleAnimation();
+    }
+
+    public void HandleAnimation()
+    {
+        if (!Anim)
+            return;
+
+        Anim.SetFloat("Move", Velocity.magnitude);
     }
 
     public void MovementDirection(Vector3 move)
@@ -264,6 +277,11 @@ public class Pawn : MonoBehaviour, IDamageable
     public void DealDamage(int damage)
     {
         CurrentHealthPoints -= damage;
+
+        if (!Anim)
+            return;
+
+        Anim.SetTrigger("OnHit");
     }
 
     public bool AddRune(Rune rune)
