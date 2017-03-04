@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MainGame : MonoBehaviour
 {
+    public static MainGame Instance;
+
     public PlayerController Player;
     public AIController Enemy;
 
@@ -14,6 +16,8 @@ public class MainGame : MonoBehaviour
 
     void Start()
     {
+        Instance = this;
+
         States = FindObjectsOfType<GameState>().ToList();
 
         foreach (GameState state in States)

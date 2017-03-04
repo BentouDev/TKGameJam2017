@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIController : MonoBehaviour
+public class AIController : IController
 {
     public bool DrawDebug;
     public GameObject PawnPrefab;
-    public Transform StartPoint;
+    public AIBehaviour Behaviour;
+    public List<Transform> StartPoints = new List<Transform>();
     public Transform WorldOrigin;
 
     public Pawn Pawn { get; private set; }
 
-    public void OnStart()
+    public override void OnStart()
     {
         SpawnPawn();
         
-        Pawn.OnStart();
+        Pawn.OnStart(this);
+        Behaviour.OnStart(MainGame.Instance.Player.Pawn, Pawn);
     }
 
     public void SpawnPawn()
@@ -23,15 +25,23 @@ public class AIController : MonoBehaviour
         if (Pawn)
             return;
 
-        var go = Instantiate(PawnPrefab, StartPoint.position, StartPoint.rotation) as GameObject;
+        var startPoint = StartPoints[Random.Range(0, StartPoints.Count)];
+        var go = Instantiate(PawnPrefab, startPoint.position, startPoint.rotation) as GameObject;
+
+        var dir = startPoint.position - WorldOrigin.position;
+
         Pawn = go.GetComponent<Pawn>();
         Pawn.WorldOrigin = WorldOrigin;
+        Pawn.Gravity.DefaultGravityDir = -dir.normalized;
     }
 
-    public void OnUpdate()
+    public override void OnUpdate()
     {
         Pawn.DrawDebug = DrawDebug;
-        Pawn.MovementDirection(0, 0);
+
+        Behaviour.OnBehave();
+        
+        Pawn.MovementDirection(Behaviour.GetDesiredMovement());
         Pawn.OnUpdate();
     }
 }

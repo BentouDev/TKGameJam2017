@@ -21,16 +21,12 @@ public class GravityController : MonoBehaviour
     public bool CheckGravity(Vector3 rayStart, Vector3 rayDir, float rayLenght)
     {
         bool grounded = Physics.Raycast(rayStart, rayDir, out LastGroundHit, rayLenght, GroundRaycastMask);
-
-        Debug.DrawRay(rayStart, rayDir, Color.green, 5.0f);
-
+        
         if (grounded)
         {
             GravityDirection = Vector3.Lerp(GravityDirection, LastGroundHit.normal, 0.5f); // Vector3.RotateTowards(GravityDirection, LastGroundHit.normal, 1, 1);//
             //if (Mathf.Abs((GravityDirection - LastGroundHit.normal).magnitude) < SnapThreshold)
             //    GravityDirection = LastGroundHit.normal;
-
-            Debug.DrawRay(LastGroundHit.point, LastGroundHit.normal, Color.cyan);
         }
 
         return grounded;

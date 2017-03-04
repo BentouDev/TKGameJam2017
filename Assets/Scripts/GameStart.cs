@@ -13,7 +13,6 @@ public class GameStart : GameState
             Game.Enemy = FindObjectOfType<AIController>();
 
         Game.Player.OnStart();
-        Game.Enemy.OnStart();
 
         Game.ChangeState<GamePlay>();
     }
