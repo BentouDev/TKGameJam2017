@@ -59,19 +59,33 @@ public class Pawn : MonoBehaviour, IDamageable
     
     private int CurrentRune;
     private float CurrentRuneRotation;
+
+    private float LastRuneChangeTime;
+
+    public float RuneChangeDelay;
     
     public void NextRune()
     {
+        if(Time.time - LastRuneChangeTime < RuneChangeDelay)
+            return;
+
+        LastRuneChangeTime = Time.time;
+
         CurrentRune++;
-        if (CurrentRune == MaxRuneCount)
+        if (CurrentRune == Runes.Count)
             CurrentRune = 0;
     }
 
     public void PreviousRune()
     {
+        if (Time.time - LastRuneChangeTime < RuneChangeDelay)
+            return;
+
+        LastRuneChangeTime = Time.time;
+
         CurrentRune--;
         if (CurrentRune < 0)
-            CurrentRune = MaxRuneCount - 1;
+            CurrentRune = Runes.Count - 1;
     }
 
     private float angleQuater;
@@ -234,6 +248,7 @@ public class Pawn : MonoBehaviour, IDamageable
         GUI.Label(new Rect(100,200,200,30), "Jumped : " + Jumped);
         GUI.Label(new Rect(100,220,200,30), "QuatRot : " + currentRot);
         GUI.Label(new Rect(100,240,200,30), "AngleQuat : " + angleQuater);
+        GUI.Label(new Rect(100,260,200,30), "CurrentRune : " + CurrentRune + "/" + Runes.Count);
     }
 
     public void StartPromptUsage(ActionObject actionObject)
