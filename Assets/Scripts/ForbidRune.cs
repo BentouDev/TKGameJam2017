@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class ForbidRune : RuneEffect
 {
-    
+    public override void OnApplyEffect(Pawn victim)
+    {
+        
+    }
 }

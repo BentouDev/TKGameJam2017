@@ -308,6 +308,7 @@ public class Pawn : MonoBehaviour, IDamageable
                 CurrentRune = Runes.Count - 1;
 
             placedRune.transform.SetParent(null);
+            placedRune.SpawnRune(this);
 
             RaycastHit hit;
             Physics.Raycast(transform.position, -Gravity.GravityDirection, out hit);
@@ -315,5 +316,13 @@ public class Pawn : MonoBehaviour, IDamageable
             placedRune.transform.position = hit.point;
             placedRune.transform.rotation = Quaternion.LookRotation(transform.forward, hit.normal);
         }
+    }
+
+    public void Reset()
+    {
+        Velocity = Vector3.zero;
+        DesiredDirection = Vector3.zero;
+        GravityAccumulator = 0;
+        Jumped = false;
     }
 }
