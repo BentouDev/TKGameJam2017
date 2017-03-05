@@ -19,7 +19,7 @@ public class TrapRune : RuneEffect
 
     void Update()
     {
-        if (IsActive && Time.time - OnEnterTime < TrapTime)
+        if (IsActive && Victim && Time.time - OnEnterTime < TrapTime)
         {
             Victim.Reset();
         }

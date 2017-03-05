@@ -43,7 +43,7 @@ public class SimpleBox : ActionObject
         body.velocity = Gravity.GravityDirection * gravAcc;
     }
 
-    public override void OnActivate(PlayerController playerController, Pawn pawn)
+    public override void OnActivate(IController playerController, Pawn pawn)
     {
         if (!Gravity)
             return;

@@ -31,5 +31,5 @@ public abstract class ActionObject : MonoBehaviour
             pawn.StopPromptUsage(this);
     }
 
-    public abstract void OnActivate(PlayerController playerController, Pawn pawn);
+    public abstract void OnActivate(IController playerController, Pawn pawn);
 }

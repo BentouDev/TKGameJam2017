@@ -51,4 +51,9 @@ public class AIController : IController
             return Pawn.IsAlive;
         return true;
     }
+
+    public override void StartPromptUsage(ActionObject obj)
+    {
+        obj.OnActivate(this, Pawn);
+    }
 }
