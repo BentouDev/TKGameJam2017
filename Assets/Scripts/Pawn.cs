@@ -36,6 +36,7 @@ public class Pawn : MonoBehaviour, IDamageable
 
     public bool IsGrounded { get; private set; }
     public bool IsAlive { get { return CurrentHealthPoints > 0; } }
+    public int RuneCount { get { return Runes.Count; } }
 
     private RaycastHit LastGroundHit;
 
@@ -304,8 +305,7 @@ public class Pawn : MonoBehaviour, IDamageable
 
             Runes.RemoveAt(CurrentRune);
 
-            if (CurrentRune >= Runes.Count)
-                CurrentRune = Runes.Count - 1;
+            CurrentRune = Mathf.Max(0, Mathf.Min(RuneCount - 1, CurrentRune));
 
             placedRune.transform.SetParent(null);
             placedRune.SpawnRune(this);

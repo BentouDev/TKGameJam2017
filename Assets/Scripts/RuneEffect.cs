@@ -13,6 +13,13 @@ public abstract class RuneEffect : MonoBehaviour
     {
         Owner = owner;
         Parent = parent;
+
+        OnPostStart();
+    }
+
+    protected virtual void OnPostStart()
+    {
+        
     }
 
     private void OnTriggerEnter(Collider other)

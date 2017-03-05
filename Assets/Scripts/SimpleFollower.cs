@@ -36,7 +36,7 @@ public class SimpleFollower : AIBehaviour
         foreach (Collider collider in results)
         {
             if (collider.GetComponent<PriorityRune>()
-            || collider.GetComponentInParent<RuneHolder>()
+            || (collider.GetComponentInParent<RuneHolder>() && Myself.RuneCount < Myself.MaxRuneCount)
             || collider.GetComponentInParent<ActionObject>())
             {
                 found = true;
