@@ -12,6 +12,8 @@ public class AIController : IController
 
     public Pawn Pawn { get; private set; }
 
+    private bool died = false;
+
     public override void OnStart()
     {
         SpawnPawn();
@@ -37,19 +39,29 @@ public class AIController : IController
 
     public override void OnUpdate()
     {
+        if (!Pawn)
+            return;
+
         Pawn.DrawDebug = DrawDebug;
 
         Behaviour.OnBehave();
         
         Pawn.MovementDirection(Behaviour.GetDesiredMovement());
         Pawn.OnUpdate();
+
+        if (!Pawn.IsAlive)
+        {
+            DestroyObject(Pawn.gameObject);
+            Pawn = null;
+            died = true;
+        }
     }
 
     public bool IsAlive()
     {
         if (Pawn)
             return Pawn.IsAlive;
-        return true;
+        return !died;
     }
 
     public override void StartPromptUsage(ActionObject obj)

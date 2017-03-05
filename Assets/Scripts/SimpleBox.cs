@@ -1,10 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SimpleBox : ActionObject
 {
+    public bool DefaultGravityFromUp;
+
+    public float RayvastLength = 1.5f;
+
+    public float SphereCastRadius = 1;
+    public float SphereCastDistance = 1;
+
     public HurtVolume Hurt;
 
     private Rigidbody body;
@@ -20,13 +28,29 @@ public class SimpleBox : ActionObject
     {
         body = GetComponent<Rigidbody>();
 
+        if(DefaultGravityFromUp)
+            Gravity.DefaultGravityDir = transform.up;
+
         if(Gravity)
             Gravity.OnStart();
     }
 
     private void FixedUpdate()
     {
-        grounded = Gravity.CheckGravity(transform.position, -Gravity.GravityDirection, 1.25f);
+        var colliders = Physics.OverlapSphere(transform.position - Gravity.GravityDirection * SphereCastDistance, SphereCastRadius, Gravity.GroundRaycastMask);
+        grounded = false;
+        foreach (Collider collider in colliders)
+        {
+            if (collider.transform.IsChildOf(transform))
+                continue;
+            else
+            {
+                grounded = true;
+                break;
+            }
+        }
+
+        // grounded = Gravity.CheckGravity(transform.position, -Gravity.GravityDirection, RayvastLength);
         if (!grounded)
         {
             gravAcc += Gravity.GravityStrength;
@@ -67,9 +91,9 @@ public class SimpleBox : ActionObject
         Gizmos.DrawSphere(transform.position, 0.25f);
 
         Gizmos.color = Color.yellow;
-        Gizmos.DrawRay(transform.position, Gravity.GravityDirection * 2);
+        Gizmos.DrawWireSphere(transform.position - Gravity.GravityDirection * SphereCastDistance, SphereCastRadius);
 
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, -Gravity.GravityDirection * 2);
+        Gizmos.DrawWireSphere(transform.position + Gravity.GravityDirection * SphereCastDistance, SphereCastRadius);
     }
 }

@@ -75,6 +75,8 @@ public class PlayerCamera : MonoBehaviour
 
         transform.position = pos;
         transform.rotation = rot;
+
+        Gravity.OnStart();
     }
 
     public void SetTarget(Transform target)
@@ -117,5 +119,8 @@ public class PlayerCamera : MonoBehaviour
         
         transform.position = pos;
         transform.rotation = rot;
+
+        LookX = 0;
+        LookY = 0;
     }
 }

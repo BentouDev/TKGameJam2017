@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : IController
 {
+    public RectTransform ButtonPrompt;
     public PlayerCamera Camera;
     public GameObject PawnPrefab;
     public List<Transform> StartPoints = new List<Transform>();
@@ -15,11 +16,13 @@ public class PlayerController : IController
 
     public override void StartPromptUsage(ActionObject obj)
     {
+        ButtonPrompt.gameObject.SetActive(true);
         CurrentActionObject = obj;
     }
 
     public override void StopPromptUsage(ActionObject obj)
     {
+        ButtonPrompt.gameObject.SetActive(false);
         CurrentActionObject = null;
     }
 
@@ -80,6 +83,6 @@ public class PlayerController : IController
         if (!CurrentActionObject)
             return;
 
-        GUI.Label(new Rect(Screen.width * 0.5f - 100, Screen.height * 0.5f - 15.0f, 200, 30), CurrentActionObject.GUIText);
+        // GUI.Label(new Rect(Screen.width * 0.5f - 100, Screen.height * 0.5f - 15.0f, 200, 30), CurrentActionObject.GUIText);
     }
 }

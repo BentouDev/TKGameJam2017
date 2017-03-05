@@ -11,7 +11,6 @@ public class GamePlay : GameState
     public override void OnStart()
     {
         StartCoroutine(Counter());
-        MainGame.Instance.GUI.Fade.UnfadePlayer.Play();
     }
 
     public override void OnUpdate()
@@ -21,8 +20,12 @@ public class GamePlay : GameState
         if(Started)
             Game.Enemy.OnUpdate();
 
-        if(!Game.Player.Pawn.IsAlive || !Game.Enemy.IsAlive())
+        if(!Game.Player.Pawn.IsAlive)
             Game.EndGame();
+        else if(!Game.Enemy.IsAlive())
+        {
+            Game.ChangeState<GameWon>();
+        }
     }
 
     IEnumerator Counter()

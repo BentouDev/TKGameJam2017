@@ -90,6 +90,6 @@ public class SimpleFollower : AIBehaviour
 
     void OnGUI()
     {
-        GUI.Label(new Rect(100,300,200,30), "Target : " + Target);
+        // GUI.Label(new Rect(100,300,200,30), "Target : " + Target);
     }
 }

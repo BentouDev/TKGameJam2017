@@ -1,0 +1,4743 @@
+fileFormatVersion: 2
+guid: 5360195aa81a5984c9aa099c6bc0b1ac
+timeCreated: 1488681409
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group49586
+    100004: Group49586_001
+    100006: Group49586_002
+    100008: Group49586_003
+    100010: Group49586_004
+    100012: Group49586_005
+    100014: ZBrush_defualt_group_000
+    100016: ZBrush_defualt_group_001
+    100018: ZBrush_defualt_group_002
+    100020: ZBrush_defualt_group_003
+    100022: ZBrush_defualt_group_004
+    100024: ZBrush_defualt_group_005
+    100026: ZBrush_defualt_group_006
+    100028: ZBrush_defualt_group_007
+    100030: ZBrush_defualt_group_008
+    100032: ZBrush_defualt_group_009
+    100034: ZBrush_defualt_group_010
+    100036: ZBrush_defualt_group_011
+    100038: ZBrush_defualt_group_012
+    100040: ZBrush_defualt_group_013
+    100042: ZBrush_defualt_group_014
+    100044: ZBrush_defualt_group_015
+    100046: ZBrush_defualt_group_016
+    100048: ZBrush_defualt_group_017
+    100050: ZBrush_defualt_group_018
+    100052: ZBrush_defualt_group_019
+    100054: ZBrush_defualt_group_020
+    100056: ZBrush_defualt_group_021
+    100058: ZBrush_defualt_group_022
+    100060: ZBrush_defualt_group_023
+    100062: ZBrush_defualt_group_024
+    100064: ZBrush_defualt_group_025
+    100066: ZBrush_defualt_group_026
+    100068: ZBrush_defualt_group_027
+    100070: ZBrush_defualt_group_028
+    100072: ZBrush_defualt_group_029
+    100074: ZBrush_defualt_group_030
+    100076: ZBrush_defualt_group_031
+    100078: ZBrush_defualt_group_032
+    100080: ZBrush_defualt_group_033
+    100082: ZBrush_defualt_group_034
+    100084: ZBrush_defualt_group_035
+    100086: ZBrush_defualt_group_036
+    100088: ZBrush_defualt_group_037
+    100090: ZBrush_defualt_group_038
+    100092: ZBrush_defualt_group_039
+    100094: ZBrush_defualt_group_040
+    100096: ZBrush_defualt_group_041
+    100098: ZBrush_defualt_group_042
+    100100: ZBrush_defualt_group_043
+    100102: ZBrush_defualt_group_044
+    100104: ZBrush_defualt_group_045
+    100106: ZBrush_defualt_group_046
+    100108: ZBrush_defualt_group_047
+    100110: ZBrush_defualt_group_048
+    100112: ZBrush_defualt_group_049
+    100114: ZBrush_defualt_group_050
+    100116: ZBrush_defualt_group_051
+    100118: ZBrush_defualt_group_052
+    100120: ZBrush_defualt_group_053
+    100122: ZBrush_defualt_group_054
+    100124: ZBrush_defualt_group_055
+    100126: ZBrush_defualt_group_056
+    100128: ZBrush_defualt_group_057
+    100130: ZBrush_defualt_group_058
+    100132: ZBrush_defualt_group_059
+    100134: ZBrush_defualt_group_060
+    100136: ZBrush_defualt_group_061
+    100138: ZBrush_defualt_group_062
+    100140: ZBrush_defualt_group_063
+    100142: ZBrush_defualt_group_105
+    100144: ZBrush_defualt_group_106
+    100146: ZBrush_defualt_group_107
+    100148: ZBrush_defualt_group_108
+    100150: ZBrush_defualt_group_109
+    100152: ZBrush_defualt_group_110
+    100154: ZBrush_defualt_group_111
+    100156: ZBrush_defualt_group_112
+    100158: ZBrush_defualt_group_113
+    100160: ZBrush_defualt_group_114
+    100162: ZBrush_defualt_group_115
+    100164: ZBrush_defualt_group_116
+    100166: ZBrush_defualt_group_117
+    100168: ZBrush_defualt_group_118
+    100170: ZBrush_defualt_group_119
+    100172: ZBrush_defualt_group_120
+    100174: ZBrush_defualt_group_121
+    100176: ZBrush_defualt_group_122
+    100178: ZBrush_defualt_group_123
+    100180: ZBrush_defualt_group_124
+    100182: ZBrush_defualt_group_125
+    100184: ZBrush_defualt_group_126
+    100186: ZBrush_defualt_group_127
+    100188: ZBrush_defualt_group_128
+    100190: ZBrush_defualt_group_129
+    100192: ZBrush_defualt_group_130
+    100194: ZBrush_defualt_group_131
+    100196: ZBrush_defualt_group_132
+    100198: ZBrush_defualt_group_133
+    100200: ZBrush_defualt_group_134
+    100202: ZBrush_defualt_group_135
+    100204: ZBrush_defualt_group_136
+    100206: ZBrush_defualt_group_137
+    100208: ZBrush_defualt_group_138
+    100210: ZBrush_defualt_group_139
+    100212: ZBrush_defualt_group_140
+    100214: ZBrush_defualt_group_141
+    100216: ZBrush_defualt_group_142
+    100218: ZBrush_defualt_group_143
+    100220: ZBrush_defualt_group_144
+    100222: ZBrush_defualt_group_145
+    100224: ZBrush_defualt_group_146
+    100226: ZBrush_defualt_group_147
+    100228: ZBrush_defualt_group_148
+    100230: ZBrush_defualt_group_149
+    100232: ZBrush_defualt_group_150
+    100234: ZBrush_defualt_group_151
+    100236: ZBrush_defualt_group_152
+    100238: ZBrush_defualt_group_153
+    100240: ZBrush_defualt_group_154
+    100242: ZBrush_defualt_group_155
+    100244: ZBrush_defualt_group_156
+    100246: ZBrush_defualt_group_157
+    100248: ZBrush_defualt_group_158
+    100250: ZBrush_defualt_group_159
+    100252: ZBrush_defualt_group_160
+    100254: ZBrush_defualt_group_161
+    100256: ZBrush_defualt_group_162
+    100258: ZBrush_defualt_group_163
+    100260: ZBrush_defualt_group_164
+    100262: ZBrush_defualt_group_165
+    100264: ZBrush_defualt_group_166
+    100266: ZBrush_defualt_group_167
+    100268: ZBrush_defualt_group_168
+    100270: ZBrush_defualt_group_169
+    100272: ZBrush_defualt_group_170
+    100274: ZBrush_defualt_group_171
+    100276: ZBrush_defualt_group_172
+    100278: ZBrush_defualt_group_173
+    100280: ZBrush_defualt_group_174
+    100282: ZBrush_defualt_group_175
+    100284: ZBrush_defualt_group_176
+    100286: ZBrush_defualt_group_177
+    100288: ZBrush_defualt_group_178
+    100290: ZBrush_defualt_group_179
+    100292: ZBrush_defualt_group_180
+    100294: ZBrush_defualt_group_181
+    100296: ZBrush_defualt_group_182
+    100298: ZBrush_defualt_group_183
+    100300: ZBrush_defualt_group_184
+    100302: ZBrush_defualt_group_185
+    100304: ZBrush_defualt_group_186
+    100306: ZBrush_defualt_group_187
+    100308: ZBrush_defualt_group_188
+    100310: ZBrush_defualt_group_189
+    100312: ZBrush_defualt_group_190
+    100314: ZBrush_defualt_group_191
+    100316: ZBrush_defualt_group_192
+    100318: ZBrush_defualt_group_193
+    100320: ZBrush_defualt_group_194
+    100322: ZBrush_defualt_group_195
+    100324: ZBrush_defualt_group_196
+    100326: ZBrush_defualt_group_197
+    100328: ZBrush_defualt_group_198
+    100330: ZBrush_defualt_group_199
+    100332: ZBrush_defualt_group_200
+    100334: ZBrush_defualt_group_201
+    100336: ZBrush_defualt_group_202
+    100338: ZBrush_defualt_group_203
+    100340: ZBrush_defualt_group_204
+    100342: ZBrush_defualt_group_205
+    100344: ZBrush_defualt_group_206
+    100346: ZBrush_defualt_group_207
+    100348: ZBrush_defualt_group_208
+    100350: ZBrush_defualt_group_209
+    100352: ZBrush_defualt_group_210
+    100354: ZBrush_defualt_group_211
+    100356: ZBrush_defualt_group_212
+    100358: ZBrush_defualt_group_213
+    100360: ZBrush_defualt_group_214
+    100362: ZBrush_defualt_group_215
+    100364: ZBrush_defualt_group_216
+    100366: ZBrush_defualt_group_217
+    100368: ZBrush_defualt_group_218
+    100370: ZBrush_defualt_group_219
+    100372: ZBrush_defualt_group_220
+    100374: ZBrush_defualt_group_221
+    100376: ZBrush_defualt_group_222
+    100378: ZBrush_defualt_group_223
+    100380: ZBrush_defualt_group_224
+    100382: ZBrush_defualt_group_225
+    100384: ZBrush_defualt_group_226
+    100386: ZBrush_defualt_group_227
+    100388: ZBrush_defualt_group_228
+    100390: ZBrush_defualt_group_229
+    100392: ZBrush_defualt_group_230
+    100394: ZBrush_defualt_group_231
+    100396: ZBrush_defualt_group_232
+    100398: ZBrush_defualt_group_233
+    100400: ZBrush_defualt_group_234
+    100402: ZBrush_defualt_group_235
+    100404: ZBrush_defualt_group_236
+    100406: ZBrush_defualt_group_237
+    100408: ZBrush_defualt_group_238
+    100410: ZBrush_defualt_group_239
+    100412: ZBrush_defualt_group_240
+    100414: ZBrush_defualt_group_241
+    100416: ZBrush_defualt_group_242
+    100418: ZBrush_defualt_group_243
+    100420: ZBrush_defualt_group_244
+    100422: ZBrush_defualt_group_245
+    100424: ZBrush_defualt_group_246
+    100426: ZBrush_defualt_group_247
+    100428: ZBrush_defualt_group_248
+    100430: ZBrush_defualt_group_249
+    100432: ZBrush_defualt_group_250
+    100434: ZBrush_defualt_group_251
+    100436: ZBrush_defualt_group_252
+    100438: ZBrush_defualt_group_253
+    100440: ZBrush_defualt_group_254
+    100442: ZBrush_defualt_group_255
+    100444: ZBrush_defualt_group_256
+    100446: ZBrush_defualt_group_257
+    100448: ZBrush_defualt_group_258
+    100450: ZBrush_defualt_group_260
+    100452: ZBrush_defualt_group_261
+    100454: ZBrush_defualt_group_262
+    100456: ZBrush_defualt_group_263
+    100458: ZBrush_defualt_group_264
+    100460: ZBrush_defualt_group_265
+    100462: ZBrush_defualt_group_266
+    100464: ZBrush_defualt_group_267
+    100466: ZBrush_defualt_group_268
+    100468: ZBrush_defualt_group_269
+    100470: ZBrush_defualt_group_270
+    100472: ZBrush_defualt_group_271
+    100474: ZBrush_defualt_group_272
+    100476: ZBrush_defualt_group_273
+    100478: ZBrush_defualt_group_274
+    100480: ZBrush_defualt_group_275
+    100482: ZBrush_defualt_group_276
+    100484: ZBrush_defualt_group_277
+    100486: ZBrush_defualt_group_278
+    100488: ZBrush_defualt_group_279
+    100490: ZBrush_defualt_group_280
+    100492: ZBrush_defualt_group_281
+    100494: ZBrush_defualt_group_282
+    100496: ZBrush_defualt_group_283
+    100498: ZBrush_defualt_group_284
+    100500: ZBrush_defualt_group_285
+    100502: ZBrush_defualt_group_286
+    100504: ZBrush_defualt_group_287
+    100506: ZBrush_defualt_group_288
+    100508: ZBrush_defualt_group_289
+    100510: ZBrush_defualt_group_290
+    100512: ZBrush_defualt_group_291
+    100514: ZBrush_defualt_group_292
+    100516: ZBrush_defualt_group_293
+    100518: ZBrush_defualt_group_294
+    100520: ZBrush_defualt_group_295
+    100522: ZBrush_defualt_group_296
+    100524: ZBrush_defualt_group_297
+    100526: ZBrush_defualt_group_298
+    100528: ZBrush_defualt_group_299
+    100530: ZBrush_defualt_group_300
+    100532: ZBrush_defualt_group_301
+    100534: ZBrush_defualt_group_302
+    100536: ZBrush_defualt_group_303
+    100538: ZBrush_defualt_group_304
+    100540: ZBrush_defualt_group_305
+    100542: ZBrush_defualt_group_306
+    100544: ZBrush_defualt_group_307
+    100546: ZBrush_defualt_group_308
+    100548: ZBrush_defualt_group_309
+    100550: ZBrush_defualt_group_310
+    100552: ZBrush_defualt_group_311
+    100554: ZBrush_defualt_group_312
+    100556: ZBrush_defualt_group_313
+    100558: ZBrush_defualt_group_314
+    100560: ZBrush_defualt_group_315
+    100562: ZBrush_defualt_group_316
+    100564: ZBrush_defualt_group_317
+    100566: ZBrush_defualt_group_318
+    100568: ZBrush_defualt_group_319
+    100570: ZBrush_defualt_group_320
+    100572: ZBrush_defualt_group_321
+    100574: ZBrush_defualt_group_322
+    100576: ZBrush_defualt_group_323
+    100578: ZBrush_defualt_group_324
+    100580: ZBrush_defualt_group_325
+    100582: ZBrush_defualt_group_326
+    100584: ZBrush_defualt_group_327
+    100586: ZBrush_defualt_group_328
+    100588: ZBrush_defualt_group_329
+    100590: ZBrush_defualt_group_330
+    100592: ZBrush_defualt_group_331
+    100594: ZBrush_defualt_group_332
+    100596: ZBrush_defualt_group_333
+    100598: ZBrush_defualt_group_334
+    100600: ZBrush_defualt_group_335
+    100602: ZBrush_defualt_group_336
+    100604: ZBrush_defualt_group_337
+    100606: ZBrush_defualt_group_338
+    100608: ZBrush_defualt_group_339
+    100610: ZBrush_defualt_group_340
+    100612: ZBrush_defualt_group_341
+    100614: ZBrush_defualt_group_342
+    100616: ZBrush_defualt_group_343
+    100618: ZBrush_defualt_group_344
+    100620: ZBrush_defualt_group_345
+    100622: ZBrush_defualt_group_346
+    100624: ZBrush_defualt_group_347
+    100626: ZBrush_defualt_group_348
+    100628: ZBrush_defualt_group_349
+    100630: ZBrush_defualt_group_350
+    100632: ZBrush_defualt_group_351
+    100634: ZBrush_defualt_group_352
+    100636: ZBrush_defualt_group_353
+    100638: ZBrush_defualt_group_354
+    100640: ZBrush_defualt_group_355
+    100642: ZBrush_defualt_group_356
+    100644: ZBrush_defualt_group_357
+    100646: ZBrush_defualt_group_358
+    100648: ZBrush_defualt_group_359
+    100650: ZBrush_defualt_group_360
+    100652: ZBrush_defualt_group_361
+    100654: ZBrush_defualt_group_362
+    100656: ZBrush_defualt_group_363
+    100658: ZBrush_defualt_group_364
+    100660: ZBrush_defualt_group_365
+    100662: ZBrush_defualt_group_366
+    100664: ZBrush_defualt_group_367
+    100666: ZBrush_defualt_group_368
+    100668: ZBrush_defualt_group_370
+    100670: ZBrush_defualt_group_371
+    100672: ZBrush_defualt_group_373
+    100674: ZBrush_defualt_group_374
+    100676: ZBrush_defualt_group_375
+    100678: ZBrush_defualt_group_376
+    100680: ZBrush_defualt_group_377
+    100682: ZBrush_defualt_group_378
+    100684: ZBrush_defualt_group_379
+    100686: ZBrush_defualt_group_380
+    100688: ZBrush_defualt_group_381
+    100690: ZBrush_defualt_group_382
+    100692: ZBrush_defualt_group_383
+    100694: ZBrush_defualt_group_384
+    100696: ZBrush_defualt_group_385
+    100698: ZBrush_defualt_group_386
+    100700: ZBrush_defualt_group_387
+    100702: ZBrush_defualt_group_388
+    100704: ZBrush_defualt_group_389
+    100706: ZBrush_defualt_group_390
+    100708: ZBrush_defualt_group_391
+    100710: ZBrush_defualt_group_392
+    100712: ZBrush_defualt_group_393
+    100714: ZBrush_defualt_group_394
+    100716: ZBrush_defualt_group_395
+    100718: ZBrush_defualt_group_396
+    100720: ZBrush_defualt_group_397
+    100722: ZBrush_defualt_group_398
+    100724: ZBrush_defualt_group_399
+    100726: ZBrush_defualt_group_400
+    100728: ZBrush_defualt_group_401
+    100730: ZBrush_defualt_group_402
+    100732: ZBrush_defualt_group_403
+    100734: ZBrush_defualt_group_404
+    100736: ZBrush_defualt_group_405
+    100738: ZBrush_defualt_group_406
+    100740: ZBrush_defualt_group_407
+    100742: ZBrush_defualt_group_408
+    100744: ZBrush_defualt_group_409
+    100746: ZBrush_defualt_group_410
+    100748: ZBrush_defualt_group_411
+    100750: ZBrush_defualt_group_412
+    100752: ZBrush_defualt_group_413
+    100754: ZBrush_defualt_group_414
+    100756: ZBrush_defualt_group_415
+    100758: ZBrush_defualt_group_416
+    100760: ZBrush_defualt_group_417
+    100762: ZBrush_defualt_group_418
+    100764: ZBrush_defualt_group_419
+    100766: ZBrush_defualt_group_420
+    100768: ZBrush_defualt_group_421
+    100770: ZBrush_defualt_group_422
+    100772: ZBrush_defualt_group_423
+    100774: ZBrush_defualt_group_424
+    100776: ZBrush_defualt_group_425
+    100778: ZBrush_defualt_group_426
+    100780: ZBrush_defualt_group_427
+    100782: ZBrush_defualt_group_428
+    100784: ZBrush_defualt_group_429
+    100786: ZBrush_defualt_group_430
+    100788: ZBrush_defualt_group_431
+    100790: ZBrush_defualt_group_432
+    100792: ZBrush_defualt_group_433
+    100794: ZBrush_defualt_group_434
+    100796: ZBrush_defualt_group_435
+    100798: ZBrush_defualt_group_436
+    100800: ZBrush_defualt_group_437
+    100802: ZBrush_defualt_group_438
+    100804: ZBrush_defualt_group_439
+    100806: ZBrush_defualt_group_440
+    100808: ZBrush_defualt_group_441
+    100810: ZBrush_defualt_group_442
+    100812: ZBrush_defualt_group_443
+    100814: ZBrush_defualt_group_444
+    100816: ZBrush_defualt_group_445
+    100818: ZBrush_defualt_group_446
+    100820: ZBrush_defualt_group_447
+    100822: ZBrush_defualt_group_448
+    100824: ZBrush_defualt_group_449
+    100826: ZBrush_defualt_group_450
+    100828: ZBrush_defualt_group_451
+    100830: ZBrush_defualt_group_452
+    100832: ZBrush_defualt_group_453
+    100834: ZBrush_defualt_group_454
+    100836: ZBrush_defualt_group_455
+    100838: ZBrush_defualt_group_456
+    100840: ZBrush_defualt_group_457
+    100842: ZBrush_defualt_group_458
+    100844: ZBrush_defualt_group_459
+    100846: ZBrush_defualt_group_460
+    100848: ZBrush_defualt_group_461
+    100850: ZBrush_defualt_group_462
+    100852: ZBrush_defualt_group_463
+    100854: ZBrush_defualt_group_464
+    100856: ZBrush_defualt_group_465
+    100858: ZBrush_defualt_group_466
+    100860: ZBrush_defualt_group_467
+    100862: ZBrush_defualt_group_468
+    100864: ZBrush_defualt_group_469
+    100866: ZBrush_defualt_group_470
+    100868: ZBrush_defualt_group_471
+    100870: ZBrush_defualt_group_472
+    100872: ZBrush_defualt_group_473
+    100874: ZBrush_defualt_group_474
+    100876: ZBrush_defualt_group_475
+    100878: ZBrush_defualt_group_476
+    100880: ZBrush_defualt_group_477
+    100882: ZBrush_defualt_group_478
+    100884: ZBrush_defualt_group_479
+    100886: ZBrush_defualt_group_480
+    100888: ZBrush_defualt_group_481
+    100890: ZBrush_defualt_group_482
+    100892: ZBrush_defualt_group_483
+    100894: ZBrush_defualt_group_484
+    100896: ZBrush_defualt_group_485
+    100898: ZBrush_defualt_group_486
+    100900: ZBrush_defualt_group_487
+    100902: ZBrush_defualt_group_488
+    100904: ZBrush_defualt_group_489
+    100906: ZBrush_defualt_group_490
+    100908: ZBrush_defualt_group_491
+    100910: ZBrush_defualt_group_492
+    100912: ZBrush_defualt_group_493
+    100914: ZBrush_defualt_group_494
+    100916: ZBrush_defualt_group_495
+    100918: ZBrush_defualt_group_496
+    100920: ZBrush_defualt_group_497
+    100922: ZBrush_defualt_group_498
+    100924: ZBrush_defualt_group_499
+    100926: ZBrush_defualt_group_500
+    100928: ZBrush_defualt_group_501
+    100930: ZBrush_defualt_group_502
+    100932: ZBrush_defualt_group_503
+    100934: ZBrush_defualt_group_504
+    100936: ZBrush_defualt_group_505
+    100938: ZBrush_defualt_group_506
+    100940: ZBrush_defualt_group_507
+    100942: ZBrush_defualt_group_508
+    100944: ZBrush_defualt_group_509
+    100946: ZBrush_defualt_group_510
+    100948: ZBrush_defualt_group_511
+    100950: ZBrush_defualt_group_512
+    100952: ZBrush_defualt_group_513
+    100954: ZBrush_defualt_group_514
+    100956: ZBrush_defualt_group_515
+    100958: ZBrush_defualt_group_516
+    100960: ZBrush_defualt_group_517
+    100962: ZBrush_defualt_group_518
+    100964: ZBrush_defualt_group_519
+    100966: ZBrush_defualt_group_520
+    100968: ZBrush_defualt_group_521
+    100970: ZBrush_defualt_group_522
+    100972: ZBrush_defualt_group_523
+    100974: ZBrush_defualt_group_524
+    100976: ZBrush_defualt_group_525
+    100978: ZBrush_defualt_group_526
+    100980: ZBrush_defualt_group_527
+    100982: ZBrush_defualt_group_528
+    100984: ZBrush_defualt_group_529
+    100986: ZBrush_defualt_group_530
+    100988: ZBrush_defualt_group_531
+    100990: ZBrush_defualt_group_532
+    100992: ZBrush_defualt_group_533
+    100994: ZBrush_defualt_group_534
+    100996: ZBrush_defualt_group_535
+    100998: ZBrush_defualt_group_536
+    101000: ZBrush_defualt_group_537
+    101002: ZBrush_defualt_group_538
+    101004: ZBrush_defualt_group_539
+    101006: ZBrush_defualt_group_540
+    101008: ZBrush_defualt_group_541
+    101010: ZBrush_defualt_group_542
+    101012: ZBrush_defualt_group_543
+    101014: ZBrush_defualt_group_544
+    101016: ZBrush_defualt_group_545
+    101018: ZBrush_defualt_group_546
+    101020: ZBrush_defualt_group_547
+    101022: ZBrush_defualt_group_548
+    101024: ZBrush_defualt_group_549
+    101026: ZBrush_defualt_group_550
+    101028: ZBrush_defualt_group_551
+    101030: ZBrush_defualt_group_552
+    101032: ZBrush_defualt_group_553
+    101034: ZBrush_defualt_group_554
+    101036: ZBrush_defualt_group_555
+    101038: ZBrush_defualt_group_556
+    101040: ZBrush_defualt_group_557
+    101042: ZBrush_defualt_group_558
+    101044: ZBrush_defualt_group_559
+    101046: ZBrush_defualt_group_560
+    101048: ZBrush_defualt_group_561
+    101050: ZBrush_defualt_group_562
+    101052: ZBrush_defualt_group_563
+    101054: ZBrush_defualt_group_564
+    101056: ZBrush_defualt_group_565
+    101058: ZBrush_defualt_group_566
+    101060: ZBrush_defualt_group_567
+    101062: ZBrush_defualt_group_568
+    101064: ZBrush_defualt_group_569
+    101066: ZBrush_defualt_group_570
+    101068: ZBrush_defualt_group_571
+    101070: ZBrush_defualt_group_572
+    101072: ZBrush_defualt_group_573
+    101074: ZBrush_defualt_group_574
+    101076: ZBrush_defualt_group_575
+    101078: ZBrush_defualt_group_576
+    101080: ZBrush_defualt_group_577
+    101082: ZBrush_defualt_group_578
+    101084: ZBrush_defualt_group_579
+    101086: ZBrush_defualt_group_580
+    101088: ZBrush_defualt_group_581
+    101090: ZBrush_defualt_group_582
+    101092: ZBrush_defualt_group_583
+    101094: ZBrush_defualt_group_584
+    101096: ZBrush_defualt_group_585
+    101098: ZBrush_defualt_group_586
+    101100: ZBrush_defualt_group_587
+    101102: ZBrush_defualt_group_588
+    101104: ZBrush_defualt_group_590
+    101106: ZBrush_defualt_group_591
+    101108: ZBrush_defualt_group_593
+    101110: ZBrush_defualt_group_594
+    101112: ZBrush_defualt_group_595
+    101114: ZBrush_defualt_group_596
+    101116: ZBrush_defualt_group_597
+    101118: ZBrush_defualt_group_598
+    101120: ZBrush_defualt_group_599
+    101122: ZBrush_defualt_group_600
+    101124: ZBrush_defualt_group_601
+    101126: ZBrush_defualt_group_602
+    101128: ZBrush_defualt_group_603
+    101130: ZBrush_defualt_group_604
+    101132: ZBrush_defualt_group_605
+    101134: ZBrush_defualt_group_606
+    101136: ZBrush_defualt_group_607
+    101138: ZBrush_defualt_group_608
+    101140: ZBrush_defualt_group_609
+    101142: ZBrush_defualt_group_610
+    101144: ZBrush_defualt_group_611
+    101146: ZBrush_defualt_group_612
+    101148: ZBrush_defualt_group_613
+    101150: ZBrush_defualt_group_614
+    101152: ZBrush_defualt_group_615
+    101154: ZBrush_defualt_group_616
+    101156: ZBrush_defualt_group_617
+    101158: ZBrush_defualt_group_618
+    101160: ZBrush_defualt_group_619
+    101162: ZBrush_defualt_group_620
+    101164: ZBrush_defualt_group_621
+    101166: ZBrush_defualt_group_622
+    101168: ZBrush_defualt_group_623
+    101170: ZBrush_defualt_group_624
+    101172: ZBrush_defualt_group_625
+    101174: ZBrush_defualt_group_626
+    101176: ZBrush_defualt_group_627
+    101178: ZBrush_defualt_group_628
+    101180: ZBrush_defualt_group_629
+    101182: ZBrush_defualt_group_630
+    101184: ZBrush_defualt_group_631
+    101186: ZBrush_defualt_group_632
+    101188: ZBrush_defualt_group_633
+    101190: ZBrush_defualt_group_634
+    101192: ZBrush_defualt_group_635
+    101194: ZBrush_defualt_group_636
+    101196: ZBrush_defualt_group_637
+    101198: ZBrush_defualt_group_638
+    101200: ZBrush_defualt_group_639
+    101202: ZBrush_defualt_group_640
+    101204: ZBrush_defualt_group_641
+    101206: ZBrush_defualt_group_642
+    101208: ZBrush_defualt_group_643
+    101210: ZBrush_defualt_group_644
+    101212: ZBrush_defualt_group_645
+    101214: ZBrush_defualt_group_646
+    101216: ZBrush_defualt_group_647
+    101218: ZBrush_defualt_group_648
+    101220: ZBrush_defualt_group_649
+    101222: ZBrush_defualt_group_650
+    101224: ZBrush_defualt_group_651
+    101226: ZBrush_defualt_group_652
+    101228: ZBrush_defualt_group_653
+    101230: ZBrush_defualt_group_654
+    101232: ZBrush_defualt_group_655
+    101234: ZBrush_defualt_group_656
+    101236: ZBrush_defualt_group_657
+    101238: ZBrush_defualt_group_658
+    101240: ZBrush_defualt_group_659
+    101242: ZBrush_defualt_group_660
+    101244: ZBrush_defualt_group_661
+    101246: ZBrush_defualt_group_662
+    101248: ZBrush_defualt_group_663
+    101250: ZBrush_defualt_group_664
+    101252: ZBrush_defualt_group_665
+    101254: ZBrush_defualt_group_666
+    101256: ZBrush_defualt_group_667
+    101258: ZBrush_defualt_group_668
+    101260: ZBrush_defualt_group_669
+    101262: ZBrush_defualt_group_670
+    101264: ZBrush_defualt_group_671
+    101266: ZBrush_defualt_group_672
+    101268: ZBrush_defualt_group_673
+    101270: ZBrush_defualt_group_674
+    101272: ZBrush_defualt_group_675
+    101274: ZBrush_defualt_group_676
+    101276: ZBrush_defualt_group_677
+    101278: ZBrush_defualt_group_678
+    101280: ZBrush_defualt_group_679
+    101282: ZBrush_defualt_group_680
+    101284: ZBrush_defualt_group_681
+    101286: ZBrush_defualt_group_682
+    101288: ZBrush_defualt_group_683
+    101290: ZBrush_defualt_group_684
+    101292: ZBrush_defualt_group_685
+    101294: ZBrush_defualt_group_686
+    101296: ZBrush_defualt_group_687
+    101298: ZBrush_defualt_group_688
+    101300: ZBrush_defualt_group_689
+    101302: ZBrush_defualt_group_690
+    101304: ZBrush_defualt_group_691
+    101306: ZBrush_defualt_group_692
+    101308: ZBrush_defualt_group_693
+    101310: ZBrush_defualt_group_694
+    101312: ZBrush_defualt_group_695
+    101314: ZBrush_defualt_group_696
+    101316: ZBrush_defualt_group_697
+    101318: ZBrush_defualt_group_698
+    101320: ZBrush_defualt_group_699
+    101322: ZBrush_defualt_group_700
+    101324: ZBrush_defualt_group_701
+    400000: //RootNode
+    400002: Group49586
+    400004: Group49586_001
+    400006: Group49586_002
+    400008: Group49586_003
+    400010: Group49586_004
+    400012: Group49586_005
+    400014: ZBrush_defualt_group_000
+    400016: ZBrush_defualt_group_001
+    400018: ZBrush_defualt_group_002
+    400020: ZBrush_defualt_group_003
+    400022: ZBrush_defualt_group_004
+    400024: ZBrush_defualt_group_005
+    400026: ZBrush_defualt_group_006
+    400028: ZBrush_defualt_group_007
+    400030: ZBrush_defualt_group_008
+    400032: ZBrush_defualt_group_009
+    400034: ZBrush_defualt_group_010
+    400036: ZBrush_defualt_group_011
+    400038: ZBrush_defualt_group_012
+    400040: ZBrush_defualt_group_013
+    400042: ZBrush_defualt_group_014
+    400044: ZBrush_defualt_group_015
+    400046: ZBrush_defualt_group_016
+    400048: ZBrush_defualt_group_017
+    400050: ZBrush_defualt_group_018
+    400052: ZBrush_defualt_group_019
+    400054: ZBrush_defualt_group_020
+    400056: ZBrush_defualt_group_021
+    400058: ZBrush_defualt_group_022
+    400060: ZBrush_defualt_group_023
+    400062: ZBrush_defualt_group_024
+    400064: ZBrush_defualt_group_025
+    400066: ZBrush_defualt_group_026
+    400068: ZBrush_defualt_group_027
+    400070: ZBrush_defualt_group_028
+    400072: ZBrush_defualt_group_029
+    400074: ZBrush_defualt_group_030
+    400076: ZBrush_defualt_group_031
+    400078: ZBrush_defualt_group_032
+    400080: ZBrush_defualt_group_033
+    400082: ZBrush_defualt_group_034
+    400084: ZBrush_defualt_group_035
+    400086: ZBrush_defualt_group_036
+    400088: ZBrush_defualt_group_037
+    400090: ZBrush_defualt_group_038
+    400092: ZBrush_defualt_group_039
+    400094: ZBrush_defualt_group_040
+    400096: ZBrush_defualt_group_041
+    400098: ZBrush_defualt_group_042
+    400100: ZBrush_defualt_group_043
+    400102: ZBrush_defualt_group_044
+    400104: ZBrush_defualt_group_045
+    400106: ZBrush_defualt_group_046
+    400108: ZBrush_defualt_group_047
+    400110: ZBrush_defualt_group_048
+    400112: ZBrush_defualt_group_049
+    400114: ZBrush_defualt_group_050
+    400116: ZBrush_defualt_group_051
+    400118: ZBrush_defualt_group_052
+    400120: ZBrush_defualt_group_053
+    400122: ZBrush_defualt_group_054
+    400124: ZBrush_defualt_group_055
+    400126: ZBrush_defualt_group_056
+    400128: ZBrush_defualt_group_057
+    400130: ZBrush_defualt_group_058
+    400132: ZBrush_defualt_group_059
+    400134: ZBrush_defualt_group_060
+    400136: ZBrush_defualt_group_061
+    400138: ZBrush_defualt_group_062
+    400140: ZBrush_defualt_group_063
+    400142: ZBrush_defualt_group_105
+    400144: ZBrush_defualt_group_106
+    400146: ZBrush_defualt_group_107
+    400148: ZBrush_defualt_group_108
+    400150: ZBrush_defualt_group_109
+    400152: ZBrush_defualt_group_110
+    400154: ZBrush_defualt_group_111
+    400156: ZBrush_defualt_group_112
+    400158: ZBrush_defualt_group_113
+    400160: ZBrush_defualt_group_114
+    400162: ZBrush_defualt_group_115
+    400164: ZBrush_defualt_group_116
+    400166: ZBrush_defualt_group_117
+    400168: ZBrush_defualt_group_118
+    400170: ZBrush_defualt_group_119
+    400172: ZBrush_defualt_group_120
+    400174: ZBrush_defualt_group_121
+    400176: ZBrush_defualt_group_122
+    400178: ZBrush_defualt_group_123
+    400180: ZBrush_defualt_group_124
+    400182: ZBrush_defualt_group_125
+    400184: ZBrush_defualt_group_126
+    400186: ZBrush_defualt_group_127
+    400188: ZBrush_defualt_group_128
+    400190: ZBrush_defualt_group_129
+    400192: ZBrush_defualt_group_130
+    400194: ZBrush_defualt_group_131
+    400196: ZBrush_defualt_group_132
+    400198: ZBrush_defualt_group_133
+    400200: ZBrush_defualt_group_134
+    400202: ZBrush_defualt_group_135
+    400204: ZBrush_defualt_group_136
+    400206: ZBrush_defualt_group_137
+    400208: ZBrush_defualt_group_138
+    400210: ZBrush_defualt_group_139
+    400212: ZBrush_defualt_group_140
+    400214: ZBrush_defualt_group_141
+    400216: ZBrush_defualt_group_142
+    400218: ZBrush_defualt_group_143
+    400220: ZBrush_defualt_group_144
+    400222: ZBrush_defualt_group_145
+    400224: ZBrush_defualt_group_146
+    400226: ZBrush_defualt_group_147
+    400228: ZBrush_defualt_group_148
+    400230: ZBrush_defualt_group_149
+    400232: ZBrush_defualt_group_150
+    400234: ZBrush_defualt_group_151
+    400236: ZBrush_defualt_group_152
+    400238: ZBrush_defualt_group_153
+    400240: ZBrush_defualt_group_154
+    400242: ZBrush_defualt_group_155
+    400244: ZBrush_defualt_group_156
+    400246: ZBrush_defualt_group_157
+    400248: ZBrush_defualt_group_158
+    400250: ZBrush_defualt_group_159
+    400252: ZBrush_defualt_group_160
+    400254: ZBrush_defualt_group_161
+    400256: ZBrush_defualt_group_162
+    400258: ZBrush_defualt_group_163
+    400260: ZBrush_defualt_group_164
+    400262: ZBrush_defualt_group_165
+    400264: ZBrush_defualt_group_166
+    400266: ZBrush_defualt_group_167
+    400268: ZBrush_defualt_group_168
+    400270: ZBrush_defualt_group_169
+    400272: ZBrush_defualt_group_170
+    400274: ZBrush_defualt_group_171
+    400276: ZBrush_defualt_group_172
+    400278: ZBrush_defualt_group_173
+    400280: ZBrush_defualt_group_174
+    400282: ZBrush_defualt_group_175
+    400284: ZBrush_defualt_group_176
+    400286: ZBrush_defualt_group_177
+    400288: ZBrush_defualt_group_178
+    400290: ZBrush_defualt_group_179
+    400292: ZBrush_defualt_group_180
+    400294: ZBrush_defualt_group_181
+    400296: ZBrush_defualt_group_182
+    400298: ZBrush_defualt_group_183
+    400300: ZBrush_defualt_group_184
+    400302: ZBrush_defualt_group_185
+    400304: ZBrush_defualt_group_186
+    400306: ZBrush_defualt_group_187
+    400308: ZBrush_defualt_group_188
+    400310: ZBrush_defualt_group_189
+    400312: ZBrush_defualt_group_190
+    400314: ZBrush_defualt_group_191
+    400316: ZBrush_defualt_group_192
+    400318: ZBrush_defualt_group_193
+    400320: ZBrush_defualt_group_194
+    400322: ZBrush_defualt_group_195
+    400324: ZBrush_defualt_group_196
+    400326: ZBrush_defualt_group_197
+    400328: ZBrush_defualt_group_198
+    400330: ZBrush_defualt_group_199
+    400332: ZBrush_defualt_group_200
+    400334: ZBrush_defualt_group_201
+    400336: ZBrush_defualt_group_202
+    400338: ZBrush_defualt_group_203
+    400340: ZBrush_defualt_group_204
+    400342: ZBrush_defualt_group_205
+    400344: ZBrush_defualt_group_206
+    400346: ZBrush_defualt_group_207
+    400348: ZBrush_defualt_group_208
+    400350: ZBrush_defualt_group_209
+    400352: ZBrush_defualt_group_210
+    400354: ZBrush_defualt_group_211
+    400356: ZBrush_defualt_group_212
+    400358: ZBrush_defualt_group_213
+    400360: ZBrush_defualt_group_214
+    400362: ZBrush_defualt_group_215
+    400364: ZBrush_defualt_group_216
+    400366: ZBrush_defualt_group_217
+    400368: ZBrush_defualt_group_218
+    400370: ZBrush_defualt_group_219
+    400372: ZBrush_defualt_group_220
+    400374: ZBrush_defualt_group_221
+    400376: ZBrush_defualt_group_222
+    400378: ZBrush_defualt_group_223
+    400380: ZBrush_defualt_group_224
+    400382: ZBrush_defualt_group_225
+    400384: ZBrush_defualt_group_226
+    400386: ZBrush_defualt_group_227
+    400388: ZBrush_defualt_group_228
+    400390: ZBrush_defualt_group_229
+    400392: ZBrush_defualt_group_230
+    400394: ZBrush_defualt_group_231
+    400396: ZBrush_defualt_group_232
+    400398: ZBrush_defualt_group_233
+    400400: ZBrush_defualt_group_234
+    400402: ZBrush_defualt_group_235
+    400404: ZBrush_defualt_group_236
+    400406: ZBrush_defualt_group_237
+    400408: ZBrush_defualt_group_238
+    400410: ZBrush_defualt_group_239
+    400412: ZBrush_defualt_group_240
+    400414: ZBrush_defualt_group_241
+    400416: ZBrush_defualt_group_242
+    400418: ZBrush_defualt_group_243
+    400420: ZBrush_defualt_group_244
+    400422: ZBrush_defualt_group_245
+    400424: ZBrush_defualt_group_246
+    400426: ZBrush_defualt_group_247
+    400428: ZBrush_defualt_group_248
+    400430: ZBrush_defualt_group_249
+    400432: ZBrush_defualt_group_250
+    400434: ZBrush_defualt_group_251
+    400436: ZBrush_defualt_group_252
+    400438: ZBrush_defualt_group_253
+    400440: ZBrush_defualt_group_254
+    400442: ZBrush_defualt_group_255
+    400444: ZBrush_defualt_group_256
+    400446: ZBrush_defualt_group_257
+    400448: ZBrush_defualt_group_258
+    400450: ZBrush_defualt_group_260
+    400452: ZBrush_defualt_group_261
+    400454: ZBrush_defualt_group_262
+    400456: ZBrush_defualt_group_263
+    400458: ZBrush_defualt_group_264
+    400460: ZBrush_defualt_group_265
+    400462: ZBrush_defualt_group_266
+    400464: ZBrush_defualt_group_267
+    400466: ZBrush_defualt_group_268
+    400468: ZBrush_defualt_group_269
+    400470: ZBrush_defualt_group_270
+    400472: ZBrush_defualt_group_271
+    400474: ZBrush_defualt_group_272
+    400476: ZBrush_defualt_group_273
+    400478: ZBrush_defualt_group_274
+    400480: ZBrush_defualt_group_275
+    400482: ZBrush_defualt_group_276
+    400484: ZBrush_defualt_group_277
+    400486: ZBrush_defualt_group_278
+    400488: ZBrush_defualt_group_279
+    400490: ZBrush_defualt_group_280
+    400492: ZBrush_defualt_group_281
+    400494: ZBrush_defualt_group_282
+    400496: ZBrush_defualt_group_283
+    400498: ZBrush_defualt_group_284
+    400500: ZBrush_defualt_group_285
+    400502: ZBrush_defualt_group_286
+    400504: ZBrush_defualt_group_287
+    400506: ZBrush_defualt_group_288
+    400508: ZBrush_defualt_group_289
+    400510: ZBrush_defualt_group_290
+    400512: ZBrush_defualt_group_291
+    400514: ZBrush_defualt_group_292
+    400516: ZBrush_defualt_group_293
+    400518: ZBrush_defualt_group_294
+    400520: ZBrush_defualt_group_295
+    400522: ZBrush_defualt_group_296
+    400524: ZBrush_defualt_group_297
+    400526: ZBrush_defualt_group_298
+    400528: ZBrush_defualt_group_299
+    400530: ZBrush_defualt_group_300
+    400532: ZBrush_defualt_group_301
+    400534: ZBrush_defualt_group_302
+    400536: ZBrush_defualt_group_303
+    400538: ZBrush_defualt_group_304
+    400540: ZBrush_defualt_group_305
+    400542: ZBrush_defualt_group_306
+    400544: ZBrush_defualt_group_307
+    400546: ZBrush_defualt_group_308
+    400548: ZBrush_defualt_group_309
+    400550: ZBrush_defualt_group_310
+    400552: ZBrush_defualt_group_311
+    400554: ZBrush_defualt_group_312
+    400556: ZBrush_defualt_group_313
+    400558: ZBrush_defualt_group_314
+    400560: ZBrush_defualt_group_315
+    400562: ZBrush_defualt_group_316
+    400564: ZBrush_defualt_group_317
+    400566: ZBrush_defualt_group_318
+    400568: ZBrush_defualt_group_319
+    400570: ZBrush_defualt_group_320
+    400572: ZBrush_defualt_group_321
+    400574: ZBrush_defualt_group_322
+    400576: ZBrush_defualt_group_323
+    400578: ZBrush_defualt_group_324
+    400580: ZBrush_defualt_group_325
+    400582: ZBrush_defualt_group_326
+    400584: ZBrush_defualt_group_327
+    400586: ZBrush_defualt_group_328
+    400588: ZBrush_defualt_group_329
+    400590: ZBrush_defualt_group_330
+    400592: ZBrush_defualt_group_331
+    400594: ZBrush_defualt_group_332
+    400596: ZBrush_defualt_group_333
+    400598: ZBrush_defualt_group_334
+    400600: ZBrush_defualt_group_335
+    400602: ZBrush_defualt_group_336
+    400604: ZBrush_defualt_group_337
+    400606: ZBrush_defualt_group_338
+    400608: ZBrush_defualt_group_339
+    400610: ZBrush_defualt_group_340
+    400612: ZBrush_defualt_group_341
+    400614: ZBrush_defualt_group_342
+    400616: ZBrush_defualt_group_343
+    400618: ZBrush_defualt_group_344
+    400620: ZBrush_defualt_group_345
+    400622: ZBrush_defualt_group_346
+    400624: ZBrush_defualt_group_347
+    400626: ZBrush_defualt_group_348
+    400628: ZBrush_defualt_group_349
+    400630: ZBrush_defualt_group_350
+    400632: ZBrush_defualt_group_351
+    400634: ZBrush_defualt_group_352
+    400636: ZBrush_defualt_group_353
+    400638: ZBrush_defualt_group_354
+    400640: ZBrush_defualt_group_355
+    400642: ZBrush_defualt_group_356
+    400644: ZBrush_defualt_group_357
+    400646: ZBrush_defualt_group_358
+    400648: ZBrush_defualt_group_359
+    400650: ZBrush_defualt_group_360
+    400652: ZBrush_defualt_group_361
+    400654: ZBrush_defualt_group_362
+    400656: ZBrush_defualt_group_363
+    400658: ZBrush_defualt_group_364
+    400660: ZBrush_defualt_group_365
+    400662: ZBrush_defualt_group_366
+    400664: ZBrush_defualt_group_367
+    400666: ZBrush_defualt_group_368
+    400668: ZBrush_defualt_group_370
+    400670: ZBrush_defualt_group_371
+    400672: ZBrush_defualt_group_373
+    400674: ZBrush_defualt_group_374
+    400676: ZBrush_defualt_group_375
+    400678: ZBrush_defualt_group_376
+    400680: ZBrush_defualt_group_377
+    400682: ZBrush_defualt_group_378
+    400684: ZBrush_defualt_group_379
+    400686: ZBrush_defualt_group_380
+    400688: ZBrush_defualt_group_381
+    400690: ZBrush_defualt_group_382
+    400692: ZBrush_defualt_group_383
+    400694: ZBrush_defualt_group_384
+    400696: ZBrush_defualt_group_385
+    400698: ZBrush_defualt_group_386
+    400700: ZBrush_defualt_group_387
+    400702: ZBrush_defualt_group_388
+    400704: ZBrush_defualt_group_389
+    400706: ZBrush_defualt_group_390
+    400708: ZBrush_defualt_group_391
+    400710: ZBrush_defualt_group_392
+    400712: ZBrush_defualt_group_393
+    400714: ZBrush_defualt_group_394
+    400716: ZBrush_defualt_group_395
+    400718: ZBrush_defualt_group_396
+    400720: ZBrush_defualt_group_397
+    400722: ZBrush_defualt_group_398
+    400724: ZBrush_defualt_group_399
+    400726: ZBrush_defualt_group_400
+    400728: ZBrush_defualt_group_401
+    400730: ZBrush_defualt_group_402
+    400732: ZBrush_defualt_group_403
+    400734: ZBrush_defualt_group_404
+    400736: ZBrush_defualt_group_405
+    400738: ZBrush_defualt_group_406
+    400740: ZBrush_defualt_group_407
+    400742: ZBrush_defualt_group_408
+    400744: ZBrush_defualt_group_409
+    400746: ZBrush_defualt_group_410
+    400748: ZBrush_defualt_group_411
+    400750: ZBrush_defualt_group_412
+    400752: ZBrush_defualt_group_413
+    400754: ZBrush_defualt_group_414
+    400756: ZBrush_defualt_group_415
+    400758: ZBrush_defualt_group_416
+    400760: ZBrush_defualt_group_417
+    400762: ZBrush_defualt_group_418
+    400764: ZBrush_defualt_group_419
+    400766: ZBrush_defualt_group_420
+    400768: ZBrush_defualt_group_421
+    400770: ZBrush_defualt_group_422
+    400772: ZBrush_defualt_group_423
+    400774: ZBrush_defualt_group_424
+    400776: ZBrush_defualt_group_425
+    400778: ZBrush_defualt_group_426
+    400780: ZBrush_defualt_group_427
+    400782: ZBrush_defualt_group_428
+    400784: ZBrush_defualt_group_429
+    400786: ZBrush_defualt_group_430
+    400788: ZBrush_defualt_group_431
+    400790: ZBrush_defualt_group_432
+    400792: ZBrush_defualt_group_433
+    400794: ZBrush_defualt_group_434
+    400796: ZBrush_defualt_group_435
+    400798: ZBrush_defualt_group_436
+    400800: ZBrush_defualt_group_437
+    400802: ZBrush_defualt_group_438
+    400804: ZBrush_defualt_group_439
+    400806: ZBrush_defualt_group_440
+    400808: ZBrush_defualt_group_441
+    400810: ZBrush_defualt_group_442
+    400812: ZBrush_defualt_group_443
+    400814: ZBrush_defualt_group_444
+    400816: ZBrush_defualt_group_445
+    400818: ZBrush_defualt_group_446
+    400820: ZBrush_defualt_group_447
+    400822: ZBrush_defualt_group_448
+    400824: ZBrush_defualt_group_449
+    400826: ZBrush_defualt_group_450
+    400828: ZBrush_defualt_group_451
+    400830: ZBrush_defualt_group_452
+    400832: ZBrush_defualt_group_453
+    400834: ZBrush_defualt_group_454
+    400836: ZBrush_defualt_group_455
+    400838: ZBrush_defualt_group_456
+    400840: ZBrush_defualt_group_457
+    400842: ZBrush_defualt_group_458
+    400844: ZBrush_defualt_group_459
+    400846: ZBrush_defualt_group_460
+    400848: ZBrush_defualt_group_461
+    400850: ZBrush_defualt_group_462
+    400852: ZBrush_defualt_group_463
+    400854: ZBrush_defualt_group_464
+    400856: ZBrush_defualt_group_465
+    400858: ZBrush_defualt_group_466
+    400860: ZBrush_defualt_group_467
+    400862: ZBrush_defualt_group_468
+    400864: ZBrush_defualt_group_469
+    400866: ZBrush_defualt_group_470
+    400868: ZBrush_defualt_group_471
+    400870: ZBrush_defualt_group_472
+    400872: ZBrush_defualt_group_473
+    400874: ZBrush_defualt_group_474
+    400876: ZBrush_defualt_group_475
+    400878: ZBrush_defualt_group_476
+    400880: ZBrush_defualt_group_477
+    400882: ZBrush_defualt_group_478
+    400884: ZBrush_defualt_group_479
+    400886: ZBrush_defualt_group_480
+    400888: ZBrush_defualt_group_481
+    400890: ZBrush_defualt_group_482
+    400892: ZBrush_defualt_group_483
+    400894: ZBrush_defualt_group_484
+    400896: ZBrush_defualt_group_485
+    400898: ZBrush_defualt_group_486
+    400900: ZBrush_defualt_group_487
+    400902: ZBrush_defualt_group_488
+    400904: ZBrush_defualt_group_489
+    400906: ZBrush_defualt_group_490
+    400908: ZBrush_defualt_group_491
+    400910: ZBrush_defualt_group_492
+    400912: ZBrush_defualt_group_493
+    400914: ZBrush_defualt_group_494
+    400916: ZBrush_defualt_group_495
+    400918: ZBrush_defualt_group_496
+    400920: ZBrush_defualt_group_497
+    400922: ZBrush_defualt_group_498
+    400924: ZBrush_defualt_group_499
+    400926: ZBrush_defualt_group_500
+    400928: ZBrush_defualt_group_501
+    400930: ZBrush_defualt_group_502
+    400932: ZBrush_defualt_group_503
+    400934: ZBrush_defualt_group_504
+    400936: ZBrush_defualt_group_505
+    400938: ZBrush_defualt_group_506
+    400940: ZBrush_defualt_group_507
+    400942: ZBrush_defualt_group_508
+    400944: ZBrush_defualt_group_509
+    400946: ZBrush_defualt_group_510
+    400948: ZBrush_defualt_group_511
+    400950: ZBrush_defualt_group_512
+    400952: ZBrush_defualt_group_513
+    400954: ZBrush_defualt_group_514
+    400956: ZBrush_defualt_group_515
+    400958: ZBrush_defualt_group_516
+    400960: ZBrush_defualt_group_517
+    400962: ZBrush_defualt_group_518
+    400964: ZBrush_defualt_group_519
+    400966: ZBrush_defualt_group_520
+    400968: ZBrush_defualt_group_521
+    400970: ZBrush_defualt_group_522
+    400972: ZBrush_defualt_group_523
+    400974: ZBrush_defualt_group_524
+    400976: ZBrush_defualt_group_525
+    400978: ZBrush_defualt_group_526
+    400980: ZBrush_defualt_group_527
+    400982: ZBrush_defualt_group_528
+    400984: ZBrush_defualt_group_529
+    400986: ZBrush_defualt_group_530
+    400988: ZBrush_defualt_group_531
+    400990: ZBrush_defualt_group_532
+    400992: ZBrush_defualt_group_533
+    400994: ZBrush_defualt_group_534
+    400996: ZBrush_defualt_group_535
+    400998: ZBrush_defualt_group_536
+    401000: ZBrush_defualt_group_537
+    401002: ZBrush_defualt_group_538
+    401004: ZBrush_defualt_group_539
+    401006: ZBrush_defualt_group_540
+    401008: ZBrush_defualt_group_541
+    401010: ZBrush_defualt_group_542
+    401012: ZBrush_defualt_group_543
+    401014: ZBrush_defualt_group_544
+    401016: ZBrush_defualt_group_545
+    401018: ZBrush_defualt_group_546
+    401020: ZBrush_defualt_group_547
+    401022: ZBrush_defualt_group_548
+    401024: ZBrush_defualt_group_549
+    401026: ZBrush_defualt_group_550
+    401028: ZBrush_defualt_group_551
+    401030: ZBrush_defualt_group_552
+    401032: ZBrush_defualt_group_553
+    401034: ZBrush_defualt_group_554
+    401036: ZBrush_defualt_group_555
+    401038: ZBrush_defualt_group_556
+    401040: ZBrush_defualt_group_557
+    401042: ZBrush_defualt_group_558
+    401044: ZBrush_defualt_group_559
+    401046: ZBrush_defualt_group_560
+    401048: ZBrush_defualt_group_561
+    401050: ZBrush_defualt_group_562
+    401052: ZBrush_defualt_group_563
+    401054: ZBrush_defualt_group_564
+    401056: ZBrush_defualt_group_565
+    401058: ZBrush_defualt_group_566
+    401060: ZBrush_defualt_group_567
+    401062: ZBrush_defualt_group_568
+    401064: ZBrush_defualt_group_569
+    401066: ZBrush_defualt_group_570
+    401068: ZBrush_defualt_group_571
+    401070: ZBrush_defualt_group_572
+    401072: ZBrush_defualt_group_573
+    401074: ZBrush_defualt_group_574
+    401076: ZBrush_defualt_group_575
+    401078: ZBrush_defualt_group_576
+    401080: ZBrush_defualt_group_577
+    401082: ZBrush_defualt_group_578
+    401084: ZBrush_defualt_group_579
+    401086: ZBrush_defualt_group_580
+    401088: ZBrush_defualt_group_581
+    401090: ZBrush_defualt_group_582
+    401092: ZBrush_defualt_group_583
+    401094: ZBrush_defualt_group_584
+    401096: ZBrush_defualt_group_585
+    401098: ZBrush_defualt_group_586
+    401100: ZBrush_defualt_group_587
+    401102: ZBrush_defualt_group_588
+    401104: ZBrush_defualt_group_590
+    401106: ZBrush_defualt_group_591
+    401108: ZBrush_defualt_group_593
+    401110: ZBrush_defualt_group_594
+    401112: ZBrush_defualt_group_595
+    401114: ZBrush_defualt_group_596
+    401116: ZBrush_defualt_group_597
+    401118: ZBrush_defualt_group_598
+    401120: ZBrush_defualt_group_599
+    401122: ZBrush_defualt_group_600
+    401124: ZBrush_defualt_group_601
+    401126: ZBrush_defualt_group_602
+    401128: ZBrush_defualt_group_603
+    401130: ZBrush_defualt_group_604
+    401132: ZBrush_defualt_group_605
+    401134: ZBrush_defualt_group_606
+    401136: ZBrush_defualt_group_607
+    401138: ZBrush_defualt_group_608
+    401140: ZBrush_defualt_group_609
+    401142: ZBrush_defualt_group_610
+    401144: ZBrush_defualt_group_611
+    401146: ZBrush_defualt_group_612
+    401148: ZBrush_defualt_group_613
+    401150: ZBrush_defualt_group_614
+    401152: ZBrush_defualt_group_615
+    401154: ZBrush_defualt_group_616
+    401156: ZBrush_defualt_group_617
+    401158: ZBrush_defualt_group_618
+    401160: ZBrush_defualt_group_619
+    401162: ZBrush_defualt_group_620
+    401164: ZBrush_defualt_group_621
+    401166: ZBrush_defualt_group_622
+    401168: ZBrush_defualt_group_623
+    401170: ZBrush_defualt_group_624
+    401172: ZBrush_defualt_group_625
+    401174: ZBrush_defualt_group_626
+    401176: ZBrush_defualt_group_627
+    401178: ZBrush_defualt_group_628
+    401180: ZBrush_defualt_group_629
+    401182: ZBrush_defualt_group_630
+    401184: ZBrush_defualt_group_631
+    401186: ZBrush_defualt_group_632
+    401188: ZBrush_defualt_group_633
+    401190: ZBrush_defualt_group_634
+    401192: ZBrush_defualt_group_635
+    401194: ZBrush_defualt_group_636
+    401196: ZBrush_defualt_group_637
+    401198: ZBrush_defualt_group_638
+    401200: ZBrush_defualt_group_639
+    401202: ZBrush_defualt_group_640
+    401204: ZBrush_defualt_group_641
+    401206: ZBrush_defualt_group_642
+    401208: ZBrush_defualt_group_643
+    401210: ZBrush_defualt_group_644
+    401212: ZBrush_defualt_group_645
+    401214: ZBrush_defualt_group_646
+    401216: ZBrush_defualt_group_647
+    401218: ZBrush_defualt_group_648
+    401220: ZBrush_defualt_group_649
+    401222: ZBrush_defualt_group_650
+    401224: ZBrush_defualt_group_651
+    401226: ZBrush_defualt_group_652
+    401228: ZBrush_defualt_group_653
+    401230: ZBrush_defualt_group_654
+    401232: ZBrush_defualt_group_655
+    401234: ZBrush_defualt_group_656
+    401236: ZBrush_defualt_group_657
+    401238: ZBrush_defualt_group_658
+    401240: ZBrush_defualt_group_659
+    401242: ZBrush_defualt_group_660
+    401244: ZBrush_defualt_group_661
+    401246: ZBrush_defualt_group_662
+    401248: ZBrush_defualt_group_663
+    401250: ZBrush_defualt_group_664
+    401252: ZBrush_defualt_group_665
+    401254: ZBrush_defualt_group_666
+    401256: ZBrush_defualt_group_667
+    401258: ZBrush_defualt_group_668
+    401260: ZBrush_defualt_group_669
+    401262: ZBrush_defualt_group_670
+    401264: ZBrush_defualt_group_671
+    401266: ZBrush_defualt_group_672
+    401268: ZBrush_defualt_group_673
+    401270: ZBrush_defualt_group_674
+    401272: ZBrush_defualt_group_675
+    401274: ZBrush_defualt_group_676
+    401276: ZBrush_defualt_group_677
+    401278: ZBrush_defualt_group_678
+    401280: ZBrush_defualt_group_679
+    401282: ZBrush_defualt_group_680
+    401284: ZBrush_defualt_group_681
+    401286: ZBrush_defualt_group_682
+    401288: ZBrush_defualt_group_683
+    401290: ZBrush_defualt_group_684
+    401292: ZBrush_defualt_group_685
+    401294: ZBrush_defualt_group_686
+    401296: ZBrush_defualt_group_687
+    401298: ZBrush_defualt_group_688
+    401300: ZBrush_defualt_group_689
+    401302: ZBrush_defualt_group_690
+    401304: ZBrush_defualt_group_691
+    401306: ZBrush_defualt_group_692
+    401308: ZBrush_defualt_group_693
+    401310: ZBrush_defualt_group_694
+    401312: ZBrush_defualt_group_695
+    401314: ZBrush_defualt_group_696
+    401316: ZBrush_defualt_group_697
+    401318: ZBrush_defualt_group_698
+    401320: ZBrush_defualt_group_699
+    401322: ZBrush_defualt_group_700
+    401324: ZBrush_defualt_group_701
+    2300000: Group49586
+    2300002: Group49586_001
+    2300004: Group49586_002
+    2300006: Group49586_003
+    2300008: Group49586_004
+    2300010: Group49586_005
+    2300012: ZBrush_defualt_group_000
+    2300014: ZBrush_defualt_group_001
+    2300016: ZBrush_defualt_group_002
+    2300018: ZBrush_defualt_group_003
+    2300020: ZBrush_defualt_group_004
+    2300022: ZBrush_defualt_group_005
+    2300024: ZBrush_defualt_group_006
+    2300026: ZBrush_defualt_group_007
+    2300028: ZBrush_defualt_group_008
+    2300030: ZBrush_defualt_group_009
+    2300032: ZBrush_defualt_group_010
+    2300034: ZBrush_defualt_group_011
+    2300036: ZBrush_defualt_group_012
+    2300038: ZBrush_defualt_group_013
+    2300040: ZBrush_defualt_group_014
+    2300042: ZBrush_defualt_group_015
+    2300044: ZBrush_defualt_group_016
+    2300046: ZBrush_defualt_group_017
+    2300048: ZBrush_defualt_group_018
+    2300050: ZBrush_defualt_group_019
+    2300052: ZBrush_defualt_group_020
+    2300054: ZBrush_defualt_group_021
+    2300056: ZBrush_defualt_group_022
+    2300058: ZBrush_defualt_group_023
+    2300060: ZBrush_defualt_group_024
+    2300062: ZBrush_defualt_group_025
+    2300064: ZBrush_defualt_group_026
+    2300066: ZBrush_defualt_group_027
+    2300068: ZBrush_defualt_group_028
+    2300070: ZBrush_defualt_group_029
+    2300072: ZBrush_defualt_group_030
+    2300074: ZBrush_defualt_group_031
+    2300076: ZBrush_defualt_group_032
+    2300078: ZBrush_defualt_group_033
+    2300080: ZBrush_defualt_group_034
+    2300082: ZBrush_defualt_group_035
+    2300084: ZBrush_defualt_group_036
+    2300086: ZBrush_defualt_group_037
+    2300088: ZBrush_defualt_group_038
+    2300090: ZBrush_defualt_group_039
+    2300092: ZBrush_defualt_group_040
+    2300094: ZBrush_defualt_group_041
+    2300096: ZBrush_defualt_group_042
+    2300098: ZBrush_defualt_group_043
+    2300100: ZBrush_defualt_group_044
+    2300102: ZBrush_defualt_group_045
+    2300104: ZBrush_defualt_group_046
+    2300106: ZBrush_defualt_group_047
+    2300108: ZBrush_defualt_group_048
+    2300110: ZBrush_defualt_group_049
+    2300112: ZBrush_defualt_group_050
+    2300114: ZBrush_defualt_group_051
+    2300116: ZBrush_defualt_group_052
+    2300118: ZBrush_defualt_group_053
+    2300120: ZBrush_defualt_group_054
+    2300122: ZBrush_defualt_group_055
+    2300124: ZBrush_defualt_group_056
+    2300126: ZBrush_defualt_group_057
+    2300128: ZBrush_defualt_group_058
+    2300130: ZBrush_defualt_group_059
+    2300132: ZBrush_defualt_group_060
+    2300134: ZBrush_defualt_group_061
+    2300136: ZBrush_defualt_group_062
+    2300138: ZBrush_defualt_group_063
+    2300140: ZBrush_defualt_group_105
+    2300142: ZBrush_defualt_group_106
+    2300144: ZBrush_defualt_group_107
+    2300146: ZBrush_defualt_group_108
+    2300148: ZBrush_defualt_group_109
+    2300150: ZBrush_defualt_group_110
+    2300152: ZBrush_defualt_group_111
+    2300154: ZBrush_defualt_group_112
+    2300156: ZBrush_defualt_group_113
+    2300158: ZBrush_defualt_group_114
+    2300160: ZBrush_defualt_group_115
+    2300162: ZBrush_defualt_group_116
+    2300164: ZBrush_defualt_group_117
+    2300166: ZBrush_defualt_group_118
+    2300168: ZBrush_defualt_group_119
+    2300170: ZBrush_defualt_group_120
+    2300172: ZBrush_defualt_group_121
+    2300174: ZBrush_defualt_group_122
+    2300176: ZBrush_defualt_group_123
+    2300178: ZBrush_defualt_group_124
+    2300180: ZBrush_defualt_group_125
+    2300182: ZBrush_defualt_group_126
+    2300184: ZBrush_defualt_group_127
+    2300186: ZBrush_defualt_group_128
+    2300188: ZBrush_defualt_group_129
+    2300190: ZBrush_defualt_group_130
+    2300192: ZBrush_defualt_group_131
+    2300194: ZBrush_defualt_group_132
+    2300196: ZBrush_defualt_group_133
+    2300198: ZBrush_defualt_group_134
+    2300200: ZBrush_defualt_group_135
+    2300202: ZBrush_defualt_group_136
+    2300204: ZBrush_defualt_group_137
+    2300206: ZBrush_defualt_group_138
+    2300208: ZBrush_defualt_group_139
+    2300210: ZBrush_defualt_group_140
+    2300212: ZBrush_defualt_group_141
+    2300214: ZBrush_defualt_group_142
+    2300216: ZBrush_defualt_group_143
+    2300218: ZBrush_defualt_group_144
+    2300220: ZBrush_defualt_group_145
+    2300222: ZBrush_defualt_group_146
+    2300224: ZBrush_defualt_group_147
+    2300226: ZBrush_defualt_group_148
+    2300228: ZBrush_defualt_group_149
+    2300230: ZBrush_defualt_group_150
+    2300232: ZBrush_defualt_group_151
+    2300234: ZBrush_defualt_group_152
+    2300236: ZBrush_defualt_group_153
+    2300238: ZBrush_defualt_group_154
+    2300240: ZBrush_defualt_group_155
+    2300242: ZBrush_defualt_group_156
+    2300244: ZBrush_defualt_group_157
+    2300246: ZBrush_defualt_group_158
+    2300248: ZBrush_defualt_group_159
+    2300250: ZBrush_defualt_group_160
+    2300252: ZBrush_defualt_group_161
+    2300254: ZBrush_defualt_group_162
+    2300256: ZBrush_defualt_group_163
+    2300258: ZBrush_defualt_group_164
+    2300260: ZBrush_defualt_group_165
+    2300262: ZBrush_defualt_group_166
+    2300264: ZBrush_defualt_group_167
+    2300266: ZBrush_defualt_group_168
+    2300268: ZBrush_defualt_group_169
+    2300270: ZBrush_defualt_group_170
+    2300272: ZBrush_defualt_group_171
+    2300274: ZBrush_defualt_group_172
+    2300276: ZBrush_defualt_group_173
+    2300278: ZBrush_defualt_group_174
+    2300280: ZBrush_defualt_group_175
+    2300282: ZBrush_defualt_group_176
+    2300284: ZBrush_defualt_group_177
+    2300286: ZBrush_defualt_group_178
+    2300288: ZBrush_defualt_group_179
+    2300290: ZBrush_defualt_group_180
+    2300292: ZBrush_defualt_group_181
+    2300294: ZBrush_defualt_group_182
+    2300296: ZBrush_defualt_group_183
+    2300298: ZBrush_defualt_group_184
+    2300300: ZBrush_defualt_group_185
+    2300302: ZBrush_defualt_group_186
+    2300304: ZBrush_defualt_group_187
+    2300306: ZBrush_defualt_group_188
+    2300308: ZBrush_defualt_group_189
+    2300310: ZBrush_defualt_group_190
+    2300312: ZBrush_defualt_group_191
+    2300314: ZBrush_defualt_group_192
+    2300316: ZBrush_defualt_group_193
+    2300318: ZBrush_defualt_group_194
+    2300320: ZBrush_defualt_group_195
+    2300322: ZBrush_defualt_group_196
+    2300324: ZBrush_defualt_group_197
+    2300326: ZBrush_defualt_group_198
+    2300328: ZBrush_defualt_group_199
+    2300330: ZBrush_defualt_group_200
+    2300332: ZBrush_defualt_group_201
+    2300334: ZBrush_defualt_group_202
+    2300336: ZBrush_defualt_group_203
+    2300338: ZBrush_defualt_group_204
+    2300340: ZBrush_defualt_group_205
+    2300342: ZBrush_defualt_group_206
+    2300344: ZBrush_defualt_group_207
+    2300346: ZBrush_defualt_group_208
+    2300348: ZBrush_defualt_group_209
+    2300350: ZBrush_defualt_group_210
+    2300352: ZBrush_defualt_group_211
+    2300354: ZBrush_defualt_group_212
+    2300356: ZBrush_defualt_group_213
+    2300358: ZBrush_defualt_group_214
+    2300360: ZBrush_defualt_group_215
+    2300362: ZBrush_defualt_group_216
+    2300364: ZBrush_defualt_group_217
+    2300366: ZBrush_defualt_group_218
+    2300368: ZBrush_defualt_group_219
+    2300370: ZBrush_defualt_group_220
+    2300372: ZBrush_defualt_group_221
+    2300374: ZBrush_defualt_group_222
+    2300376: ZBrush_defualt_group_223
+    2300378: ZBrush_defualt_group_224
+    2300380: ZBrush_defualt_group_225
+    2300382: ZBrush_defualt_group_226
+    2300384: ZBrush_defualt_group_227
+    2300386: ZBrush_defualt_group_228
+    2300388: ZBrush_defualt_group_229
+    2300390: ZBrush_defualt_group_230
+    2300392: ZBrush_defualt_group_231
+    2300394: ZBrush_defualt_group_232
+    2300396: ZBrush_defualt_group_233
+    2300398: ZBrush_defualt_group_234
+    2300400: ZBrush_defualt_group_235
+    2300402: ZBrush_defualt_group_236
+    2300404: ZBrush_defualt_group_237
+    2300406: ZBrush_defualt_group_238
+    2300408: ZBrush_defualt_group_239
+    2300410: ZBrush_defualt_group_240
+    2300412: ZBrush_defualt_group_241
+    2300414: ZBrush_defualt_group_242
+    2300416: ZBrush_defualt_group_243
+    2300418: ZBrush_defualt_group_244
+    2300420: ZBrush_defualt_group_245
+    2300422: ZBrush_defualt_group_246
+    2300424: ZBrush_defualt_group_247
+    2300426: ZBrush_defualt_group_248
+    2300428: ZBrush_defualt_group_249
+    2300430: ZBrush_defualt_group_250
+    2300432: ZBrush_defualt_group_251
+    2300434: ZBrush_defualt_group_252
+    2300436: ZBrush_defualt_group_253
+    2300438: ZBrush_defualt_group_254
+    2300440: ZBrush_defualt_group_255
+    2300442: ZBrush_defualt_group_256
+    2300444: ZBrush_defualt_group_257
+    2300446: ZBrush_defualt_group_258
+    2300448: ZBrush_defualt_group_260
+    2300450: ZBrush_defualt_group_261
+    2300452: ZBrush_defualt_group_262
+    2300454: ZBrush_defualt_group_263
+    2300456: ZBrush_defualt_group_264
+    2300458: ZBrush_defualt_group_265
+    2300460: ZBrush_defualt_group_266
+    2300462: ZBrush_defualt_group_267
+    2300464: ZBrush_defualt_group_268
+    2300466: ZBrush_defualt_group_269
+    2300468: ZBrush_defualt_group_270
+    2300470: ZBrush_defualt_group_271
+    2300472: ZBrush_defualt_group_272
+    2300474: ZBrush_defualt_group_273
+    2300476: ZBrush_defualt_group_274
+    2300478: ZBrush_defualt_group_275
+    2300480: ZBrush_defualt_group_276
+    2300482: ZBrush_defualt_group_277
+    2300484: ZBrush_defualt_group_278
+    2300486: ZBrush_defualt_group_279
+    2300488: ZBrush_defualt_group_280
+    2300490: ZBrush_defualt_group_281
+    2300492: ZBrush_defualt_group_282
+    2300494: ZBrush_defualt_group_283
+    2300496: ZBrush_defualt_group_284
+    2300498: ZBrush_defualt_group_285
+    2300500: ZBrush_defualt_group_286
+    2300502: ZBrush_defualt_group_287
+    2300504: ZBrush_defualt_group_288
+    2300506: ZBrush_defualt_group_289
+    2300508: ZBrush_defualt_group_290
+    2300510: ZBrush_defualt_group_291
+    2300512: ZBrush_defualt_group_292
+    2300514: ZBrush_defualt_group_293
+    2300516: ZBrush_defualt_group_294
+    2300518: ZBrush_defualt_group_295
+    2300520: ZBrush_defualt_group_296
+    2300522: ZBrush_defualt_group_297
+    2300524: ZBrush_defualt_group_298
+    2300526: ZBrush_defualt_group_299
+    2300528: ZBrush_defualt_group_300
+    2300530: ZBrush_defualt_group_301
+    2300532: ZBrush_defualt_group_302
+    2300534: ZBrush_defualt_group_303
+    2300536: ZBrush_defualt_group_304
+    2300538: ZBrush_defualt_group_305
+    2300540: ZBrush_defualt_group_306
+    2300542: ZBrush_defualt_group_307
+    2300544: ZBrush_defualt_group_308
+    2300546: ZBrush_defualt_group_309
+    2300548: ZBrush_defualt_group_310
+    2300550: ZBrush_defualt_group_311
+    2300552: ZBrush_defualt_group_312
+    2300554: ZBrush_defualt_group_313
+    2300556: ZBrush_defualt_group_314
+    2300558: ZBrush_defualt_group_315
+    2300560: ZBrush_defualt_group_316
+    2300562: ZBrush_defualt_group_317
+    2300564: ZBrush_defualt_group_318
+    2300566: ZBrush_defualt_group_319
+    2300568: ZBrush_defualt_group_320
+    2300570: ZBrush_defualt_group_321
+    2300572: ZBrush_defualt_group_322
+    2300574: ZBrush_defualt_group_323
+    2300576: ZBrush_defualt_group_324
+    2300578: ZBrush_defualt_group_325
+    2300580: ZBrush_defualt_group_326
+    2300582: ZBrush_defualt_group_327
+    2300584: ZBrush_defualt_group_328
+    2300586: ZBrush_defualt_group_329
+    2300588: ZBrush_defualt_group_330
+    2300590: ZBrush_defualt_group_331
+    2300592: ZBrush_defualt_group_332
+    2300594: ZBrush_defualt_group_333
+    2300596: ZBrush_defualt_group_334
+    2300598: ZBrush_defualt_group_335
+    2300600: ZBrush_defualt_group_336
+    2300602: ZBrush_defualt_group_337
+    2300604: ZBrush_defualt_group_338
+    2300606: ZBrush_defualt_group_339
+    2300608: ZBrush_defualt_group_340
+    2300610: ZBrush_defualt_group_341
+    2300612: ZBrush_defualt_group_342
+    2300614: ZBrush_defualt_group_343
+    2300616: ZBrush_defualt_group_344
+    2300618: ZBrush_defualt_group_345
+    2300620: ZBrush_defualt_group_346
+    2300622: ZBrush_defualt_group_347
+    2300624: ZBrush_defualt_group_348
+    2300626: ZBrush_defualt_group_349
+    2300628: ZBrush_defualt_group_350
+    2300630: ZBrush_defualt_group_351
+    2300632: ZBrush_defualt_group_352
+    2300634: ZBrush_defualt_group_353
+    2300636: ZBrush_defualt_group_354
+    2300638: ZBrush_defualt_group_355
+    2300640: ZBrush_defualt_group_356
+    2300642: ZBrush_defualt_group_357
+    2300644: ZBrush_defualt_group_358
+    2300646: ZBrush_defualt_group_359
+    2300648: ZBrush_defualt_group_360
+    2300650: ZBrush_defualt_group_361
+    2300652: ZBrush_defualt_group_362
+    2300654: ZBrush_defualt_group_363
+    2300656: ZBrush_defualt_group_364
+    2300658: ZBrush_defualt_group_365
+    2300660: ZBrush_defualt_group_366
+    2300662: ZBrush_defualt_group_367
+    2300664: ZBrush_defualt_group_368
+    2300666: ZBrush_defualt_group_370
+    2300668: ZBrush_defualt_group_371
+    2300670: ZBrush_defualt_group_373
+    2300672: ZBrush_defualt_group_374
+    2300674: ZBrush_defualt_group_375
+    2300676: ZBrush_defualt_group_376
+    2300678: ZBrush_defualt_group_377
+    2300680: ZBrush_defualt_group_378
+    2300682: ZBrush_defualt_group_379
+    2300684: ZBrush_defualt_group_380
+    2300686: ZBrush_defualt_group_381
+    2300688: ZBrush_defualt_group_382
+    2300690: ZBrush_defualt_group_383
+    2300692: ZBrush_defualt_group_384
+    2300694: ZBrush_defualt_group_385
+    2300696: ZBrush_defualt_group_386
+    2300698: ZBrush_defualt_group_387
+    2300700: ZBrush_defualt_group_388
+    2300702: ZBrush_defualt_group_389
+    2300704: ZBrush_defualt_group_390
+    2300706: ZBrush_defualt_group_391
+    2300708: ZBrush_defualt_group_392
+    2300710: ZBrush_defualt_group_393
+    2300712: ZBrush_defualt_group_394
+    2300714: ZBrush_defualt_group_395
+    2300716: ZBrush_defualt_group_396
+    2300718: ZBrush_defualt_group_397
+    2300720: ZBrush_defualt_group_398
+    2300722: ZBrush_defualt_group_399
+    2300724: ZBrush_defualt_group_400
+    2300726: ZBrush_defualt_group_401
+    2300728: ZBrush_defualt_group_402
+    2300730: ZBrush_defualt_group_403
+    2300732: ZBrush_defualt_group_404
+    2300734: ZBrush_defualt_group_405
+    2300736: ZBrush_defualt_group_406
+    2300738: ZBrush_defualt_group_407
+    2300740: ZBrush_defualt_group_408
+    2300742: ZBrush_defualt_group_409
+    2300744: ZBrush_defualt_group_410
+    2300746: ZBrush_defualt_group_411
+    2300748: ZBrush_defualt_group_412
+    2300750: ZBrush_defualt_group_413
+    2300752: ZBrush_defualt_group_414
+    2300754: ZBrush_defualt_group_415
+    2300756: ZBrush_defualt_group_416
+    2300758: ZBrush_defualt_group_417
+    2300760: ZBrush_defualt_group_418
+    2300762: ZBrush_defualt_group_419
+    2300764: ZBrush_defualt_group_420
+    2300766: ZBrush_defualt_group_421
+    2300768: ZBrush_defualt_group_422
+    2300770: ZBrush_defualt_group_423
+    2300772: ZBrush_defualt_group_424
+    2300774: ZBrush_defualt_group_425
+    2300776: ZBrush_defualt_group_426
+    2300778: ZBrush_defualt_group_427
+    2300780: ZBrush_defualt_group_428
+    2300782: ZBrush_defualt_group_429
+    2300784: ZBrush_defualt_group_430
+    2300786: ZBrush_defualt_group_431
+    2300788: ZBrush_defualt_group_432
+    2300790: ZBrush_defualt_group_433
+    2300792: ZBrush_defualt_group_434
+    2300794: ZBrush_defualt_group_435
+    2300796: ZBrush_defualt_group_436
+    2300798: ZBrush_defualt_group_437
+    2300800: ZBrush_defualt_group_438
+    2300802: ZBrush_defualt_group_439
+    2300804: ZBrush_defualt_group_440
+    2300806: ZBrush_defualt_group_441
+    2300808: ZBrush_defualt_group_442
+    2300810: ZBrush_defualt_group_443
+    2300812: ZBrush_defualt_group_444
+    2300814: ZBrush_defualt_group_445
+    2300816: ZBrush_defualt_group_446
+    2300818: ZBrush_defualt_group_447
+    2300820: ZBrush_defualt_group_448
+    2300822: ZBrush_defualt_group_449
+    2300824: ZBrush_defualt_group_450
+    2300826: ZBrush_defualt_group_451
+    2300828: ZBrush_defualt_group_452
+    2300830: ZBrush_defualt_group_453
+    2300832: ZBrush_defualt_group_454
+    2300834: ZBrush_defualt_group_455
+    2300836: ZBrush_defualt_group_456
+    2300838: ZBrush_defualt_group_457
+    2300840: ZBrush_defualt_group_458
+    2300842: ZBrush_defualt_group_459
+    2300844: ZBrush_defualt_group_460
+    2300846: ZBrush_defualt_group_461
+    2300848: ZBrush_defualt_group_462
+    2300850: ZBrush_defualt_group_463
+    2300852: ZBrush_defualt_group_464
+    2300854: ZBrush_defualt_group_465
+    2300856: ZBrush_defualt_group_466
+    2300858: ZBrush_defualt_group_467
+    2300860: ZBrush_defualt_group_468
+    2300862: ZBrush_defualt_group_469
+    2300864: ZBrush_defualt_group_470
+    2300866: ZBrush_defualt_group_471
+    2300868: ZBrush_defualt_group_472
+    2300870: ZBrush_defualt_group_473
+    2300872: ZBrush_defualt_group_474
+    2300874: ZBrush_defualt_group_475
+    2300876: ZBrush_defualt_group_476
+    2300878: ZBrush_defualt_group_477
+    2300880: ZBrush_defualt_group_478
+    2300882: ZBrush_defualt_group_479
+    2300884: ZBrush_defualt_group_480
+    2300886: ZBrush_defualt_group_481
+    2300888: ZBrush_defualt_group_482
+    2300890: ZBrush_defualt_group_483
+    2300892: ZBrush_defualt_group_484
+    2300894: ZBrush_defualt_group_485
+    2300896: ZBrush_defualt_group_486
+    2300898: ZBrush_defualt_group_487
+    2300900: ZBrush_defualt_group_488
+    2300902: ZBrush_defualt_group_489
+    2300904: ZBrush_defualt_group_490
+    2300906: ZBrush_defualt_group_491
+    2300908: ZBrush_defualt_group_492
+    2300910: ZBrush_defualt_group_493
+    2300912: ZBrush_defualt_group_494
+    2300914: ZBrush_defualt_group_495
+    2300916: ZBrush_defualt_group_496
+    2300918: ZBrush_defualt_group_497
+    2300920: ZBrush_defualt_group_498
+    2300922: ZBrush_defualt_group_499
+    2300924: ZBrush_defualt_group_500
+    2300926: ZBrush_defualt_group_501
+    2300928: ZBrush_defualt_group_502
+    2300930: ZBrush_defualt_group_503
+    2300932: ZBrush_defualt_group_504
+    2300934: ZBrush_defualt_group_505
+    2300936: ZBrush_defualt_group_506
+    2300938: ZBrush_defualt_group_507
+    2300940: ZBrush_defualt_group_508
+    2300942: ZBrush_defualt_group_509
+    2300944: ZBrush_defualt_group_510
+    2300946: ZBrush_defualt_group_511
+    2300948: ZBrush_defualt_group_512
+    2300950: ZBrush_defualt_group_513
+    2300952: ZBrush_defualt_group_514
+    2300954: ZBrush_defualt_group_515
+    2300956: ZBrush_defualt_group_516
+    2300958: ZBrush_defualt_group_517
+    2300960: ZBrush_defualt_group_518
+    2300962: ZBrush_defualt_group_519
+    2300964: ZBrush_defualt_group_520
+    2300966: ZBrush_defualt_group_521
+    2300968: ZBrush_defualt_group_522
+    2300970: ZBrush_defualt_group_523
+    2300972: ZBrush_defualt_group_524
+    2300974: ZBrush_defualt_group_525
+    2300976: ZBrush_defualt_group_526
+    2300978: ZBrush_defualt_group_527
+    2300980: ZBrush_defualt_group_528
+    2300982: ZBrush_defualt_group_529
+    2300984: ZBrush_defualt_group_530
+    2300986: ZBrush_defualt_group_531
+    2300988: ZBrush_defualt_group_532
+    2300990: ZBrush_defualt_group_533
+    2300992: ZBrush_defualt_group_534
+    2300994: ZBrush_defualt_group_535
+    2300996: ZBrush_defualt_group_536
+    2300998: ZBrush_defualt_group_537
+    2301000: ZBrush_defualt_group_538
+    2301002: ZBrush_defualt_group_539
+    2301004: ZBrush_defualt_group_540
+    2301006: ZBrush_defualt_group_541
+    2301008: ZBrush_defualt_group_542
+    2301010: ZBrush_defualt_group_543
+    2301012: ZBrush_defualt_group_544
+    2301014: ZBrush_defualt_group_545
+    2301016: ZBrush_defualt_group_546
+    2301018: ZBrush_defualt_group_547
+    2301020: ZBrush_defualt_group_548
+    2301022: ZBrush_defualt_group_549
+    2301024: ZBrush_defualt_group_550
+    2301026: ZBrush_defualt_group_551
+    2301028: ZBrush_defualt_group_552
+    2301030: ZBrush_defualt_group_553
+    2301032: ZBrush_defualt_group_554
+    2301034: ZBrush_defualt_group_555
+    2301036: ZBrush_defualt_group_556
+    2301038: ZBrush_defualt_group_557
+    2301040: ZBrush_defualt_group_558
+    2301042: ZBrush_defualt_group_559
+    2301044: ZBrush_defualt_group_560
+    2301046: ZBrush_defualt_group_561
+    2301048: ZBrush_defualt_group_562
+    2301050: ZBrush_defualt_group_563
+    2301052: ZBrush_defualt_group_564
+    2301054: ZBrush_defualt_group_565
+    2301056: ZBrush_defualt_group_566
+    2301058: ZBrush_defualt_group_567
+    2301060: ZBrush_defualt_group_568
+    2301062: ZBrush_defualt_group_569
+    2301064: ZBrush_defualt_group_570
+    2301066: ZBrush_defualt_group_571
+    2301068: ZBrush_defualt_group_572
+    2301070: ZBrush_defualt_group_573
+    2301072: ZBrush_defualt_group_574
+    2301074: ZBrush_defualt_group_575
+    2301076: ZBrush_defualt_group_576
+    2301078: ZBrush_defualt_group_577
+    2301080: ZBrush_defualt_group_578
+    2301082: ZBrush_defualt_group_579
+    2301084: ZBrush_defualt_group_580
+    2301086: ZBrush_defualt_group_581
+    2301088: ZBrush_defualt_group_582
+    2301090: ZBrush_defualt_group_583
+    2301092: ZBrush_defualt_group_584
+    2301094: ZBrush_defualt_group_585
+    2301096: ZBrush_defualt_group_586
+    2301098: ZBrush_defualt_group_587
+    2301100: ZBrush_defualt_group_588
+    2301102: ZBrush_defualt_group_590
+    2301104: ZBrush_defualt_group_591
+    2301106: ZBrush_defualt_group_593
+    2301108: ZBrush_defualt_group_594
+    2301110: ZBrush_defualt_group_595
+    2301112: ZBrush_defualt_group_596
+    2301114: ZBrush_defualt_group_597
+    2301116: ZBrush_defualt_group_598
+    2301118: ZBrush_defualt_group_599
+    2301120: ZBrush_defualt_group_600
+    2301122: ZBrush_defualt_group_601
+    2301124: ZBrush_defualt_group_602
+    2301126: ZBrush_defualt_group_603
+    2301128: ZBrush_defualt_group_604
+    2301130: ZBrush_defualt_group_605
+    2301132: ZBrush_defualt_group_606
+    2301134: ZBrush_defualt_group_607
+    2301136: ZBrush_defualt_group_608
+    2301138: ZBrush_defualt_group_609
+    2301140: ZBrush_defualt_group_610
+    2301142: ZBrush_defualt_group_611
+    2301144: ZBrush_defualt_group_612
+    2301146: ZBrush_defualt_group_613
+    2301148: ZBrush_defualt_group_614
+    2301150: ZBrush_defualt_group_615
+    2301152: ZBrush_defualt_group_616
+    2301154: ZBrush_defualt_group_617
+    2301156: ZBrush_defualt_group_618
+    2301158: ZBrush_defualt_group_619
+    2301160: ZBrush_defualt_group_620
+    2301162: ZBrush_defualt_group_621
+    2301164: ZBrush_defualt_group_622
+    2301166: ZBrush_defualt_group_623
+    2301168: ZBrush_defualt_group_624
+    2301170: ZBrush_defualt_group_625
+    2301172: ZBrush_defualt_group_626
+    2301174: ZBrush_defualt_group_627
+    2301176: ZBrush_defualt_group_628
+    2301178: ZBrush_defualt_group_629
+    2301180: ZBrush_defualt_group_630
+    2301182: ZBrush_defualt_group_631
+    2301184: ZBrush_defualt_group_632
+    2301186: ZBrush_defualt_group_633
+    2301188: ZBrush_defualt_group_634
+    2301190: ZBrush_defualt_group_635
+    2301192: ZBrush_defualt_group_636
+    2301194: ZBrush_defualt_group_637
+    2301196: ZBrush_defualt_group_638
+    2301198: ZBrush_defualt_group_639
+    2301200: ZBrush_defualt_group_640
+    2301202: ZBrush_defualt_group_641
+    2301204: ZBrush_defualt_group_642
+    2301206: ZBrush_defualt_group_643
+    2301208: ZBrush_defualt_group_644
+    2301210: ZBrush_defualt_group_645
+    2301212: ZBrush_defualt_group_646
+    2301214: ZBrush_defualt_group_647
+    2301216: ZBrush_defualt_group_648
+    2301218: ZBrush_defualt_group_649
+    2301220: ZBrush_defualt_group_650
+    2301222: ZBrush_defualt_group_651
+    2301224: ZBrush_defualt_group_652
+    2301226: ZBrush_defualt_group_653
+    2301228: ZBrush_defualt_group_654
+    2301230: ZBrush_defualt_group_655
+    2301232: ZBrush_defualt_group_656
+    2301234: ZBrush_defualt_group_657
+    2301236: ZBrush_defualt_group_658
+    2301238: ZBrush_defualt_group_659
+    2301240: ZBrush_defualt_group_660
+    2301242: ZBrush_defualt_group_661
+    2301244: ZBrush_defualt_group_662
+    2301246: ZBrush_defualt_group_663
+    2301248: ZBrush_defualt_group_664
+    2301250: ZBrush_defualt_group_665
+    2301252: ZBrush_defualt_group_666
+    2301254: ZBrush_defualt_group_667
+    2301256: ZBrush_defualt_group_668
+    2301258: ZBrush_defualt_group_669
+    2301260: ZBrush_defualt_group_670
+    2301262: ZBrush_defualt_group_671
+    2301264: ZBrush_defualt_group_672
+    2301266: ZBrush_defualt_group_673
+    2301268: ZBrush_defualt_group_674
+    2301270: ZBrush_defualt_group_675
+    2301272: ZBrush_defualt_group_676
+    2301274: ZBrush_defualt_group_677
+    2301276: ZBrush_defualt_group_678
+    2301278: ZBrush_defualt_group_679
+    2301280: ZBrush_defualt_group_680
+    2301282: ZBrush_defualt_group_681
+    2301284: ZBrush_defualt_group_682
+    2301286: ZBrush_defualt_group_683
+    2301288: ZBrush_defualt_group_684
+    2301290: ZBrush_defualt_group_685
+    2301292: ZBrush_defualt_group_686
+    2301294: ZBrush_defualt_group_687
+    2301296: ZBrush_defualt_group_688
+    2301298: ZBrush_defualt_group_689
+    2301300: ZBrush_defualt_group_690
+    2301302: ZBrush_defualt_group_691
+    2301304: ZBrush_defualt_group_692
+    2301306: ZBrush_defualt_group_693
+    2301308: ZBrush_defualt_group_694
+    2301310: ZBrush_defualt_group_695
+    2301312: ZBrush_defualt_group_696
+    2301314: ZBrush_defualt_group_697
+    2301316: ZBrush_defualt_group_698
+    2301318: ZBrush_defualt_group_699
+    2301320: ZBrush_defualt_group_700
+    2301322: ZBrush_defualt_group_701
+    3300000: Group49586
+    3300002: Group49586_001
+    3300004: Group49586_002
+    3300006: Group49586_003
+    3300008: Group49586_004
+    3300010: Group49586_005
+    3300012: ZBrush_defualt_group_000
+    3300014: ZBrush_defualt_group_001
+    3300016: ZBrush_defualt_group_002
+    3300018: ZBrush_defualt_group_003
+    3300020: ZBrush_defualt_group_004
+    3300022: ZBrush_defualt_group_005
+    3300024: ZBrush_defualt_group_006
+    3300026: ZBrush_defualt_group_007
+    3300028: ZBrush_defualt_group_008
+    3300030: ZBrush_defualt_group_009
+    3300032: ZBrush_defualt_group_010
+    3300034: ZBrush_defualt_group_011
+    3300036: ZBrush_defualt_group_012
+    3300038: ZBrush_defualt_group_013
+    3300040: ZBrush_defualt_group_014
+    3300042: ZBrush_defualt_group_015
+    3300044: ZBrush_defualt_group_016
+    3300046: ZBrush_defualt_group_017
+    3300048: ZBrush_defualt_group_018
+    3300050: ZBrush_defualt_group_019
+    3300052: ZBrush_defualt_group_020
+    3300054: ZBrush_defualt_group_021
+    3300056: ZBrush_defualt_group_022
+    3300058: ZBrush_defualt_group_023
+    3300060: ZBrush_defualt_group_024
+    3300062: ZBrush_defualt_group_025
+    3300064: ZBrush_defualt_group_026
+    3300066: ZBrush_defualt_group_027
+    3300068: ZBrush_defualt_group_028
+    3300070: ZBrush_defualt_group_029
+    3300072: ZBrush_defualt_group_030
+    3300074: ZBrush_defualt_group_031
+    3300076: ZBrush_defualt_group_032
+    3300078: ZBrush_defualt_group_033
+    3300080: ZBrush_defualt_group_034
+    3300082: ZBrush_defualt_group_035
+    3300084: ZBrush_defualt_group_036
+    3300086: ZBrush_defualt_group_037
+    3300088: ZBrush_defualt_group_038
+    3300090: ZBrush_defualt_group_039
+    3300092: ZBrush_defualt_group_040
+    3300094: ZBrush_defualt_group_041
+    3300096: ZBrush_defualt_group_042
+    3300098: ZBrush_defualt_group_043
+    3300100: ZBrush_defualt_group_044
+    3300102: ZBrush_defualt_group_045
+    3300104: ZBrush_defualt_group_046
+    3300106: ZBrush_defualt_group_047
+    3300108: ZBrush_defualt_group_048
+    3300110: ZBrush_defualt_group_049
+    3300112: ZBrush_defualt_group_050
+    3300114: ZBrush_defualt_group_051
+    3300116: ZBrush_defualt_group_052
+    3300118: ZBrush_defualt_group_053
+    3300120: ZBrush_defualt_group_054
+    3300122: ZBrush_defualt_group_055
+    3300124: ZBrush_defualt_group_056
+    3300126: ZBrush_defualt_group_057
+    3300128: ZBrush_defualt_group_058
+    3300130: ZBrush_defualt_group_059
+    3300132: ZBrush_defualt_group_060
+    3300134: ZBrush_defualt_group_061
+    3300136: ZBrush_defualt_group_062
+    3300138: ZBrush_defualt_group_063
+    3300140: ZBrush_defualt_group_105
+    3300142: ZBrush_defualt_group_106
+    3300144: ZBrush_defualt_group_107
+    3300146: ZBrush_defualt_group_108
+    3300148: ZBrush_defualt_group_109
+    3300150: ZBrush_defualt_group_110
+    3300152: ZBrush_defualt_group_111
+    3300154: ZBrush_defualt_group_112
+    3300156: ZBrush_defualt_group_113
+    3300158: ZBrush_defualt_group_114
+    3300160: ZBrush_defualt_group_115
+    3300162: ZBrush_defualt_group_116
+    3300164: ZBrush_defualt_group_117
+    3300166: ZBrush_defualt_group_118
+    3300168: ZBrush_defualt_group_119
+    3300170: ZBrush_defualt_group_120
+    3300172: ZBrush_defualt_group_121
+    3300174: ZBrush_defualt_group_122
+    3300176: ZBrush_defualt_group_123
+    3300178: ZBrush_defualt_group_124
+    3300180: ZBrush_defualt_group_125
+    3300182: ZBrush_defualt_group_126
+    3300184: ZBrush_defualt_group_127
+    3300186: ZBrush_defualt_group_128
+    3300188: ZBrush_defualt_group_129
+    3300190: ZBrush_defualt_group_130
+    3300192: ZBrush_defualt_group_131
+    3300194: ZBrush_defualt_group_132
+    3300196: ZBrush_defualt_group_133
+    3300198: ZBrush_defualt_group_134
+    3300200: ZBrush_defualt_group_135
+    3300202: ZBrush_defualt_group_136
+    3300204: ZBrush_defualt_group_137
+    3300206: ZBrush_defualt_group_138
+    3300208: ZBrush_defualt_group_139
+    3300210: ZBrush_defualt_group_140
+    3300212: ZBrush_defualt_group_141
+    3300214: ZBrush_defualt_group_142
+    3300216: ZBrush_defualt_group_143
+    3300218: ZBrush_defualt_group_144
+    3300220: ZBrush_defualt_group_145
+    3300222: ZBrush_defualt_group_146
+    3300224: ZBrush_defualt_group_147
+    3300226: ZBrush_defualt_group_148
+    3300228: ZBrush_defualt_group_149
+    3300230: ZBrush_defualt_group_150
+    3300232: ZBrush_defualt_group_151
+    3300234: ZBrush_defualt_group_152
+    3300236: ZBrush_defualt_group_153
+    3300238: ZBrush_defualt_group_154
+    3300240: ZBrush_defualt_group_155
+    3300242: ZBrush_defualt_group_156
+    3300244: ZBrush_defualt_group_157
+    3300246: ZBrush_defualt_group_158
+    3300248: ZBrush_defualt_group_159
+    3300250: ZBrush_defualt_group_160
+    3300252: ZBrush_defualt_group_161
+    3300254: ZBrush_defualt_group_162
+    3300256: ZBrush_defualt_group_163
+    3300258: ZBrush_defualt_group_164
+    3300260: ZBrush_defualt_group_165
+    3300262: ZBrush_defualt_group_166
+    3300264: ZBrush_defualt_group_167
+    3300266: ZBrush_defualt_group_168
+    3300268: ZBrush_defualt_group_169
+    3300270: ZBrush_defualt_group_170
+    3300272: ZBrush_defualt_group_171
+    3300274: ZBrush_defualt_group_172
+    3300276: ZBrush_defualt_group_173
+    3300278: ZBrush_defualt_group_174
+    3300280: ZBrush_defualt_group_175
+    3300282: ZBrush_defualt_group_176
+    3300284: ZBrush_defualt_group_177
+    3300286: ZBrush_defualt_group_178
+    3300288: ZBrush_defualt_group_179
+    3300290: ZBrush_defualt_group_180
+    3300292: ZBrush_defualt_group_181
+    3300294: ZBrush_defualt_group_182
+    3300296: ZBrush_defualt_group_183
+    3300298: ZBrush_defualt_group_184
+    3300300: ZBrush_defualt_group_185
+    3300302: ZBrush_defualt_group_186
+    3300304: ZBrush_defualt_group_187
+    3300306: ZBrush_defualt_group_188
+    3300308: ZBrush_defualt_group_189
+    3300310: ZBrush_defualt_group_190
+    3300312: ZBrush_defualt_group_191
+    3300314: ZBrush_defualt_group_192
+    3300316: ZBrush_defualt_group_193
+    3300318: ZBrush_defualt_group_194
+    3300320: ZBrush_defualt_group_195
+    3300322: ZBrush_defualt_group_196
+    3300324: ZBrush_defualt_group_197
+    3300326: ZBrush_defualt_group_198
+    3300328: ZBrush_defualt_group_199
+    3300330: ZBrush_defualt_group_200
+    3300332: ZBrush_defualt_group_201
+    3300334: ZBrush_defualt_group_202
+    3300336: ZBrush_defualt_group_203
+    3300338: ZBrush_defualt_group_204
+    3300340: ZBrush_defualt_group_205
+    3300342: ZBrush_defualt_group_206
+    3300344: ZBrush_defualt_group_207
+    3300346: ZBrush_defualt_group_208
+    3300348: ZBrush_defualt_group_209
+    3300350: ZBrush_defualt_group_210
+    3300352: ZBrush_defualt_group_211
+    3300354: ZBrush_defualt_group_212
+    3300356: ZBrush_defualt_group_213
+    3300358: ZBrush_defualt_group_214
+    3300360: ZBrush_defualt_group_215
+    3300362: ZBrush_defualt_group_216
+    3300364: ZBrush_defualt_group_217
+    3300366: ZBrush_defualt_group_218
+    3300368: ZBrush_defualt_group_219
+    3300370: ZBrush_defualt_group_220
+    3300372: ZBrush_defualt_group_221
+    3300374: ZBrush_defualt_group_222
+    3300376: ZBrush_defualt_group_223
+    3300378: ZBrush_defualt_group_224
+    3300380: ZBrush_defualt_group_225
+    3300382: ZBrush_defualt_group_226
+    3300384: ZBrush_defualt_group_227
+    3300386: ZBrush_defualt_group_228
+    3300388: ZBrush_defualt_group_229
+    3300390: ZBrush_defualt_group_230
+    3300392: ZBrush_defualt_group_231
+    3300394: ZBrush_defualt_group_232
+    3300396: ZBrush_defualt_group_233
+    3300398: ZBrush_defualt_group_234
+    3300400: ZBrush_defualt_group_235
+    3300402: ZBrush_defualt_group_236
+    3300404: ZBrush_defualt_group_237
+    3300406: ZBrush_defualt_group_238
+    3300408: ZBrush_defualt_group_239
+    3300410: ZBrush_defualt_group_240
+    3300412: ZBrush_defualt_group_241
+    3300414: ZBrush_defualt_group_242
+    3300416: ZBrush_defualt_group_243
+    3300418: ZBrush_defualt_group_244
+    3300420: ZBrush_defualt_group_245
+    3300422: ZBrush_defualt_group_246
+    3300424: ZBrush_defualt_group_247
+    3300426: ZBrush_defualt_group_248
+    3300428: ZBrush_defualt_group_249
+    3300430: ZBrush_defualt_group_250
+    3300432: ZBrush_defualt_group_251
+    3300434: ZBrush_defualt_group_252
+    3300436: ZBrush_defualt_group_253
+    3300438: ZBrush_defualt_group_254
+    3300440: ZBrush_defualt_group_255
+    3300442: ZBrush_defualt_group_256
+    3300444: ZBrush_defualt_group_257
+    3300446: ZBrush_defualt_group_258
+    3300448: ZBrush_defualt_group_260
+    3300450: ZBrush_defualt_group_261
+    3300452: ZBrush_defualt_group_262
+    3300454: ZBrush_defualt_group_263
+    3300456: ZBrush_defualt_group_264
+    3300458: ZBrush_defualt_group_265
+    3300460: ZBrush_defualt_group_266
+    3300462: ZBrush_defualt_group_267
+    3300464: ZBrush_defualt_group_268
+    3300466: ZBrush_defualt_group_269
+    3300468: ZBrush_defualt_group_270
+    3300470: ZBrush_defualt_group_271
+    3300472: ZBrush_defualt_group_272
+    3300474: ZBrush_defualt_group_273
+    3300476: ZBrush_defualt_group_274
+    3300478: ZBrush_defualt_group_275
+    3300480: ZBrush_defualt_group_276
+    3300482: ZBrush_defualt_group_277
+    3300484: ZBrush_defualt_group_278
+    3300486: ZBrush_defualt_group_279
+    3300488: ZBrush_defualt_group_280
+    3300490: ZBrush_defualt_group_281
+    3300492: ZBrush_defualt_group_282
+    3300494: ZBrush_defualt_group_283
+    3300496: ZBrush_defualt_group_284
+    3300498: ZBrush_defualt_group_285
+    3300500: ZBrush_defualt_group_286
+    3300502: ZBrush_defualt_group_287
+    3300504: ZBrush_defualt_group_288
+    3300506: ZBrush_defualt_group_289
+    3300508: ZBrush_defualt_group_290
+    3300510: ZBrush_defualt_group_291
+    3300512: ZBrush_defualt_group_292
+    3300514: ZBrush_defualt_group_293
+    3300516: ZBrush_defualt_group_294
+    3300518: ZBrush_defualt_group_295
+    3300520: ZBrush_defualt_group_296
+    3300522: ZBrush_defualt_group_297
+    3300524: ZBrush_defualt_group_298
+    3300526: ZBrush_defualt_group_299
+    3300528: ZBrush_defualt_group_300
+    3300530: ZBrush_defualt_group_301
+    3300532: ZBrush_defualt_group_302
+    3300534: ZBrush_defualt_group_303
+    3300536: ZBrush_defualt_group_304
+    3300538: ZBrush_defualt_group_305
+    3300540: ZBrush_defualt_group_306
+    3300542: ZBrush_defualt_group_307
+    3300544: ZBrush_defualt_group_308
+    3300546: ZBrush_defualt_group_309
+    3300548: ZBrush_defualt_group_310
+    3300550: ZBrush_defualt_group_311
+    3300552: ZBrush_defualt_group_312
+    3300554: ZBrush_defualt_group_313
+    3300556: ZBrush_defualt_group_314
+    3300558: ZBrush_defualt_group_315
+    3300560: ZBrush_defualt_group_316
+    3300562: ZBrush_defualt_group_317
+    3300564: ZBrush_defualt_group_318
+    3300566: ZBrush_defualt_group_319
+    3300568: ZBrush_defualt_group_320
+    3300570: ZBrush_defualt_group_321
+    3300572: ZBrush_defualt_group_322
+    3300574: ZBrush_defualt_group_323
+    3300576: ZBrush_defualt_group_324
+    3300578: ZBrush_defualt_group_325
+    3300580: ZBrush_defualt_group_326
+    3300582: ZBrush_defualt_group_327
+    3300584: ZBrush_defualt_group_328
+    3300586: ZBrush_defualt_group_329
+    3300588: ZBrush_defualt_group_330
+    3300590: ZBrush_defualt_group_331
+    3300592: ZBrush_defualt_group_332
+    3300594: ZBrush_defualt_group_333
+    3300596: ZBrush_defualt_group_334
+    3300598: ZBrush_defualt_group_335
+    3300600: ZBrush_defualt_group_336
+    3300602: ZBrush_defualt_group_337
+    3300604: ZBrush_defualt_group_338
+    3300606: ZBrush_defualt_group_339
+    3300608: ZBrush_defualt_group_340
+    3300610: ZBrush_defualt_group_341
+    3300612: ZBrush_defualt_group_342
+    3300614: ZBrush_defualt_group_343
+    3300616: ZBrush_defualt_group_344
+    3300618: ZBrush_defualt_group_345
+    3300620: ZBrush_defualt_group_346
+    3300622: ZBrush_defualt_group_347
+    3300624: ZBrush_defualt_group_348
+    3300626: ZBrush_defualt_group_349
+    3300628: ZBrush_defualt_group_350
+    3300630: ZBrush_defualt_group_351
+    3300632: ZBrush_defualt_group_352
+    3300634: ZBrush_defualt_group_353
+    3300636: ZBrush_defualt_group_354
+    3300638: ZBrush_defualt_group_355
+    3300640: ZBrush_defualt_group_356
+    3300642: ZBrush_defualt_group_357
+    3300644: ZBrush_defualt_group_358
+    3300646: ZBrush_defualt_group_359
+    3300648: ZBrush_defualt_group_360
+    3300650: ZBrush_defualt_group_361
+    3300652: ZBrush_defualt_group_362
+    3300654: ZBrush_defualt_group_363
+    3300656: ZBrush_defualt_group_364
+    3300658: ZBrush_defualt_group_365
+    3300660: ZBrush_defualt_group_366
+    3300662: ZBrush_defualt_group_367
+    3300664: ZBrush_defualt_group_368
+    3300666: ZBrush_defualt_group_370
+    3300668: ZBrush_defualt_group_371
+    3300670: ZBrush_defualt_group_373
+    3300672: ZBrush_defualt_group_374
+    3300674: ZBrush_defualt_group_375
+    3300676: ZBrush_defualt_group_376
+    3300678: ZBrush_defualt_group_377
+    3300680: ZBrush_defualt_group_378
+    3300682: ZBrush_defualt_group_379
+    3300684: ZBrush_defualt_group_380
+    3300686: ZBrush_defualt_group_381
+    3300688: ZBrush_defualt_group_382
+    3300690: ZBrush_defualt_group_383
+    3300692: ZBrush_defualt_group_384
+    3300694: ZBrush_defualt_group_385
+    3300696: ZBrush_defualt_group_386
+    3300698: ZBrush_defualt_group_387
+    3300700: ZBrush_defualt_group_388
+    3300702: ZBrush_defualt_group_389
+    3300704: ZBrush_defualt_group_390
+    3300706: ZBrush_defualt_group_391
+    3300708: ZBrush_defualt_group_392
+    3300710: ZBrush_defualt_group_393
+    3300712: ZBrush_defualt_group_394
+    3300714: ZBrush_defualt_group_395
+    3300716: ZBrush_defualt_group_396
+    3300718: ZBrush_defualt_group_397
+    3300720: ZBrush_defualt_group_398
+    3300722: ZBrush_defualt_group_399
+    3300724: ZBrush_defualt_group_400
+    3300726: ZBrush_defualt_group_401
+    3300728: ZBrush_defualt_group_402
+    3300730: ZBrush_defualt_group_403
+    3300732: ZBrush_defualt_group_404
+    3300734: ZBrush_defualt_group_405
+    3300736: ZBrush_defualt_group_406
+    3300738: ZBrush_defualt_group_407
+    3300740: ZBrush_defualt_group_408
+    3300742: ZBrush_defualt_group_409
+    3300744: ZBrush_defualt_group_410
+    3300746: ZBrush_defualt_group_411
+    3300748: ZBrush_defualt_group_412
+    3300750: ZBrush_defualt_group_413
+    3300752: ZBrush_defualt_group_414
+    3300754: ZBrush_defualt_group_415
+    3300756: ZBrush_defualt_group_416
+    3300758: ZBrush_defualt_group_417
+    3300760: ZBrush_defualt_group_418
+    3300762: ZBrush_defualt_group_419
+    3300764: ZBrush_defualt_group_420
+    3300766: ZBrush_defualt_group_421
+    3300768: ZBrush_defualt_group_422
+    3300770: ZBrush_defualt_group_423
+    3300772: ZBrush_defualt_group_424
+    3300774: ZBrush_defualt_group_425
+    3300776: ZBrush_defualt_group_426
+    3300778: ZBrush_defualt_group_427
+    3300780: ZBrush_defualt_group_428
+    3300782: ZBrush_defualt_group_429
+    3300784: ZBrush_defualt_group_430
+    3300786: ZBrush_defualt_group_431
+    3300788: ZBrush_defualt_group_432
+    3300790: ZBrush_defualt_group_433
+    3300792: ZBrush_defualt_group_434
+    3300794: ZBrush_defualt_group_435
+    3300796: ZBrush_defualt_group_436
+    3300798: ZBrush_defualt_group_437
+    3300800: ZBrush_defualt_group_438
+    3300802: ZBrush_defualt_group_439
+    3300804: ZBrush_defualt_group_440
+    3300806: ZBrush_defualt_group_441
+    3300808: ZBrush_defualt_group_442
+    3300810: ZBrush_defualt_group_443
+    3300812: ZBrush_defualt_group_444
+    3300814: ZBrush_defualt_group_445
+    3300816: ZBrush_defualt_group_446
+    3300818: ZBrush_defualt_group_447
+    3300820: ZBrush_defualt_group_448
+    3300822: ZBrush_defualt_group_449
+    3300824: ZBrush_defualt_group_450
+    3300826: ZBrush_defualt_group_451
+    3300828: ZBrush_defualt_group_452
+    3300830: ZBrush_defualt_group_453
+    3300832: ZBrush_defualt_group_454
+    3300834: ZBrush_defualt_group_455
+    3300836: ZBrush_defualt_group_456
+    3300838: ZBrush_defualt_group_457
+    3300840: ZBrush_defualt_group_458
+    3300842: ZBrush_defualt_group_459
+    3300844: ZBrush_defualt_group_460
+    3300846: ZBrush_defualt_group_461
+    3300848: ZBrush_defualt_group_462
+    3300850: ZBrush_defualt_group_463
+    3300852: ZBrush_defualt_group_464
+    3300854: ZBrush_defualt_group_465
+    3300856: ZBrush_defualt_group_466
+    3300858: ZBrush_defualt_group_467
+    3300860: ZBrush_defualt_group_468
+    3300862: ZBrush_defualt_group_469
+    3300864: ZBrush_defualt_group_470
+    3300866: ZBrush_defualt_group_471
+    3300868: ZBrush_defualt_group_472
+    3300870: ZBrush_defualt_group_473
+    3300872: ZBrush_defualt_group_474
+    3300874: ZBrush_defualt_group_475
+    3300876: ZBrush_defualt_group_476
+    3300878: ZBrush_defualt_group_477
+    3300880: ZBrush_defualt_group_478
+    3300882: ZBrush_defualt_group_479
+    3300884: ZBrush_defualt_group_480
+    3300886: ZBrush_defualt_group_481
+    3300888: ZBrush_defualt_group_482
+    3300890: ZBrush_defualt_group_483
+    3300892: ZBrush_defualt_group_484
+    3300894: ZBrush_defualt_group_485
+    3300896: ZBrush_defualt_group_486
+    3300898: ZBrush_defualt_group_487
+    3300900: ZBrush_defualt_group_488
+    3300902: ZBrush_defualt_group_489
+    3300904: ZBrush_defualt_group_490
+    3300906: ZBrush_defualt_group_491
+    3300908: ZBrush_defualt_group_492
+    3300910: ZBrush_defualt_group_493
+    3300912: ZBrush_defualt_group_494
+    3300914: ZBrush_defualt_group_495
+    3300916: ZBrush_defualt_group_496
+    3300918: ZBrush_defualt_group_497
+    3300920: ZBrush_defualt_group_498
+    3300922: ZBrush_defualt_group_499
+    3300924: ZBrush_defualt_group_500
+    3300926: ZBrush_defualt_group_501
+    3300928: ZBrush_defualt_group_502
+    3300930: ZBrush_defualt_group_503
+    3300932: ZBrush_defualt_group_504
+    3300934: ZBrush_defualt_group_505
+    3300936: ZBrush_defualt_group_506
+    3300938: ZBrush_defualt_group_507
+    3300940: ZBrush_defualt_group_508
+    3300942: ZBrush_defualt_group_509
+    3300944: ZBrush_defualt_group_510
+    3300946: ZBrush_defualt_group_511
+    3300948: ZBrush_defualt_group_512
+    3300950: ZBrush_defualt_group_513
+    3300952: ZBrush_defualt_group_514
+    3300954: ZBrush_defualt_group_515
+    3300956: ZBrush_defualt_group_516
+    3300958: ZBrush_defualt_group_517
+    3300960: ZBrush_defualt_group_518
+    3300962: ZBrush_defualt_group_519
+    3300964: ZBrush_defualt_group_520
+    3300966: ZBrush_defualt_group_521
+    3300968: ZBrush_defualt_group_522
+    3300970: ZBrush_defualt_group_523
+    3300972: ZBrush_defualt_group_524
+    3300974: ZBrush_defualt_group_525
+    3300976: ZBrush_defualt_group_526
+    3300978: ZBrush_defualt_group_527
+    3300980: ZBrush_defualt_group_528
+    3300982: ZBrush_defualt_group_529
+    3300984: ZBrush_defualt_group_530
+    3300986: ZBrush_defualt_group_531
+    3300988: ZBrush_defualt_group_532
+    3300990: ZBrush_defualt_group_533
+    3300992: ZBrush_defualt_group_534
+    3300994: ZBrush_defualt_group_535
+    3300996: ZBrush_defualt_group_536
+    3300998: ZBrush_defualt_group_537
+    3301000: ZBrush_defualt_group_538
+    3301002: ZBrush_defualt_group_539
+    3301004: ZBrush_defualt_group_540
+    3301006: ZBrush_defualt_group_541
+    3301008: ZBrush_defualt_group_542
+    3301010: ZBrush_defualt_group_543
+    3301012: ZBrush_defualt_group_544
+    3301014: ZBrush_defualt_group_545
+    3301016: ZBrush_defualt_group_546
+    3301018: ZBrush_defualt_group_547
+    3301020: ZBrush_defualt_group_548
+    3301022: ZBrush_defualt_group_549
+    3301024: ZBrush_defualt_group_550
+    3301026: ZBrush_defualt_group_551
+    3301028: ZBrush_defualt_group_552
+    3301030: ZBrush_defualt_group_553
+    3301032: ZBrush_defualt_group_554
+    3301034: ZBrush_defualt_group_555
+    3301036: ZBrush_defualt_group_556
+    3301038: ZBrush_defualt_group_557
+    3301040: ZBrush_defualt_group_558
+    3301042: ZBrush_defualt_group_559
+    3301044: ZBrush_defualt_group_560
+    3301046: ZBrush_defualt_group_561
+    3301048: ZBrush_defualt_group_562
+    3301050: ZBrush_defualt_group_563
+    3301052: ZBrush_defualt_group_564
+    3301054: ZBrush_defualt_group_565
+    3301056: ZBrush_defualt_group_566
+    3301058: ZBrush_defualt_group_567
+    3301060: ZBrush_defualt_group_568
+    3301062: ZBrush_defualt_group_569
+    3301064: ZBrush_defualt_group_570
+    3301066: ZBrush_defualt_group_571
+    3301068: ZBrush_defualt_group_572
+    3301070: ZBrush_defualt_group_573
+    3301072: ZBrush_defualt_group_574
+    3301074: ZBrush_defualt_group_575
+    3301076: ZBrush_defualt_group_576
+    3301078: ZBrush_defualt_group_577
+    3301080: ZBrush_defualt_group_578
+    3301082: ZBrush_defualt_group_579
+    3301084: ZBrush_defualt_group_580
+    3301086: ZBrush_defualt_group_581
+    3301088: ZBrush_defualt_group_582
+    3301090: ZBrush_defualt_group_583
+    3301092: ZBrush_defualt_group_584
+    3301094: ZBrush_defualt_group_585
+    3301096: ZBrush_defualt_group_586
+    3301098: ZBrush_defualt_group_587
+    3301100: ZBrush_defualt_group_588
+    3301102: ZBrush_defualt_group_590
+    3301104: ZBrush_defualt_group_591
+    3301106: ZBrush_defualt_group_593
+    3301108: ZBrush_defualt_group_594
+    3301110: ZBrush_defualt_group_595
+    3301112: ZBrush_defualt_group_596
+    3301114: ZBrush_defualt_group_597
+    3301116: ZBrush_defualt_group_598
+    3301118: ZBrush_defualt_group_599
+    3301120: ZBrush_defualt_group_600
+    3301122: ZBrush_defualt_group_601
+    3301124: ZBrush_defualt_group_602
+    3301126: ZBrush_defualt_group_603
+    3301128: ZBrush_defualt_group_604
+    3301130: ZBrush_defualt_group_605
+    3301132: ZBrush_defualt_group_606
+    3301134: ZBrush_defualt_group_607
+    3301136: ZBrush_defualt_group_608
+    3301138: ZBrush_defualt_group_609
+    3301140: ZBrush_defualt_group_610
+    3301142: ZBrush_defualt_group_611
+    3301144: ZBrush_defualt_group_612
+    3301146: ZBrush_defualt_group_613
+    3301148: ZBrush_defualt_group_614
+    3301150: ZBrush_defualt_group_615
+    3301152: ZBrush_defualt_group_616
+    3301154: ZBrush_defualt_group_617
+    3301156: ZBrush_defualt_group_618
+    3301158: ZBrush_defualt_group_619
+    3301160: ZBrush_defualt_group_620
+    3301162: ZBrush_defualt_group_621
+    3301164: ZBrush_defualt_group_622
+    3301166: ZBrush_defualt_group_623
+    3301168: ZBrush_defualt_group_624
+    3301170: ZBrush_defualt_group_625
+    3301172: ZBrush_defualt_group_626
+    3301174: ZBrush_defualt_group_627
+    3301176: ZBrush_defualt_group_628
+    3301178: ZBrush_defualt_group_629
+    3301180: ZBrush_defualt_group_630
+    3301182: ZBrush_defualt_group_631
+    3301184: ZBrush_defualt_group_632
+    3301186: ZBrush_defualt_group_633
+    3301188: ZBrush_defualt_group_634
+    3301190: ZBrush_defualt_group_635
+    3301192: ZBrush_defualt_group_636
+    3301194: ZBrush_defualt_group_637
+    3301196: ZBrush_defualt_group_638
+    3301198: ZBrush_defualt_group_639
+    3301200: ZBrush_defualt_group_640
+    3301202: ZBrush_defualt_group_641
+    3301204: ZBrush_defualt_group_642
+    3301206: ZBrush_defualt_group_643
+    3301208: ZBrush_defualt_group_644
+    3301210: ZBrush_defualt_group_645
+    3301212: ZBrush_defualt_group_646
+    3301214: ZBrush_defualt_group_647
+    3301216: ZBrush_defualt_group_648
+    3301218: ZBrush_defualt_group_649
+    3301220: ZBrush_defualt_group_650
+    3301222: ZBrush_defualt_group_651
+    3301224: ZBrush_defualt_group_652
+    3301226: ZBrush_defualt_group_653
+    3301228: ZBrush_defualt_group_654
+    3301230: ZBrush_defualt_group_655
+    3301232: ZBrush_defualt_group_656
+    3301234: ZBrush_defualt_group_657
+    3301236: ZBrush_defualt_group_658
+    3301238: ZBrush_defualt_group_659
+    3301240: ZBrush_defualt_group_660
+    3301242: ZBrush_defualt_group_661
+    3301244: ZBrush_defualt_group_662
+    3301246: ZBrush_defualt_group_663
+    3301248: ZBrush_defualt_group_664
+    3301250: ZBrush_defualt_group_665
+    3301252: ZBrush_defualt_group_666
+    3301254: ZBrush_defualt_group_667
+    3301256: ZBrush_defualt_group_668
+    3301258: ZBrush_defualt_group_669
+    3301260: ZBrush_defualt_group_670
+    3301262: ZBrush_defualt_group_671
+    3301264: ZBrush_defualt_group_672
+    3301266: ZBrush_defualt_group_673
+    3301268: ZBrush_defualt_group_674
+    3301270: ZBrush_defualt_group_675
+    3301272: ZBrush_defualt_group_676
+    3301274: ZBrush_defualt_group_677
+    3301276: ZBrush_defualt_group_678
+    3301278: ZBrush_defualt_group_679
+    3301280: ZBrush_defualt_group_680
+    3301282: ZBrush_defualt_group_681
+    3301284: ZBrush_defualt_group_682
+    3301286: ZBrush_defualt_group_683
+    3301288: ZBrush_defualt_group_684
+    3301290: ZBrush_defualt_group_685
+    3301292: ZBrush_defualt_group_686
+    3301294: ZBrush_defualt_group_687
+    3301296: ZBrush_defualt_group_688
+    3301298: ZBrush_defualt_group_689
+    3301300: ZBrush_defualt_group_690
+    3301302: ZBrush_defualt_group_691
+    3301304: ZBrush_defualt_group_692
+    3301306: ZBrush_defualt_group_693
+    3301308: ZBrush_defualt_group_694
+    3301310: ZBrush_defualt_group_695
+    3301312: ZBrush_defualt_group_696
+    3301314: ZBrush_defualt_group_697
+    3301316: ZBrush_defualt_group_698
+    3301318: ZBrush_defualt_group_699
+    3301320: ZBrush_defualt_group_700
+    3301322: ZBrush_defualt_group_701
+    4300000: Group49586_005
+    4300002: Group49586_004
+    4300004: Group49586_003
+    4300006: Group49586_002
+    4300008: Group49586_001
+    4300010: Group49586
+    4300012: ZBrush_defualt_group_701
+    4300014: ZBrush_defualt_group_700
+    4300016: ZBrush_defualt_group_699
+    4300018: ZBrush_defualt_group_698
+    4300020: ZBrush_defualt_group_697
+    4300022: ZBrush_defualt_group_696
+    4300024: ZBrush_defualt_group_695
+    4300026: ZBrush_defualt_group_694
+    4300028: ZBrush_defualt_group_693
+    4300030: ZBrush_defualt_group_692
+    4300032: ZBrush_defualt_group_691
+    4300034: ZBrush_defualt_group_690
+    4300036: ZBrush_defualt_group_689
+    4300038: ZBrush_defualt_group_688
+    4300040: ZBrush_defualt_group_687
+    4300042: ZBrush_defualt_group_686
+    4300044: ZBrush_defualt_group_685
+    4300046: ZBrush_defualt_group_684
+    4300048: ZBrush_defualt_group_683
+    4300050: ZBrush_defualt_group_682
+    4300052: ZBrush_defualt_group_681
+    4300054: ZBrush_defualt_group_680
+    4300056: ZBrush_defualt_group_679
+    4300058: ZBrush_defualt_group_678
+    4300060: ZBrush_defualt_group_677
+    4300062: ZBrush_defualt_group_676
+    4300064: ZBrush_defualt_group_675
+    4300066: ZBrush_defualt_group_674
+    4300068: ZBrush_defualt_group_673
+    4300070: ZBrush_defualt_group_672
+    4300072: ZBrush_defualt_group_671
+    4300074: ZBrush_defualt_group_670
+    4300076: ZBrush_defualt_group_669
+    4300078: ZBrush_defualt_group_668
+    4300080: ZBrush_defualt_group_667
+    4300082: ZBrush_defualt_group_666
+    4300084: ZBrush_defualt_group_665
+    4300086: ZBrush_defualt_group_664
+    4300088: ZBrush_defualt_group_663
+    4300090: ZBrush_defualt_group_662
+    4300092: ZBrush_defualt_group_661
+    4300094: ZBrush_defualt_group_660
+    4300096: ZBrush_defualt_group_659
+    4300098: ZBrush_defualt_group_658
+    4300100: ZBrush_defualt_group_657
+    4300102: ZBrush_defualt_group_656
+    4300104: ZBrush_defualt_group_655
+    4300106: ZBrush_defualt_group_654
+    4300108: ZBrush_defualt_group_653
+    4300110: ZBrush_defualt_group_652
+    4300112: ZBrush_defualt_group_651
+    4300114: ZBrush_defualt_group_650
+    4300116: ZBrush_defualt_group_649
+    4300118: ZBrush_defualt_group_648
+    4300120: ZBrush_defualt_group_647
+    4300122: ZBrush_defualt_group_646
+    4300124: ZBrush_defualt_group_645
+    4300126: ZBrush_defualt_group_644
+    4300128: ZBrush_defualt_group_643
+    4300130: ZBrush_defualt_group_642
+    4300132: ZBrush_defualt_group_641
+    4300134: ZBrush_defualt_group_640
+    4300136: ZBrush_defualt_group_639
+    4300138: ZBrush_defualt_group_638
+    4300140: ZBrush_defualt_group_637
+    4300142: ZBrush_defualt_group_636
+    4300144: ZBrush_defualt_group_635
+    4300146: ZBrush_defualt_group_634
+    4300148: ZBrush_defualt_group_633
+    4300150: ZBrush_defualt_group_632
+    4300152: ZBrush_defualt_group_631
+    4300154: ZBrush_defualt_group_630
+    4300156: ZBrush_defualt_group_629
+    4300158: ZBrush_defualt_group_628
+    4300160: ZBrush_defualt_group_627
+    4300162: ZBrush_defualt_group_626
+    4300164: ZBrush_defualt_group_625
+    4300166: ZBrush_defualt_group_624
+    4300168: ZBrush_defualt_group_623
+    4300170: ZBrush_defualt_group_622
+    4300172: ZBrush_defualt_group_621
+    4300174: ZBrush_defualt_group_620
+    4300176: ZBrush_defualt_group_619
+    4300178: ZBrush_defualt_group_618
+    4300180: ZBrush_defualt_group_617
+    4300182: ZBrush_defualt_group_616
+    4300184: ZBrush_defualt_group_615
+    4300186: ZBrush_defualt_group_614
+    4300188: ZBrush_defualt_group_613
+    4300190: ZBrush_defualt_group_612
+    4300192: ZBrush_defualt_group_611
+    4300194: ZBrush_defualt_group_610
+    4300196: ZBrush_defualt_group_609
+    4300198: ZBrush_defualt_group_608
+    4300200: ZBrush_defualt_group_607
+    4300202: ZBrush_defualt_group_606
+    4300204: ZBrush_defualt_group_605
+    4300206: ZBrush_defualt_group_604
+    4300208: ZBrush_defualt_group_603
+    4300210: ZBrush_defualt_group_602
+    4300212: ZBrush_defualt_group_601
+    4300214: ZBrush_defualt_group_600
+    4300216: ZBrush_defualt_group_599
+    4300218: ZBrush_defualt_group_598
+    4300220: ZBrush_defualt_group_597
+    4300222: ZBrush_defualt_group_596
+    4300224: ZBrush_defualt_group_595
+    4300226: ZBrush_defualt_group_594
+    4300228: ZBrush_defualt_group_593
+    4300230: ZBrush_defualt_group_591
+    4300232: ZBrush_defualt_group_590
+    4300234: ZBrush_defualt_group_588
+    4300236: ZBrush_defualt_group_587
+    4300238: ZBrush_defualt_group_586
+    4300240: ZBrush_defualt_group_585
+    4300242: ZBrush_defualt_group_584
+    4300244: ZBrush_defualt_group_583
+    4300246: ZBrush_defualt_group_582
+    4300248: ZBrush_defualt_group_581
+    4300250: ZBrush_defualt_group_580
+    4300252: ZBrush_defualt_group_579
+    4300254: ZBrush_defualt_group_578
+    4300256: ZBrush_defualt_group_577
+    4300258: ZBrush_defualt_group_576
+    4300260: ZBrush_defualt_group_575
+    4300262: ZBrush_defualt_group_574
+    4300264: ZBrush_defualt_group_573
+    4300266: ZBrush_defualt_group_572
+    4300268: ZBrush_defualt_group_571
+    4300270: ZBrush_defualt_group_570
+    4300272: ZBrush_defualt_group_569
+    4300274: ZBrush_defualt_group_568
+    4300276: ZBrush_defualt_group_567
+    4300278: ZBrush_defualt_group_566
+    4300280: ZBrush_defualt_group_565
+    4300282: ZBrush_defualt_group_564
+    4300284: ZBrush_defualt_group_563
+    4300286: ZBrush_defualt_group_562
+    4300288: ZBrush_defualt_group_561
+    4300290: ZBrush_defualt_group_560
+    4300292: ZBrush_defualt_group_559
+    4300294: ZBrush_defualt_group_558
+    4300296: ZBrush_defualt_group_557
+    4300298: ZBrush_defualt_group_556
+    4300300: ZBrush_defualt_group_555
+    4300302: ZBrush_defualt_group_554
+    4300304: ZBrush_defualt_group_553
+    4300306: ZBrush_defualt_group_552
+    4300308: ZBrush_defualt_group_551
+    4300310: ZBrush_defualt_group_550
+    4300312: ZBrush_defualt_group_549
+    4300314: ZBrush_defualt_group_548
+    4300316: ZBrush_defualt_group_547
+    4300318: ZBrush_defualt_group_546
+    4300320: ZBrush_defualt_group_545
+    4300322: ZBrush_defualt_group_544
+    4300324: ZBrush_defualt_group_543
+    4300326: ZBrush_defualt_group_542
+    4300328: ZBrush_defualt_group_541
+    4300330: ZBrush_defualt_group_540
+    4300332: ZBrush_defualt_group_539
+    4300334: ZBrush_defualt_group_538
+    4300336: ZBrush_defualt_group_537
+    4300338: ZBrush_defualt_group_536
+    4300340: ZBrush_defualt_group_535
+    4300342: ZBrush_defualt_group_534
+    4300344: ZBrush_defualt_group_533
+    4300346: ZBrush_defualt_group_532
+    4300348: ZBrush_defualt_group_531
+    4300350: ZBrush_defualt_group_530
+    4300352: ZBrush_defualt_group_529
+    4300354: ZBrush_defualt_group_528
+    4300356: ZBrush_defualt_group_527
+    4300358: ZBrush_defualt_group_526
+    4300360: ZBrush_defualt_group_525
+    4300362: ZBrush_defualt_group_524
+    4300364: ZBrush_defualt_group_523
+    4300366: ZBrush_defualt_group_522
+    4300368: ZBrush_defualt_group_521
+    4300370: ZBrush_defualt_group_520
+    4300372: ZBrush_defualt_group_519
+    4300374: ZBrush_defualt_group_518
+    4300376: ZBrush_defualt_group_517
+    4300378: ZBrush_defualt_group_516
+    4300380: ZBrush_defualt_group_515
+    4300382: ZBrush_defualt_group_514
+    4300384: ZBrush_defualt_group_513
+    4300386: ZBrush_defualt_group_512
+    4300388: ZBrush_defualt_group_511
+    4300390: ZBrush_defualt_group_510
+    4300392: ZBrush_defualt_group_509
+    4300394: ZBrush_defualt_group_508
+    4300396: ZBrush_defualt_group_507
+    4300398: ZBrush_defualt_group_506
+    4300400: ZBrush_defualt_group_505
+    4300402: ZBrush_defualt_group_504
+    4300404: ZBrush_defualt_group_503
+    4300406: ZBrush_defualt_group_502
+    4300408: ZBrush_defualt_group_501
+    4300410: ZBrush_defualt_group_500
+    4300412: ZBrush_defualt_group_499
+    4300414: ZBrush_defualt_group_498
+    4300416: ZBrush_defualt_group_497
+    4300418: ZBrush_defualt_group_496
+    4300420: ZBrush_defualt_group_495
+    4300422: ZBrush_defualt_group_494
+    4300424: ZBrush_defualt_group_493
+    4300426: ZBrush_defualt_group_492
+    4300428: ZBrush_defualt_group_491
+    4300430: ZBrush_defualt_group_490
+    4300432: ZBrush_defualt_group_489
+    4300434: ZBrush_defualt_group_488
+    4300436: ZBrush_defualt_group_487
+    4300438: ZBrush_defualt_group_486
+    4300440: ZBrush_defualt_group_485
+    4300442: ZBrush_defualt_group_484
+    4300444: ZBrush_defualt_group_483
+    4300446: ZBrush_defualt_group_482
+    4300448: ZBrush_defualt_group_481
+    4300450: ZBrush_defualt_group_480
+    4300452: ZBrush_defualt_group_479
+    4300454: ZBrush_defualt_group_478
+    4300456: ZBrush_defualt_group_477
+    4300458: ZBrush_defualt_group_476
+    4300460: ZBrush_defualt_group_475
+    4300462: ZBrush_defualt_group_474
+    4300464: ZBrush_defualt_group_473
+    4300466: ZBrush_defualt_group_472
+    4300468: ZBrush_defualt_group_471
+    4300470: ZBrush_defualt_group_470
+    4300472: ZBrush_defualt_group_469
+    4300474: ZBrush_defualt_group_468
+    4300476: ZBrush_defualt_group_467
+    4300478: ZBrush_defualt_group_466
+    4300480: ZBrush_defualt_group_465
+    4300482: ZBrush_defualt_group_464
+    4300484: ZBrush_defualt_group_463
+    4300486: ZBrush_defualt_group_462
+    4300488: ZBrush_defualt_group_461
+    4300490: ZBrush_defualt_group_460
+    4300492: ZBrush_defualt_group_459
+    4300494: ZBrush_defualt_group_458
+    4300496: ZBrush_defualt_group_457
+    4300498: ZBrush_defualt_group_456
+    4300500: ZBrush_defualt_group_455
+    4300502: ZBrush_defualt_group_454
+    4300504: ZBrush_defualt_group_453
+    4300506: ZBrush_defualt_group_452
+    4300508: ZBrush_defualt_group_451
+    4300510: ZBrush_defualt_group_450
+    4300512: ZBrush_defualt_group_449
+    4300514: ZBrush_defualt_group_448
+    4300516: ZBrush_defualt_group_447
+    4300518: ZBrush_defualt_group_446
+    4300520: ZBrush_defualt_group_445
+    4300522: ZBrush_defualt_group_444
+    4300524: ZBrush_defualt_group_443
+    4300526: ZBrush_defualt_group_442
+    4300528: ZBrush_defualt_group_441
+    4300530: ZBrush_defualt_group_440
+    4300532: ZBrush_defualt_group_439
+    4300534: ZBrush_defualt_group_438
+    4300536: ZBrush_defualt_group_437
+    4300538: ZBrush_defualt_group_436
+    4300540: ZBrush_defualt_group_435
+    4300542: ZBrush_defualt_group_434
+    4300544: ZBrush_defualt_group_433
+    4300546: ZBrush_defualt_group_432
+    4300548: ZBrush_defualt_group_431
+    4300550: ZBrush_defualt_group_430
+    4300552: ZBrush_defualt_group_429
+    4300554: ZBrush_defualt_group_428
+    4300556: ZBrush_defualt_group_427
+    4300558: ZBrush_defualt_group_426
+    4300560: ZBrush_defualt_group_425
+    4300562: ZBrush_defualt_group_424
+    4300564: ZBrush_defualt_group_423
+    4300566: ZBrush_defualt_group_422
+    4300568: ZBrush_defualt_group_421
+    4300570: ZBrush_defualt_group_420
+    4300572: ZBrush_defualt_group_419
+    4300574: ZBrush_defualt_group_418
+    4300576: ZBrush_defualt_group_417
+    4300578: ZBrush_defualt_group_416
+    4300580: ZBrush_defualt_group_415
+    4300582: ZBrush_defualt_group_414
+    4300584: ZBrush_defualt_group_413
+    4300586: ZBrush_defualt_group_412
+    4300588: ZBrush_defualt_group_411
+    4300590: ZBrush_defualt_group_410
+    4300592: ZBrush_defualt_group_409
+    4300594: ZBrush_defualt_group_408
+    4300596: ZBrush_defualt_group_407
+    4300598: ZBrush_defualt_group_406
+    4300600: ZBrush_defualt_group_405
+    4300602: ZBrush_defualt_group_404
+    4300604: ZBrush_defualt_group_403
+    4300606: ZBrush_defualt_group_402
+    4300608: ZBrush_defualt_group_401
+    4300610: ZBrush_defualt_group_400
+    4300612: ZBrush_defualt_group_399
+    4300614: ZBrush_defualt_group_398
+    4300616: ZBrush_defualt_group_397
+    4300618: ZBrush_defualt_group_396
+    4300620: ZBrush_defualt_group_395
+    4300622: ZBrush_defualt_group_394
+    4300624: ZBrush_defualt_group_393
+    4300626: ZBrush_defualt_group_392
+    4300628: ZBrush_defualt_group_391
+    4300630: ZBrush_defualt_group_390
+    4300632: ZBrush_defualt_group_389
+    4300634: ZBrush_defualt_group_388
+    4300636: ZBrush_defualt_group_387
+    4300638: ZBrush_defualt_group_386
+    4300640: ZBrush_defualt_group_385
+    4300642: ZBrush_defualt_group_384
+    4300644: ZBrush_defualt_group_383
+    4300646: ZBrush_defualt_group_382
+    4300648: ZBrush_defualt_group_381
+    4300650: ZBrush_defualt_group_380
+    4300652: ZBrush_defualt_group_379
+    4300654: ZBrush_defualt_group_378
+    4300656: ZBrush_defualt_group_377
+    4300658: ZBrush_defualt_group_376
+    4300660: ZBrush_defualt_group_375
+    4300662: ZBrush_defualt_group_374
+    4300664: ZBrush_defualt_group_373
+    4300666: ZBrush_defualt_group_371
+    4300668: ZBrush_defualt_group_370
+    4300670: ZBrush_defualt_group_368
+    4300672: ZBrush_defualt_group_367
+    4300674: ZBrush_defualt_group_366
+    4300676: ZBrush_defualt_group_365
+    4300678: ZBrush_defualt_group_364
+    4300680: ZBrush_defualt_group_363
+    4300682: ZBrush_defualt_group_362
+    4300684: ZBrush_defualt_group_361
+    4300686: ZBrush_defualt_group_360
+    4300688: ZBrush_defualt_group_359
+    4300690: ZBrush_defualt_group_358
+    4300692: ZBrush_defualt_group_357
+    4300694: ZBrush_defualt_group_356
+    4300696: ZBrush_defualt_group_355
+    4300698: ZBrush_defualt_group_354
+    4300700: ZBrush_defualt_group_353
+    4300702: ZBrush_defualt_group_352
+    4300704: ZBrush_defualt_group_351
+    4300706: ZBrush_defualt_group_350
+    4300708: ZBrush_defualt_group_349
+    4300710: ZBrush_defualt_group_348
+    4300712: ZBrush_defualt_group_347
+    4300714: ZBrush_defualt_group_346
+    4300716: ZBrush_defualt_group_345
+    4300718: ZBrush_defualt_group_344
+    4300720: ZBrush_defualt_group_343
+    4300722: ZBrush_defualt_group_342
+    4300724: ZBrush_defualt_group_341
+    4300726: ZBrush_defualt_group_340
+    4300728: ZBrush_defualt_group_339
+    4300730: ZBrush_defualt_group_338
+    4300732: ZBrush_defualt_group_337
+    4300734: ZBrush_defualt_group_336
+    4300736: ZBrush_defualt_group_335
+    4300738: ZBrush_defualt_group_334
+    4300740: ZBrush_defualt_group_333
+    4300742: ZBrush_defualt_group_332
+    4300744: ZBrush_defualt_group_331
+    4300746: ZBrush_defualt_group_330
+    4300748: ZBrush_defualt_group_329
+    4300750: ZBrush_defualt_group_328
+    4300752: ZBrush_defualt_group_327
+    4300754: ZBrush_defualt_group_326
+    4300756: ZBrush_defualt_group_325
+    4300758: ZBrush_defualt_group_324
+    4300760: ZBrush_defualt_group_323
+    4300762: ZBrush_defualt_group_322
+    4300764: ZBrush_defualt_group_321
+    4300766: ZBrush_defualt_group_320
+    4300768: ZBrush_defualt_group_319
+    4300770: ZBrush_defualt_group_318
+    4300772: ZBrush_defualt_group_317
+    4300774: ZBrush_defualt_group_316
+    4300776: ZBrush_defualt_group_315
+    4300778: ZBrush_defualt_group_314
+    4300780: ZBrush_defualt_group_313
+    4300782: ZBrush_defualt_group_312
+    4300784: ZBrush_defualt_group_311
+    4300786: ZBrush_defualt_group_310
+    4300788: ZBrush_defualt_group_309
+    4300790: ZBrush_defualt_group_308
+    4300792: ZBrush_defualt_group_307
+    4300794: ZBrush_defualt_group_306
+    4300796: ZBrush_defualt_group_305
+    4300798: ZBrush_defualt_group_304
+    4300800: ZBrush_defualt_group_303
+    4300802: ZBrush_defualt_group_302
+    4300804: ZBrush_defualt_group_301
+    4300806: ZBrush_defualt_group_300
+    4300808: ZBrush_defualt_group_299
+    4300810: ZBrush_defualt_group_298
+    4300812: ZBrush_defualt_group_297
+    4300814: ZBrush_defualt_group_296
+    4300816: ZBrush_defualt_group_295
+    4300818: ZBrush_defualt_group_294
+    4300820: ZBrush_defualt_group_293
+    4300822: ZBrush_defualt_group_292
+    4300824: ZBrush_defualt_group_291
+    4300826: ZBrush_defualt_group_290
+    4300828: ZBrush_defualt_group_289
+    4300830: ZBrush_defualt_group_288
+    4300832: ZBrush_defualt_group_287
+    4300834: ZBrush_defualt_group_286
+    4300836: ZBrush_defualt_group_285
+    4300838: ZBrush_defualt_group_284
+    4300840: ZBrush_defualt_group_283
+    4300842: ZBrush_defualt_group_282
+    4300844: ZBrush_defualt_group_281
+    4300846: ZBrush_defualt_group_280
+    4300848: ZBrush_defualt_group_279
+    4300850: ZBrush_defualt_group_278
+    4300852: ZBrush_defualt_group_277
+    4300854: ZBrush_defualt_group_276
+    4300856: ZBrush_defualt_group_275
+    4300858: ZBrush_defualt_group_274
+    4300860: ZBrush_defualt_group_273
+    4300862: ZBrush_defualt_group_272
+    4300864: ZBrush_defualt_group_271
+    4300866: ZBrush_defualt_group_270
+    4300868: ZBrush_defualt_group_269
+    4300870: ZBrush_defualt_group_268
+    4300872: ZBrush_defualt_group_267
+    4300874: ZBrush_defualt_group_266
+    4300876: ZBrush_defualt_group_265
+    4300878: ZBrush_defualt_group_264
+    4300880: ZBrush_defualt_group_263
+    4300882: ZBrush_defualt_group_262
+    4300884: ZBrush_defualt_group_261
+    4300886: ZBrush_defualt_group_260
+    4300888: ZBrush_defualt_group_258
+    4300890: ZBrush_defualt_group_257
+    4300892: ZBrush_defualt_group_256
+    4300894: ZBrush_defualt_group_255
+    4300896: ZBrush_defualt_group_254
+    4300898: ZBrush_defualt_group_253
+    4300900: ZBrush_defualt_group_252
+    4300902: ZBrush_defualt_group_251
+    4300904: ZBrush_defualt_group_250
+    4300906: ZBrush_defualt_group_249
+    4300908: ZBrush_defualt_group_248
+    4300910: ZBrush_defualt_group_247
+    4300912: ZBrush_defualt_group_246
+    4300914: ZBrush_defualt_group_245
+    4300916: ZBrush_defualt_group_244
+    4300918: ZBrush_defualt_group_243
+    4300920: ZBrush_defualt_group_242
+    4300922: ZBrush_defualt_group_241
+    4300924: ZBrush_defualt_group_240
+    4300926: ZBrush_defualt_group_239
+    4300928: ZBrush_defualt_group_238
+    4300930: ZBrush_defualt_group_237
+    4300932: ZBrush_defualt_group_236
+    4300934: ZBrush_defualt_group_235
+    4300936: ZBrush_defualt_group_234
+    4300938: ZBrush_defualt_group_233
+    4300940: ZBrush_defualt_group_232
+    4300942: ZBrush_defualt_group_231
+    4300944: ZBrush_defualt_group_230
+    4300946: ZBrush_defualt_group_229
+    4300948: ZBrush_defualt_group_228
+    4300950: ZBrush_defualt_group_227
+    4300952: ZBrush_defualt_group_226
+    4300954: ZBrush_defualt_group_225
+    4300956: ZBrush_defualt_group_224
+    4300958: ZBrush_defualt_group_223
+    4300960: ZBrush_defualt_group_222
+    4300962: ZBrush_defualt_group_221
+    4300964: ZBrush_defualt_group_220
+    4300966: ZBrush_defualt_group_219
+    4300968: ZBrush_defualt_group_218
+    4300970: ZBrush_defualt_group_217
+    4300972: ZBrush_defualt_group_216
+    4300974: ZBrush_defualt_group_215
+    4300976: ZBrush_defualt_group_214
+    4300978: ZBrush_defualt_group_213
+    4300980: ZBrush_defualt_group_212
+    4300982: ZBrush_defualt_group_211
+    4300984: ZBrush_defualt_group_210
+    4300986: ZBrush_defualt_group_209
+    4300988: ZBrush_defualt_group_208
+    4300990: ZBrush_defualt_group_207
+    4300992: ZBrush_defualt_group_206
+    4300994: ZBrush_defualt_group_205
+    4300996: ZBrush_defualt_group_204
+    4300998: ZBrush_defualt_group_203
+    4301000: ZBrush_defualt_group_202
+    4301002: ZBrush_defualt_group_201
+    4301004: ZBrush_defualt_group_200
+    4301006: ZBrush_defualt_group_199
+    4301008: ZBrush_defualt_group_198
+    4301010: ZBrush_defualt_group_197
+    4301012: ZBrush_defualt_group_196
+    4301014: ZBrush_defualt_group_195
+    4301016: ZBrush_defualt_group_194
+    4301018: ZBrush_defualt_group_193
+    4301020: ZBrush_defualt_group_192
+    4301022: ZBrush_defualt_group_191
+    4301024: ZBrush_defualt_group_190
+    4301026: ZBrush_defualt_group_189
+    4301028: ZBrush_defualt_group_188
+    4301030: ZBrush_defualt_group_187
+    4301032: ZBrush_defualt_group_186
+    4301034: ZBrush_defualt_group_185
+    4301036: ZBrush_defualt_group_184
+    4301038: ZBrush_defualt_group_183
+    4301040: ZBrush_defualt_group_182
+    4301042: ZBrush_defualt_group_181
+    4301044: ZBrush_defualt_group_180
+    4301046: ZBrush_defualt_group_179
+    4301048: ZBrush_defualt_group_178
+    4301050: ZBrush_defualt_group_177
+    4301052: ZBrush_defualt_group_176
+    4301054: ZBrush_defualt_group_175
+    4301056: ZBrush_defualt_group_174
+    4301058: ZBrush_defualt_group_173
+    4301060: ZBrush_defualt_group_172
+    4301062: ZBrush_defualt_group_171
+    4301064: ZBrush_defualt_group_170
+    4301066: ZBrush_defualt_group_169
+    4301068: ZBrush_defualt_group_168
+    4301070: ZBrush_defualt_group_167
+    4301072: ZBrush_defualt_group_166
+    4301074: ZBrush_defualt_group_165
+    4301076: ZBrush_defualt_group_164
+    4301078: ZBrush_defualt_group_163
+    4301080: ZBrush_defualt_group_162
+    4301082: ZBrush_defualt_group_161
+    4301084: ZBrush_defualt_group_160
+    4301086: ZBrush_defualt_group_159
+    4301088: ZBrush_defualt_group_158
+    4301090: ZBrush_defualt_group_157
+    4301092: ZBrush_defualt_group_156
+    4301094: ZBrush_defualt_group_155
+    4301096: ZBrush_defualt_group_154
+    4301098: ZBrush_defualt_group_153
+    4301100: ZBrush_defualt_group_152
+    4301102: ZBrush_defualt_group_151
+    4301104: ZBrush_defualt_group_150
+    4301106: ZBrush_defualt_group_149
+    4301108: ZBrush_defualt_group_148
+    4301110: ZBrush_defualt_group_147
+    4301112: ZBrush_defualt_group_146
+    4301114: ZBrush_defualt_group_145
+    4301116: ZBrush_defualt_group_144
+    4301118: ZBrush_defualt_group_143
+    4301120: ZBrush_defualt_group_142
+    4301122: ZBrush_defualt_group_141
+    4301124: ZBrush_defualt_group_140
+    4301126: ZBrush_defualt_group_139
+    4301128: ZBrush_defualt_group_138
+    4301130: ZBrush_defualt_group_137
+    4301132: ZBrush_defualt_group_136
+    4301134: ZBrush_defualt_group_135
+    4301136: ZBrush_defualt_group_134
+    4301138: ZBrush_defualt_group_133
+    4301140: ZBrush_defualt_group_132
+    4301142: ZBrush_defualt_group_131
+    4301144: ZBrush_defualt_group_130
+    4301146: ZBrush_defualt_group_129
+    4301148: ZBrush_defualt_group_128
+    4301150: ZBrush_defualt_group_127
+    4301152: ZBrush_defualt_group_126
+    4301154: ZBrush_defualt_group_125
+    4301156: ZBrush_defualt_group_124
+    4301158: ZBrush_defualt_group_123
+    4301160: ZBrush_defualt_group_122
+    4301162: ZBrush_defualt_group_121
+    4301164: ZBrush_defualt_group_120
+    4301166: ZBrush_defualt_group_119
+    4301168: ZBrush_defualt_group_118
+    4301170: ZBrush_defualt_group_117
+    4301172: ZBrush_defualt_group_116
+    4301174: ZBrush_defualt_group_115
+    4301176: ZBrush_defualt_group_114
+    4301178: ZBrush_defualt_group_113
+    4301180: ZBrush_defualt_group_112
+    4301182: ZBrush_defualt_group_111
+    4301184: ZBrush_defualt_group_110
+    4301186: ZBrush_defualt_group_109
+    4301188: ZBrush_defualt_group_108
+    4301190: ZBrush_defualt_group_107
+    4301192: ZBrush_defualt_group_106
+    4301194: ZBrush_defualt_group_063
+    4301196: ZBrush_defualt_group_062
+    4301198: ZBrush_defualt_group_061
+    4301200: ZBrush_defualt_group_060
+    4301202: ZBrush_defualt_group_059
+    4301204: ZBrush_defualt_group_058
+    4301206: ZBrush_defualt_group_057
+    4301208: ZBrush_defualt_group_056
+    4301210: ZBrush_defualt_group_055
+    4301212: ZBrush_defualt_group_054
+    4301214: ZBrush_defualt_group_053
+    4301216: ZBrush_defualt_group_052
+    4301218: ZBrush_defualt_group_051
+    4301220: ZBrush_defualt_group_050
+    4301222: ZBrush_defualt_group_049
+    4301224: ZBrush_defualt_group_048
+    4301226: ZBrush_defualt_group_046
+    4301228: ZBrush_defualt_group_045
+    4301230: ZBrush_defualt_group_044
+    4301232: ZBrush_defualt_group_042
+    4301234: ZBrush_defualt_group_041
+    4301236: ZBrush_defualt_group_040
+    4301238: ZBrush_defualt_group_039
+    4301240: ZBrush_defualt_group_038
+    4301242: ZBrush_defualt_group_037
+    4301244: ZBrush_defualt_group_036
+    4301246: ZBrush_defualt_group_035
+    4301248: ZBrush_defualt_group_034
+    4301250: ZBrush_defualt_group_033
+    4301252: ZBrush_defualt_group_032
+    4301254: ZBrush_defualt_group_031
+    4301256: ZBrush_defualt_group_030
+    4301258: ZBrush_defualt_group_029
+    4301260: ZBrush_defualt_group_028
+    4301262: ZBrush_defualt_group_027
+    4301264: ZBrush_defualt_group_026
+    4301266: ZBrush_defualt_group_025
+    4301268: ZBrush_defualt_group_024
+    4301270: ZBrush_defualt_group_023
+    4301272: ZBrush_defualt_group_022
+    4301274: ZBrush_defualt_group_021
+    4301276: ZBrush_defualt_group_020
+    4301278: ZBrush_defualt_group_019
+    4301280: ZBrush_defualt_group_018
+    4301282: ZBrush_defualt_group_017
+    4301284: ZBrush_defualt_group_016
+    4301286: ZBrush_defualt_group_015
+    4301288: ZBrush_defualt_group_014
+    4301290: ZBrush_defualt_group_013
+    4301292: ZBrush_defualt_group_012
+    4301294: ZBrush_defualt_group_011
+    4301296: ZBrush_defualt_group_010
+    4301298: ZBrush_defualt_group_009
+    4301300: ZBrush_defualt_group_008
+    4301302: ZBrush_defualt_group_007
+    4301304: ZBrush_defualt_group_006
+    4301306: ZBrush_defualt_group_005
+    4301308: ZBrush_defualt_group_004
+    4301310: ZBrush_defualt_group_003
+    4301312: ZBrush_defualt_group_002
+    4301314: ZBrush_defualt_group_001
+    4301316: ZBrush_defualt_group_000
+    4301318: ZBrush_defualt_group_105
+    4301320: ZBrush_defualt_group_047
+    4301322: ZBrush_defualt_group_043
+    7400000: Collapse4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Collapse4
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Group49586
+        weight: 1
+      - path: Group49586_001
+        weight: 1
+      - path: Group49586_002
+        weight: 1
+      - path: Group49586_003
+        weight: 1
+      - path: Group49586_004
+        weight: 1
+      - path: Group49586_005
+        weight: 1
+      - path: ZBrush_defualt_group_000
+        weight: 1
+      - path: ZBrush_defualt_group_001
+        weight: 1
+      - path: ZBrush_defualt_group_002
+        weight: 1
+      - path: ZBrush_defualt_group_003
+        weight: 1
+      - path: ZBrush_defualt_group_004
+        weight: 1
+      - path: ZBrush_defualt_group_005
+        weight: 1
+      - path: ZBrush_defualt_group_006
+        weight: 1
+      - path: ZBrush_defualt_group_007
+        weight: 1
+      - path: ZBrush_defualt_group_008
+        weight: 1
+      - path: ZBrush_defualt_group_009
+        weight: 1
+      - path: ZBrush_defualt_group_010
+        weight: 1
+      - path: ZBrush_defualt_group_011
+        weight: 1
+      - path: ZBrush_defualt_group_012
+        weight: 1
+      - path: ZBrush_defualt_group_013
+        weight: 1
+      - path: ZBrush_defualt_group_014
+        weight: 1
+      - path: ZBrush_defualt_group_015
+        weight: 1
+      - path: ZBrush_defualt_group_016
+        weight: 1
+      - path: ZBrush_defualt_group_017
+        weight: 1
+      - path: ZBrush_defualt_group_018
+        weight: 1
+      - path: ZBrush_defualt_group_019
+        weight: 1
+      - path: ZBrush_defualt_group_020
+        weight: 1
+      - path: ZBrush_defualt_group_021
+        weight: 1
+      - path: ZBrush_defualt_group_022
+        weight: 1
+      - path: ZBrush_defualt_group_023
+        weight: 1
+      - path: ZBrush_defualt_group_024
+        weight: 1
+      - path: ZBrush_defualt_group_025
+        weight: 1
+      - path: ZBrush_defualt_group_026
+        weight: 1
+      - path: ZBrush_defualt_group_027
+        weight: 1
+      - path: ZBrush_defualt_group_028
+        weight: 1
+      - path: ZBrush_defualt_group_029
+        weight: 1
+      - path: ZBrush_defualt_group_030
+        weight: 1
+      - path: ZBrush_defualt_group_031
+        weight: 1
+      - path: ZBrush_defualt_group_032
+        weight: 1
+      - path: ZBrush_defualt_group_033
+        weight: 1
+      - path: ZBrush_defualt_group_034
+        weight: 1
+      - path: ZBrush_defualt_group_035
+        weight: 1
+      - path: ZBrush_defualt_group_036
+        weight: 1
+      - path: ZBrush_defualt_group_037
+        weight: 1
+      - path: ZBrush_defualt_group_038
+        weight: 1
+      - path: ZBrush_defualt_group_039
+        weight: 1
+      - path: ZBrush_defualt_group_040
+        weight: 1
+      - path: ZBrush_defualt_group_041
+        weight: 1
+      - path: ZBrush_defualt_group_042
+        weight: 1
+      - path: ZBrush_defualt_group_043
+        weight: 1
+      - path: ZBrush_defualt_group_044
+        weight: 1
+      - path: ZBrush_defualt_group_045
+        weight: 1
+      - path: ZBrush_defualt_group_046
+        weight: 1
+      - path: ZBrush_defualt_group_047
+        weight: 1
+      - path: ZBrush_defualt_group_048
+        weight: 1
+      - path: ZBrush_defualt_group_049
+        weight: 1
+      - path: ZBrush_defualt_group_050
+        weight: 1
+      - path: ZBrush_defualt_group_051
+        weight: 1
+      - path: ZBrush_defualt_group_052
+        weight: 1
+      - path: ZBrush_defualt_group_053
+        weight: 1
+      - path: ZBrush_defualt_group_054
+        weight: 1
+      - path: ZBrush_defualt_group_055
+        weight: 1
+      - path: ZBrush_defualt_group_056
+        weight: 1
+      - path: ZBrush_defualt_group_057
+        weight: 1
+      - path: ZBrush_defualt_group_058
+        weight: 1
+      - path: ZBrush_defualt_group_059
+        weight: 1
+      - path: ZBrush_defualt_group_060
+        weight: 1
+      - path: ZBrush_defualt_group_061
+        weight: 1
+      - path: ZBrush_defualt_group_062
+        weight: 1
+      - path: ZBrush_defualt_group_063
+        weight: 1
+      - path: ZBrush_defualt_group_105
+        weight: 1
+      - path: ZBrush_defualt_group_106
+        weight: 1
+      - path: ZBrush_defualt_group_107
+        weight: 1
+      - path: ZBrush_defualt_group_108
+        weight: 1
+      - path: ZBrush_defualt_group_109
+        weight: 1
+      - path: ZBrush_defualt_group_110
+        weight: 1
+      - path: ZBrush_defualt_group_111
+        weight: 1
+      - path: ZBrush_defualt_group_112
+        weight: 1
+      - path: ZBrush_defualt_group_113
+        weight: 1
+      - path: ZBrush_defualt_group_114
+        weight: 1
+      - path: ZBrush_defualt_group_115
+        weight: 1
+      - path: ZBrush_defualt_group_116
+        weight: 1
+      - path: ZBrush_defualt_group_117
+        weight: 1
+      - path: ZBrush_defualt_group_118
+        weight: 1
+      - path: ZBrush_defualt_group_119
+        weight: 1
+      - path: ZBrush_defualt_group_120
+        weight: 1
+      - path: ZBrush_defualt_group_121
+        weight: 1
+      - path: ZBrush_defualt_group_122
+        weight: 1
+      - path: ZBrush_defualt_group_123
+        weight: 1
+      - path: ZBrush_defualt_group_124
+        weight: 1
+      - path: ZBrush_defualt_group_125
+        weight: 1
+      - path: ZBrush_defualt_group_126
+        weight: 1
+      - path: ZBrush_defualt_group_127
+        weight: 1
+      - path: ZBrush_defualt_group_128
+        weight: 1
+      - path: ZBrush_defualt_group_129
+        weight: 1
+      - path: ZBrush_defualt_group_130
+        weight: 1
+      - path: ZBrush_defualt_group_131
+        weight: 1
+      - path: ZBrush_defualt_group_132
+        weight: 1
+      - path: ZBrush_defualt_group_133
+        weight: 1
+      - path: ZBrush_defualt_group_134
+        weight: 1
+      - path: ZBrush_defualt_group_135
+        weight: 1
+      - path: ZBrush_defualt_group_136
+        weight: 1
+      - path: ZBrush_defualt_group_137
+        weight: 1
+      - path: ZBrush_defualt_group_138
+        weight: 1
+      - path: ZBrush_defualt_group_139
+        weight: 1
+      - path: ZBrush_defualt_group_140
+        weight: 1
+      - path: ZBrush_defualt_group_141
+        weight: 1
+      - path: ZBrush_defualt_group_142
+        weight: 1
+      - path: ZBrush_defualt_group_143
+        weight: 1
+      - path: ZBrush_defualt_group_144
+        weight: 1
+      - path: ZBrush_defualt_group_145
+        weight: 1
+      - path: ZBrush_defualt_group_146
+        weight: 1
+      - path: ZBrush_defualt_group_147
+        weight: 1
+      - path: ZBrush_defualt_group_148
+        weight: 1
+      - path: ZBrush_defualt_group_149
+        weight: 1
+      - path: ZBrush_defualt_group_150
+        weight: 1
+      - path: ZBrush_defualt_group_151
+        weight: 1
+      - path: ZBrush_defualt_group_152
+        weight: 1
+      - path: ZBrush_defualt_group_153
+        weight: 1
+      - path: ZBrush_defualt_group_154
+        weight: 1
+      - path: ZBrush_defualt_group_155
+        weight: 1
+      - path: ZBrush_defualt_group_156
+        weight: 1
+      - path: ZBrush_defualt_group_157
+        weight: 1
+      - path: ZBrush_defualt_group_158
+        weight: 1
+      - path: ZBrush_defualt_group_159
+        weight: 1
+      - path: ZBrush_defualt_group_160
+        weight: 1
+      - path: ZBrush_defualt_group_161
+        weight: 1
+      - path: ZBrush_defualt_group_162
+        weight: 1
+      - path: ZBrush_defualt_group_163
+        weight: 1
+      - path: ZBrush_defualt_group_164
+        weight: 1
+      - path: ZBrush_defualt_group_165
+        weight: 1
+      - path: ZBrush_defualt_group_166
+        weight: 1
+      - path: ZBrush_defualt_group_167
+        weight: 1
+      - path: ZBrush_defualt_group_168
+        weight: 1
+      - path: ZBrush_defualt_group_169
+        weight: 1
+      - path: ZBrush_defualt_group_170
+        weight: 1
+      - path: ZBrush_defualt_group_171
+        weight: 1
+      - path: ZBrush_defualt_group_172
+        weight: 1
+      - path: ZBrush_defualt_group_173
+        weight: 1
+      - path: ZBrush_defualt_group_174
+        weight: 1
+      - path: ZBrush_defualt_group_175
+        weight: 1
+      - path: ZBrush_defualt_group_176
+        weight: 1
+      - path: ZBrush_defualt_group_177
+        weight: 1
+      - path: ZBrush_defualt_group_178
+        weight: 1
+      - path: ZBrush_defualt_group_179
+        weight: 1
+      - path: ZBrush_defualt_group_180
+        weight: 1
+      - path: ZBrush_defualt_group_181
+        weight: 1
+      - path: ZBrush_defualt_group_182
+        weight: 1
+      - path: ZBrush_defualt_group_183
+        weight: 1
+      - path: ZBrush_defualt_group_184
+        weight: 1
+      - path: ZBrush_defualt_group_185
+        weight: 1
+      - path: ZBrush_defualt_group_186
+        weight: 1
+      - path: ZBrush_defualt_group_187
+        weight: 1
+      - path: ZBrush_defualt_group_188
+        weight: 1
+      - path: ZBrush_defualt_group_189
+        weight: 1
+      - path: ZBrush_defualt_group_190
+        weight: 1
+      - path: ZBrush_defualt_group_191
+        weight: 1
+      - path: ZBrush_defualt_group_192
+        weight: 1
+      - path: ZBrush_defualt_group_193
+        weight: 1
+      - path: ZBrush_defualt_group_194
+        weight: 1
+      - path: ZBrush_defualt_group_195
+        weight: 1
+      - path: ZBrush_defualt_group_196
+        weight: 1
+      - path: ZBrush_defualt_group_197
+        weight: 1
+      - path: ZBrush_defualt_group_198
+        weight: 1
+      - path: ZBrush_defualt_group_199
+        weight: 1
+      - path: ZBrush_defualt_group_200
+        weight: 1
+      - path: ZBrush_defualt_group_201
+        weight: 1
+      - path: ZBrush_defualt_group_202
+        weight: 1
+      - path: ZBrush_defualt_group_203
+        weight: 1
+      - path: ZBrush_defualt_group_204
+        weight: 1
+      - path: ZBrush_defualt_group_205
+        weight: 1
+      - path: ZBrush_defualt_group_206
+        weight: 1
+      - path: ZBrush_defualt_group_207
+        weight: 1
+      - path: ZBrush_defualt_group_208
+        weight: 1
+      - path: ZBrush_defualt_group_209
+        weight: 1
+      - path: ZBrush_defualt_group_210
+        weight: 1
+      - path: ZBrush_defualt_group_211
+        weight: 1
+      - path: ZBrush_defualt_group_212
+        weight: 1
+      - path: ZBrush_defualt_group_213
+        weight: 1
+      - path: ZBrush_defualt_group_214
+        weight: 1
+      - path: ZBrush_defualt_group_215
+        weight: 1
+      - path: ZBrush_defualt_group_216
+        weight: 1
+      - path: ZBrush_defualt_group_217
+        weight: 1
+      - path: ZBrush_defualt_group_218
+        weight: 1
+      - path: ZBrush_defualt_group_219
+        weight: 1
+      - path: ZBrush_defualt_group_220
+        weight: 1
+      - path: ZBrush_defualt_group_221
+        weight: 1
+      - path: ZBrush_defualt_group_222
+        weight: 1
+      - path: ZBrush_defualt_group_223
+        weight: 1
+      - path: ZBrush_defualt_group_224
+        weight: 1
+      - path: ZBrush_defualt_group_225
+        weight: 1
+      - path: ZBrush_defualt_group_226
+        weight: 1
+      - path: ZBrush_defualt_group_227
+        weight: 1
+      - path: ZBrush_defualt_group_228
+        weight: 1
+      - path: ZBrush_defualt_group_229
+        weight: 1
+      - path: ZBrush_defualt_group_230
+        weight: 1
+      - path: ZBrush_defualt_group_231
+        weight: 1
+      - path: ZBrush_defualt_group_232
+        weight: 1
+      - path: ZBrush_defualt_group_233
+        weight: 1
+      - path: ZBrush_defualt_group_234
+        weight: 1
+      - path: ZBrush_defualt_group_235
+        weight: 1
+      - path: ZBrush_defualt_group_236
+        weight: 1
+      - path: ZBrush_defualt_group_237
+        weight: 1
+      - path: ZBrush_defualt_group_238
+        weight: 1
+      - path: ZBrush_defualt_group_239
+        weight: 1
+      - path: ZBrush_defualt_group_240
+        weight: 1
+      - path: ZBrush_defualt_group_241
+        weight: 1
+      - path: ZBrush_defualt_group_242
+        weight: 1
+      - path: ZBrush_defualt_group_243
+        weight: 1
+      - path: ZBrush_defualt_group_244
+        weight: 1
+      - path: ZBrush_defualt_group_245
+        weight: 1
+      - path: ZBrush_defualt_group_246
+        weight: 1
+      - path: ZBrush_defualt_group_247
+        weight: 1
+      - path: ZBrush_defualt_group_248
+        weight: 1
+      - path: ZBrush_defualt_group_249
+        weight: 1
+      - path: ZBrush_defualt_group_250
+        weight: 1
+      - path: ZBrush_defualt_group_251
+        weight: 1
+      - path: ZBrush_defualt_group_252
+        weight: 1
+      - path: ZBrush_defualt_group_253
+        weight: 1
+      - path: ZBrush_defualt_group_254
+        weight: 1
+      - path: ZBrush_defualt_group_255
+        weight: 1
+      - path: ZBrush_defualt_group_256
+        weight: 1
+      - path: ZBrush_defualt_group_257
+        weight: 1
+      - path: ZBrush_defualt_group_258
+        weight: 1
+      - path: ZBrush_defualt_group_260
+        weight: 1
+      - path: ZBrush_defualt_group_261
+        weight: 1
+      - path: ZBrush_defualt_group_262
+        weight: 1
+      - path: ZBrush_defualt_group_263
+        weight: 1
+      - path: ZBrush_defualt_group_264
+        weight: 1
+      - path: ZBrush_defualt_group_265
+        weight: 1
+      - path: ZBrush_defualt_group_266
+        weight: 1
+      - path: ZBrush_defualt_group_267
+        weight: 1
+      - path: ZBrush_defualt_group_268
+        weight: 1
+      - path: ZBrush_defualt_group_269
+        weight: 1
+      - path: ZBrush_defualt_group_270
+        weight: 1
+      - path: ZBrush_defualt_group_271
+        weight: 1
+      - path: ZBrush_defualt_group_272
+        weight: 1
+      - path: ZBrush_defualt_group_273
+        weight: 1
+      - path: ZBrush_defualt_group_274
+        weight: 1
+      - path: ZBrush_defualt_group_275
+        weight: 1
+      - path: ZBrush_defualt_group_276
+        weight: 1
+      - path: ZBrush_defualt_group_277
+        weight: 1
+      - path: ZBrush_defualt_group_278
+        weight: 1
+      - path: ZBrush_defualt_group_279
+        weight: 1
+      - path: ZBrush_defualt_group_280
+        weight: 1
+      - path: ZBrush_defualt_group_281
+        weight: 1
+      - path: ZBrush_defualt_group_282
+        weight: 1
+      - path: ZBrush_defualt_group_283
+        weight: 1
+      - path: ZBrush_defualt_group_284
+        weight: 1
+      - path: ZBrush_defualt_group_285
+        weight: 1
+      - path: ZBrush_defualt_group_286
+        weight: 1
+      - path: ZBrush_defualt_group_287
+        weight: 1
+      - path: ZBrush_defualt_group_288
+        weight: 1
+      - path: ZBrush_defualt_group_289
+        weight: 1
+      - path: ZBrush_defualt_group_290
+        weight: 1
+      - path: ZBrush_defualt_group_291
+        weight: 1
+      - path: ZBrush_defualt_group_292
+        weight: 1
+      - path: ZBrush_defualt_group_293
+        weight: 1
+      - path: ZBrush_defualt_group_294
+        weight: 1
+      - path: ZBrush_defualt_group_295
+        weight: 1
+      - path: ZBrush_defualt_group_296
+        weight: 1
+      - path: ZBrush_defualt_group_297
+        weight: 1
+      - path: ZBrush_defualt_group_298
+        weight: 1
+      - path: ZBrush_defualt_group_299
+        weight: 1
+      - path: ZBrush_defualt_group_300
+        weight: 1
+      - path: ZBrush_defualt_group_301
+        weight: 1
+      - path: ZBrush_defualt_group_302
+        weight: 1
+      - path: ZBrush_defualt_group_303
+        weight: 1
+      - path: ZBrush_defualt_group_304
+        weight: 1
+      - path: ZBrush_defualt_group_305
+        weight: 1
+      - path: ZBrush_defualt_group_306
+        weight: 1
+      - path: ZBrush_defualt_group_307
+        weight: 1
+      - path: ZBrush_defualt_group_308
+        weight: 1
+      - path: ZBrush_defualt_group_309
+        weight: 1
+      - path: ZBrush_defualt_group_310
+        weight: 1
+      - path: ZBrush_defualt_group_311
+        weight: 1
+      - path: ZBrush_defualt_group_312
+        weight: 1
+      - path: ZBrush_defualt_group_313
+        weight: 1
+      - path: ZBrush_defualt_group_314
+        weight: 1
+      - path: ZBrush_defualt_group_315
+        weight: 1
+      - path: ZBrush_defualt_group_316
+        weight: 1
+      - path: ZBrush_defualt_group_317
+        weight: 1
+      - path: ZBrush_defualt_group_318
+        weight: 1
+      - path: ZBrush_defualt_group_319
+        weight: 1
+      - path: ZBrush_defualt_group_320
+        weight: 1
+      - path: ZBrush_defualt_group_321
+        weight: 1
+      - path: ZBrush_defualt_group_322
+        weight: 1
+      - path: ZBrush_defualt_group_323
+        weight: 1
+      - path: ZBrush_defualt_group_324
+        weight: 1
+      - path: ZBrush_defualt_group_325
+        weight: 1
+      - path: ZBrush_defualt_group_326
+        weight: 1
+      - path: ZBrush_defualt_group_327
+        weight: 1
+      - path: ZBrush_defualt_group_328
+        weight: 1
+      - path: ZBrush_defualt_group_329
+        weight: 1
+      - path: ZBrush_defualt_group_330
+        weight: 1
+      - path: ZBrush_defualt_group_331
+        weight: 1
+      - path: ZBrush_defualt_group_332
+        weight: 1
+      - path: ZBrush_defualt_group_333
+        weight: 1
+      - path: ZBrush_defualt_group_334
+        weight: 1
+      - path: ZBrush_defualt_group_335
+        weight: 1
+      - path: ZBrush_defualt_group_336
+        weight: 1
+      - path: ZBrush_defualt_group_337
+        weight: 1
+      - path: ZBrush_defualt_group_338
+        weight: 1
+      - path: ZBrush_defualt_group_339
+        weight: 1
+      - path: ZBrush_defualt_group_340
+        weight: 1
+      - path: ZBrush_defualt_group_341
+        weight: 1
+      - path: ZBrush_defualt_group_342
+        weight: 1
+      - path: ZBrush_defualt_group_343
+        weight: 1
+      - path: ZBrush_defualt_group_344
+        weight: 1
+      - path: ZBrush_defualt_group_345
+        weight: 1
+      - path: ZBrush_defualt_group_346
+        weight: 1
+      - path: ZBrush_defualt_group_347
+        weight: 1
+      - path: ZBrush_defualt_group_348
+        weight: 1
+      - path: ZBrush_defualt_group_349
+        weight: 1
+      - path: ZBrush_defualt_group_350
+        weight: 1
+      - path: ZBrush_defualt_group_351
+        weight: 1
+      - path: ZBrush_defualt_group_352
+        weight: 1
+      - path: ZBrush_defualt_group_353
+        weight: 1
+      - path: ZBrush_defualt_group_354
+        weight: 1
+      - path: ZBrush_defualt_group_355
+        weight: 1
+      - path: ZBrush_defualt_group_356
+        weight: 1
+      - path: ZBrush_defualt_group_357
+        weight: 1
+      - path: ZBrush_defualt_group_358
+        weight: 1
+      - path: ZBrush_defualt_group_359
+        weight: 1
+      - path: ZBrush_defualt_group_360
+        weight: 1
+      - path: ZBrush_defualt_group_361
+        weight: 1
+      - path: ZBrush_defualt_group_362
+        weight: 1
+      - path: ZBrush_defualt_group_363
+        weight: 1
+      - path: ZBrush_defualt_group_364
+        weight: 1
+      - path: ZBrush_defualt_group_365
+        weight: 1
+      - path: ZBrush_defualt_group_366
+        weight: 1
+      - path: ZBrush_defualt_group_367
+        weight: 1
+      - path: ZBrush_defualt_group_368
+        weight: 1
+      - path: ZBrush_defualt_group_370
+        weight: 1
+      - path: ZBrush_defualt_group_371
+        weight: 1
+      - path: ZBrush_defualt_group_373
+        weight: 1
+      - path: ZBrush_defualt_group_374
+        weight: 1
+      - path: ZBrush_defualt_group_375
+        weight: 1
+      - path: ZBrush_defualt_group_376
+        weight: 1
+      - path: ZBrush_defualt_group_377
+        weight: 1
+      - path: ZBrush_defualt_group_378
+        weight: 1
+      - path: ZBrush_defualt_group_379
+        weight: 1
+      - path: ZBrush_defualt_group_380
+        weight: 1
+      - path: ZBrush_defualt_group_381
+        weight: 1
+      - path: ZBrush_defualt_group_382
+        weight: 1
+      - path: ZBrush_defualt_group_383
+        weight: 1
+      - path: ZBrush_defualt_group_384
+        weight: 1
+      - path: ZBrush_defualt_group_385
+        weight: 1
+      - path: ZBrush_defualt_group_386
+        weight: 1
+      - path: ZBrush_defualt_group_387
+        weight: 1
+      - path: ZBrush_defualt_group_388
+        weight: 1
+      - path: ZBrush_defualt_group_389
+        weight: 1
+      - path: ZBrush_defualt_group_390
+        weight: 1
+      - path: ZBrush_defualt_group_391
+        weight: 1
+      - path: ZBrush_defualt_group_392
+        weight: 1
+      - path: ZBrush_defualt_group_393
+        weight: 1
+      - path: ZBrush_defualt_group_394
+        weight: 1
+      - path: ZBrush_defualt_group_395
+        weight: 1
+      - path: ZBrush_defualt_group_396
+        weight: 1
+      - path: ZBrush_defualt_group_397
+        weight: 1
+      - path: ZBrush_defualt_group_398
+        weight: 1
+      - path: ZBrush_defualt_group_399
+        weight: 1
+      - path: ZBrush_defualt_group_400
+        weight: 1
+      - path: ZBrush_defualt_group_401
+        weight: 1
+      - path: ZBrush_defualt_group_402
+        weight: 1
+      - path: ZBrush_defualt_group_403
+        weight: 1
+      - path: ZBrush_defualt_group_404
+        weight: 1
+      - path: ZBrush_defualt_group_405
+        weight: 1
+      - path: ZBrush_defualt_group_406
+        weight: 1
+      - path: ZBrush_defualt_group_407
+        weight: 1
+      - path: ZBrush_defualt_group_408
+        weight: 1
+      - path: ZBrush_defualt_group_409
+        weight: 1
+      - path: ZBrush_defualt_group_410
+        weight: 1
+      - path: ZBrush_defualt_group_411
+        weight: 1
+      - path: ZBrush_defualt_group_412
+        weight: 1
+      - path: ZBrush_defualt_group_413
+        weight: 1
+      - path: ZBrush_defualt_group_414
+        weight: 1
+      - path: ZBrush_defualt_group_415
+        weight: 1
+      - path: ZBrush_defualt_group_416
+        weight: 1
+      - path: ZBrush_defualt_group_417
+        weight: 1
+      - path: ZBrush_defualt_group_418
+        weight: 1
+      - path: ZBrush_defualt_group_419
+        weight: 1
+      - path: ZBrush_defualt_group_420
+        weight: 1
+      - path: ZBrush_defualt_group_421
+        weight: 1
+      - path: ZBrush_defualt_group_422
+        weight: 1
+      - path: ZBrush_defualt_group_423
+        weight: 1
+      - path: ZBrush_defualt_group_424
+        weight: 1
+      - path: ZBrush_defualt_group_425
+        weight: 1
+      - path: ZBrush_defualt_group_426
+        weight: 1
+      - path: ZBrush_defualt_group_427
+        weight: 1
+      - path: ZBrush_defualt_group_428
+        weight: 1
+      - path: ZBrush_defualt_group_429
+        weight: 1
+      - path: ZBrush_defualt_group_430
+        weight: 1
+      - path: ZBrush_defualt_group_431
+        weight: 1
+      - path: ZBrush_defualt_group_432
+        weight: 1
+      - path: ZBrush_defualt_group_433
+        weight: 1
+      - path: ZBrush_defualt_group_434
+        weight: 1
+      - path: ZBrush_defualt_group_435
+        weight: 1
+      - path: ZBrush_defualt_group_436
+        weight: 1
+      - path: ZBrush_defualt_group_437
+        weight: 1
+      - path: ZBrush_defualt_group_438
+        weight: 1
+      - path: ZBrush_defualt_group_439
+        weight: 1
+      - path: ZBrush_defualt_group_440
+        weight: 1
+      - path: ZBrush_defualt_group_441
+        weight: 1
+      - path: ZBrush_defualt_group_442
+        weight: 1
+      - path: ZBrush_defualt_group_443
+        weight: 1
+      - path: ZBrush_defualt_group_444
+        weight: 1
+      - path: ZBrush_defualt_group_445
+        weight: 1
+      - path: ZBrush_defualt_group_446
+        weight: 1
+      - path: ZBrush_defualt_group_447
+        weight: 1
+      - path: ZBrush_defualt_group_448
+        weight: 1
+      - path: ZBrush_defualt_group_449
+        weight: 1
+      - path: ZBrush_defualt_group_450
+        weight: 1
+      - path: ZBrush_defualt_group_451
+        weight: 1
+      - path: ZBrush_defualt_group_452
+        weight: 1
+      - path: ZBrush_defualt_group_453
+        weight: 1
+      - path: ZBrush_defualt_group_454
+        weight: 1
+      - path: ZBrush_defualt_group_455
+        weight: 1
+      - path: ZBrush_defualt_group_456
+        weight: 1
+      - path: ZBrush_defualt_group_457
+        weight: 1
+      - path: ZBrush_defualt_group_458
+        weight: 1
+      - path: ZBrush_defualt_group_459
+        weight: 1
+      - path: ZBrush_defualt_group_460
+        weight: 1
+      - path: ZBrush_defualt_group_461
+        weight: 1
+      - path: ZBrush_defualt_group_462
+        weight: 1
+      - path: ZBrush_defualt_group_463
+        weight: 1
+      - path: ZBrush_defualt_group_464
+        weight: 1
+      - path: ZBrush_defualt_group_465
+        weight: 1
+      - path: ZBrush_defualt_group_466
+        weight: 1
+      - path: ZBrush_defualt_group_467
+        weight: 1
+      - path: ZBrush_defualt_group_468
+        weight: 1
+      - path: ZBrush_defualt_group_469
+        weight: 1
+      - path: ZBrush_defualt_group_470
+        weight: 1
+      - path: ZBrush_defualt_group_471
+        weight: 1
+      - path: ZBrush_defualt_group_472
+        weight: 1
+      - path: ZBrush_defualt_group_473
+        weight: 1
+      - path: ZBrush_defualt_group_474
+        weight: 1
+      - path: ZBrush_defualt_group_475
+        weight: 1
+      - path: ZBrush_defualt_group_476
+        weight: 1
+      - path: ZBrush_defualt_group_477
+        weight: 1
+      - path: ZBrush_defualt_group_478
+        weight: 1
+      - path: ZBrush_defualt_group_479
+        weight: 1
+      - path: ZBrush_defualt_group_480
+        weight: 1
+      - path: ZBrush_defualt_group_481
+        weight: 1
+      - path: ZBrush_defualt_group_482
+        weight: 1
+      - path: ZBrush_defualt_group_483
+        weight: 1
+      - path: ZBrush_defualt_group_484
+        weight: 1
+      - path: ZBrush_defualt_group_485
+        weight: 1
+      - path: ZBrush_defualt_group_486
+        weight: 1
+      - path: ZBrush_defualt_group_487
+        weight: 1
+      - path: ZBrush_defualt_group_488
+        weight: 1
+      - path: ZBrush_defualt_group_489
+        weight: 1
+      - path: ZBrush_defualt_group_490
+        weight: 1
+      - path: ZBrush_defualt_group_491
+        weight: 1
+      - path: ZBrush_defualt_group_492
+        weight: 1
+      - path: ZBrush_defualt_group_493
+        weight: 1
+      - path: ZBrush_defualt_group_494
+        weight: 1
+      - path: ZBrush_defualt_group_495
+        weight: 1
+      - path: ZBrush_defualt_group_496
+        weight: 1
+      - path: ZBrush_defualt_group_497
+        weight: 1
+      - path: ZBrush_defualt_group_498
+        weight: 1
+      - path: ZBrush_defualt_group_499
+        weight: 1
+      - path: ZBrush_defualt_group_500
+        weight: 1
+      - path: ZBrush_defualt_group_501
+        weight: 1
+      - path: ZBrush_defualt_group_502
+        weight: 1
+      - path: ZBrush_defualt_group_503
+        weight: 1
+      - path: ZBrush_defualt_group_504
+        weight: 1
+      - path: ZBrush_defualt_group_505
+        weight: 1
+      - path: ZBrush_defualt_group_506
+        weight: 1
+      - path: ZBrush_defualt_group_507
+        weight: 1
+      - path: ZBrush_defualt_group_508
+        weight: 1
+      - path: ZBrush_defualt_group_509
+        weight: 1
+      - path: ZBrush_defualt_group_510
+        weight: 1
+      - path: ZBrush_defualt_group_511
+        weight: 1
+      - path: ZBrush_defualt_group_512
+        weight: 1
+      - path: ZBrush_defualt_group_513
+        weight: 1
+      - path: ZBrush_defualt_group_514
+        weight: 1
+      - path: ZBrush_defualt_group_515
+        weight: 1
+      - path: ZBrush_defualt_group_516
+        weight: 1
+      - path: ZBrush_defualt_group_517
+        weight: 1
+      - path: ZBrush_defualt_group_518
+        weight: 1
+      - path: ZBrush_defualt_group_519
+        weight: 1
+      - path: ZBrush_defualt_group_520
+        weight: 1
+      - path: ZBrush_defualt_group_521
+        weight: 1
+      - path: ZBrush_defualt_group_522
+        weight: 1
+      - path: ZBrush_defualt_group_523
+        weight: 1
+      - path: ZBrush_defualt_group_524
+        weight: 1
+      - path: ZBrush_defualt_group_525
+        weight: 1
+      - path: ZBrush_defualt_group_526
+        weight: 1
+      - path: ZBrush_defualt_group_527
+        weight: 1
+      - path: ZBrush_defualt_group_528
+        weight: 1
+      - path: ZBrush_defualt_group_529
+        weight: 1
+      - path: ZBrush_defualt_group_530
+        weight: 1
+      - path: ZBrush_defualt_group_531
+        weight: 1
+      - path: ZBrush_defualt_group_532
+        weight: 1
+      - path: ZBrush_defualt_group_533
+        weight: 1
+      - path: ZBrush_defualt_group_534
+        weight: 1
+      - path: ZBrush_defualt_group_535
+        weight: 1
+      - path: ZBrush_defualt_group_536
+        weight: 1
+      - path: ZBrush_defualt_group_537
+        weight: 1
+      - path: ZBrush_defualt_group_538
+        weight: 1
+      - path: ZBrush_defualt_group_539
+        weight: 1
+      - path: ZBrush_defualt_group_540
+        weight: 1
+      - path: ZBrush_defualt_group_541
+        weight: 1
+      - path: ZBrush_defualt_group_542
+        weight: 1
+      - path: ZBrush_defualt_group_543
+        weight: 1
+      - path: ZBrush_defualt_group_544
+        weight: 1
+      - path: ZBrush_defualt_group_545
+        weight: 1
+      - path: ZBrush_defualt_group_546
+        weight: 1
+      - path: ZBrush_defualt_group_547
+        weight: 1
+      - path: ZBrush_defualt_group_548
+        weight: 1
+      - path: ZBrush_defualt_group_549
+        weight: 1
+      - path: ZBrush_defualt_group_550
+        weight: 1
+      - path: ZBrush_defualt_group_551
+        weight: 1
+      - path: ZBrush_defualt_group_552
+        weight: 1
+      - path: ZBrush_defualt_group_553
+        weight: 1
+      - path: ZBrush_defualt_group_554
+        weight: 1
+      - path: ZBrush_defualt_group_555
+        weight: 1
+      - path: ZBrush_defualt_group_556
+        weight: 1
+      - path: ZBrush_defualt_group_557
+        weight: 1
+      - path: ZBrush_defualt_group_558
+        weight: 1
+      - path: ZBrush_defualt_group_559
+        weight: 1
+      - path: ZBrush_defualt_group_560
+        weight: 1
+      - path: ZBrush_defualt_group_561
+        weight: 1
+      - path: ZBrush_defualt_group_562
+        weight: 1
+      - path: ZBrush_defualt_group_563
+        weight: 1
+      - path: ZBrush_defualt_group_564
+        weight: 1
+      - path: ZBrush_defualt_group_565
+        weight: 1
+      - path: ZBrush_defualt_group_566
+        weight: 1
+      - path: ZBrush_defualt_group_567
+        weight: 1
+      - path: ZBrush_defualt_group_568
+        weight: 1
+      - path: ZBrush_defualt_group_569
+        weight: 1
+      - path: ZBrush_defualt_group_570
+        weight: 1
+      - path: ZBrush_defualt_group_571
+        weight: 1
+      - path: ZBrush_defualt_group_572
+        weight: 1
+      - path: ZBrush_defualt_group_573
+        weight: 1
+      - path: ZBrush_defualt_group_574
+        weight: 1
+      - path: ZBrush_defualt_group_575
+        weight: 1
+      - path: ZBrush_defualt_group_576
+        weight: 1
+      - path: ZBrush_defualt_group_577
+        weight: 1
+      - path: ZBrush_defualt_group_578
+        weight: 1
+      - path: ZBrush_defualt_group_579
+        weight: 1
+      - path: ZBrush_defualt_group_580
+        weight: 1
+      - path: ZBrush_defualt_group_581
+        weight: 1
+      - path: ZBrush_defualt_group_582
+        weight: 1
+      - path: ZBrush_defualt_group_583
+        weight: 1
+      - path: ZBrush_defualt_group_584
+        weight: 1
+      - path: ZBrush_defualt_group_585
+        weight: 1
+      - path: ZBrush_defualt_group_586
+        weight: 1
+      - path: ZBrush_defualt_group_587
+        weight: 1
+      - path: ZBrush_defualt_group_588
+        weight: 1
+      - path: ZBrush_defualt_group_590
+        weight: 1
+      - path: ZBrush_defualt_group_591
+        weight: 1
+      - path: ZBrush_defualt_group_593
+        weight: 1
+      - path: ZBrush_defualt_group_594
+        weight: 1
+      - path: ZBrush_defualt_group_595
+        weight: 1
+      - path: ZBrush_defualt_group_596
+        weight: 1
+      - path: ZBrush_defualt_group_597
+        weight: 1
+      - path: ZBrush_defualt_group_598
+        weight: 1
+      - path: ZBrush_defualt_group_599
+        weight: 1
+      - path: ZBrush_defualt_group_600
+        weight: 1
+      - path: ZBrush_defualt_group_601
+        weight: 1
+      - path: ZBrush_defualt_group_602
+        weight: 1
+      - path: ZBrush_defualt_group_603
+        weight: 1
+      - path: ZBrush_defualt_group_604
+        weight: 1
+      - path: ZBrush_defualt_group_605
+        weight: 1
+      - path: ZBrush_defualt_group_606
+        weight: 1
+      - path: ZBrush_defualt_group_607
+        weight: 1
+      - path: ZBrush_defualt_group_608
+        weight: 1
+      - path: ZBrush_defualt_group_609
+        weight: 1
+      - path: ZBrush_defualt_group_610
+        weight: 1
+      - path: ZBrush_defualt_group_611
+        weight: 1
+      - path: ZBrush_defualt_group_612
+        weight: 1
+      - path: ZBrush_defualt_group_613
+        weight: 1
+      - path: ZBrush_defualt_group_614
+        weight: 1
+      - path: ZBrush_defualt_group_615
+        weight: 1
+      - path: ZBrush_defualt_group_616
+        weight: 1
+      - path: ZBrush_defualt_group_617
+        weight: 1
+      - path: ZBrush_defualt_group_618
+        weight: 1
+      - path: ZBrush_defualt_group_619
+        weight: 1
+      - path: ZBrush_defualt_group_620
+        weight: 1
+      - path: ZBrush_defualt_group_621
+        weight: 1
+      - path: ZBrush_defualt_group_622
+        weight: 1
+      - path: ZBrush_defualt_group_623
+        weight: 1
+      - path: ZBrush_defualt_group_624
+        weight: 1
+      - path: ZBrush_defualt_group_625
+        weight: 1
+      - path: ZBrush_defualt_group_626
+        weight: 1
+      - path: ZBrush_defualt_group_627
+        weight: 1
+      - path: ZBrush_defualt_group_628
+        weight: 1
+      - path: ZBrush_defualt_group_629
+        weight: 1
+      - path: ZBrush_defualt_group_630
+        weight: 1
+      - path: ZBrush_defualt_group_631
+        weight: 1
+      - path: ZBrush_defualt_group_632
+        weight: 1
+      - path: ZBrush_defualt_group_633
+        weight: 1
+      - path: ZBrush_defualt_group_634
+        weight: 1
+      - path: ZBrush_defualt_group_635
+        weight: 1
+      - path: ZBrush_defualt_group_636
+        weight: 1
+      - path: ZBrush_defualt_group_637
+        weight: 1
+      - path: ZBrush_defualt_group_638
+        weight: 1
+      - path: ZBrush_defualt_group_639
+        weight: 1
+      - path: ZBrush_defualt_group_640
+        weight: 1
+      - path: ZBrush_defualt_group_641
+        weight: 1
+      - path: ZBrush_defualt_group_642
+        weight: 1
+      - path: ZBrush_defualt_group_643
+        weight: 1
+      - path: ZBrush_defualt_group_644
+        weight: 1
+      - path: ZBrush_defualt_group_645
+        weight: 1
+      - path: ZBrush_defualt_group_646
+        weight: 1
+      - path: ZBrush_defualt_group_647
+        weight: 1
+      - path: ZBrush_defualt_group_648
+        weight: 1
+      - path: ZBrush_defualt_group_649
+        weight: 1
+      - path: ZBrush_defualt_group_650
+        weight: 1
+      - path: ZBrush_defualt_group_651
+        weight: 1
+      - path: ZBrush_defualt_group_652
+        weight: 1
+      - path: ZBrush_defualt_group_653
+        weight: 1
+      - path: ZBrush_defualt_group_654
+        weight: 1
+      - path: ZBrush_defualt_group_655
+        weight: 1
+      - path: ZBrush_defualt_group_656
+        weight: 1
+      - path: ZBrush_defualt_group_657
+        weight: 1
+      - path: ZBrush_defualt_group_658
+        weight: 1
+      - path: ZBrush_defualt_group_659
+        weight: 1
+      - path: ZBrush_defualt_group_660
+        weight: 1
+      - path: ZBrush_defualt_group_661
+        weight: 1
+      - path: ZBrush_defualt_group_662
+        weight: 1
+      - path: ZBrush_defualt_group_663
+        weight: 1
+      - path: ZBrush_defualt_group_664
+        weight: 1
+      - path: ZBrush_defualt_group_665
+        weight: 1
+      - path: ZBrush_defualt_group_666
+        weight: 1
+      - path: ZBrush_defualt_group_667
+        weight: 1
+      - path: ZBrush_defualt_group_668
+        weight: 1
+      - path: ZBrush_defualt_group_669
+        weight: 1
+      - path: ZBrush_defualt_group_670
+        weight: 1
+      - path: ZBrush_defualt_group_671
+        weight: 1
+      - path: ZBrush_defualt_group_672
+        weight: 1
+      - path: ZBrush_defualt_group_673
+        weight: 1
+      - path: ZBrush_defualt_group_674
+        weight: 1
+      - path: ZBrush_defualt_group_675
+        weight: 1
+      - path: ZBrush_defualt_group_676
+        weight: 1
+      - path: ZBrush_defualt_group_677
+        weight: 1
+      - path: ZBrush_defualt_group_678
+        weight: 1
+      - path: ZBrush_defualt_group_679
+        weight: 1
+      - path: ZBrush_defualt_group_680
+        weight: 1
+      - path: ZBrush_defualt_group_681
+        weight: 1
+      - path: ZBrush_defualt_group_682
+        weight: 1
+      - path: ZBrush_defualt_group_683
+        weight: 1
+      - path: ZBrush_defualt_group_684
+        weight: 1
+      - path: ZBrush_defualt_group_685
+        weight: 1
+      - path: ZBrush_defualt_group_686
+        weight: 1
+      - path: ZBrush_defualt_group_687
+        weight: 1
+      - path: ZBrush_defualt_group_688
+        weight: 1
+      - path: ZBrush_defualt_group_689
+        weight: 1
+      - path: ZBrush_defualt_group_690
+        weight: 1
+      - path: ZBrush_defualt_group_691
+        weight: 1
+      - path: ZBrush_defualt_group_692
+        weight: 1
+      - path: ZBrush_defualt_group_693
+        weight: 1
+      - path: ZBrush_defualt_group_694
+        weight: 1
+      - path: ZBrush_defualt_group_695
+        weight: 1
+      - path: ZBrush_defualt_group_696
+        weight: 1
+      - path: ZBrush_defualt_group_697
+        weight: 1
+      - path: ZBrush_defualt_group_698
+        weight: 1
+      - path: ZBrush_defualt_group_699
+        weight: 1
+      - path: ZBrush_defualt_group_700
+        weight: 1
+      - path: ZBrush_defualt_group_701
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
