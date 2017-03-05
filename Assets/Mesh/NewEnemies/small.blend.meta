@@ -64,6 +64,7 @@ ModelImporter:
     100112: Empty_009
     100114: //RootNode
     100116: SUX_1
+    100118: SUX_1_001
     400000: Armature
     400002: Bone
     400004: Bone_001
@@ -123,7 +124,9 @@ ModelImporter:
     400112: Empty_009
     400114: //RootNode
     400116: SUX_1
+    400118: SUX_1_001
     4300000: SUX_1
+    4300002: SUX_1_001
     7400000: Default Take
     7400002: ArmatureAction
     7400004: Small Idle
@@ -131,6 +134,7 @@ ModelImporter:
     7400008: Small Hit
     9500000: //RootNode
     13700000: SUX_1
+    13700002: SUX_1_001
   materials:
     importMaterials: 1
     materialName: 0

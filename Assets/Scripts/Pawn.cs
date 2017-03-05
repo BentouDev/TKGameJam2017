@@ -135,12 +135,16 @@ public class Pawn : MonoBehaviour, IDamageable
             StartingIntensity = HealthLight.intensity;
     }
 
+    private void Update()
+    {
+        UpdateColor();
+    }
+
     public void OnUpdate()
     {
         RotateRune();
         CheckGrounded();
         HandleMovement();
-        UpdateColor();
         HandleAnimation();
     }
 
