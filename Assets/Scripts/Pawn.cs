@@ -7,6 +7,10 @@ using UnityEngine.Experimental.Director;
 [RequireComponent(typeof(Rigidbody))]
 public class Pawn : MonoBehaviour, IDamageable
 {
+    [Header("Audio")]
+    public AudioRandomizer OnHit;
+    public AudioRandomizer OnDeath;
+
     [Header("Debug")]
     public bool DrawDebug;
 

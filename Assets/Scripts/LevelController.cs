@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour
 {
@@ -19,6 +20,14 @@ public class LevelController : MonoBehaviour
     public AnimationPlayer LevelEnd;
 
     public List<NextLevelGate> Gates;
+
+    public Button.ButtonClickedEvent OnStart;
+
+    public void PlayStart()
+    {
+        LevelStart.Play();
+        OnStart.Invoke();
+    }
 
     public void OpenGates()
     {

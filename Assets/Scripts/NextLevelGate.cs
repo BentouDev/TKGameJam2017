@@ -20,6 +20,9 @@ public class NextLevelGate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.GetComponentInParent<Pawn>())
+            return;
+
         if (IsActive)
         {
             Entered = true;

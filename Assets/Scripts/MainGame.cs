@@ -5,9 +5,15 @@ using Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class MainGame : MonoBehaviour
 {
     public static MainGame Instance;
+    
+    public AudioSource Music;
 
     public SceneLoader Loader;
     public PlayerController Player;
@@ -107,8 +113,19 @@ public class MainGame : MonoBehaviour
 
     public void Restart()
     {
+        Music.Stop();
+
         ExitGame();
         
         SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+    {
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

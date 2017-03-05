@@ -22,12 +22,14 @@ public class GameStart : GameState
         var levelController = FindObjectOfType<LevelController>();
         if (levelController)
         {
-            levelController.LevelStart.Play();
+            levelController.PlayStart();
         }
 
         MainGame.Instance.GUI.Fade.UnfadePlayer.Play();
 
         Game.Player.OnStart();
+
+        Game.Music.Play();
 
         StartCoroutine(Delay());
     }
