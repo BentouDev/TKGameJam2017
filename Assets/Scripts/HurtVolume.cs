@@ -6,6 +6,7 @@ public class HurtVolume : MonoBehaviour
 {
     [Header("Main")]
     public bool Enabled;
+    public bool DrawDebug;
 
     [Header("Collision")]
     public bool OnStay;
@@ -56,6 +57,15 @@ public class HurtVolume : MonoBehaviour
         {
             LastHurt = Time.time;
             damageable.DealDamage(Damage);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (DrawDebug && OwnerTransform != null)
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawLine(transform.position, OwnerTransform.position);
         }
     }
 }

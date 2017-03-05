@@ -51,6 +51,7 @@ public class SimpleBox : ActionObject
         if (grounded)
         {
             Hurt.Owner = pawn;
+            Hurt.OwnerTransform = pawn.transform;
             Gravity.GravityDirection = -Gravity.GravityDirection;
         }
 
@@ -61,6 +62,9 @@ public class SimpleBox : ActionObject
     {
         if (!Gravity)
             return;
+
+        Gizmos.color = grounded ? Color.red : Color.yellow;
+        Gizmos.DrawSphere(transform.position, 0.25f);
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawRay(transform.position, Gravity.GravityDirection * 2);
