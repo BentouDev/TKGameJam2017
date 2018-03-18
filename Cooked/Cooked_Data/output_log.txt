@@ -19,9 +19,65 @@ Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\Un
 Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.039 seconds
+- Completed reload, in  0.230 seconds
 Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Cooked_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.486524 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 134 -> priority: 1 
+Loading scene 1 ...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.116179 ms
+Loaded scene 1!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 5370.
+Total: 1.530861 ms (FindLiveObjects: 0.305433 ms CreateObjectMapping: 0.137116 ms MarkObjects: 1.071069 ms  DeleteObjects: 0.016831 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+[Persistent] Object MainGame destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object PlayerController destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object GUI destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object PlayerCamera destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object EventSystem destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object ProtoWorld destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object AIController destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.905674 ms
+
+Unloading 789 unused Assets to reduce memory usage. Loaded Objects now: 1255.
+Total: 3.337188 ms (FindLiveObjects: 0.142453 ms CreateObjectMapping: 0.084568 ms MarkObjects: 0.653561 ms  DeleteObjects: 2.455372 ms)
+

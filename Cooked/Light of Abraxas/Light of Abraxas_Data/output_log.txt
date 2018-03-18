@@ -1,0 +1,79 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     1067 MB
+    Driver:   21.19.164.257
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.256 seconds
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Projekty\Unity\TKGameJam2017\Cooked\Light of Abraxas\Light of Abraxas_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.707847 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 11cc -> priority: 1 
+Loading scene 1 ...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.126853 ms
+Loaded scene 1!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 5370.
+Total: 1.493914 ms (FindLiveObjects: 0.308717 ms CreateObjectMapping: 0.148611 ms MarkObjects: 1.019753 ms  DeleteObjects: 0.016421 ms)
+
+[Persistent] Object MainGame destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object PlayerController destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object GUI destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object PlayerCamera destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object EventSystem destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object ProtoWorld destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Persistent] Object AIController destroyed True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.186476 ms
+
+Unloading 754 unused Assets to reduce memory usage. Loaded Objects now: 1290.
+Total: 6.349237 ms (FindLiveObjects: 0.225790 ms CreateObjectMapping: 0.182274 ms MarkObjects: 1.154406 ms  DeleteObjects: 4.785533 ms)
+
